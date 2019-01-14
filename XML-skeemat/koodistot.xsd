@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<xs:schema version="1.06.23"
+<xs:schema version="1.06.24"
   attributeFormDefault="unqualified"
   elementFormDefault="qualified"
   targetNamespace="urn:mace:funet.fi:virta/2015/09/01"
@@ -616,6 +616,9 @@ YLEISET KOODISTOT
 		<xs:enumeration value="056"/> <!-- Asiakas- ja palveluohjauksen erikoistumiskoulutus -->
 		<!-- uudet 11.12.2018 -->
 		<xs:enumeration value="057"/> <!-- Palliatiivisen hoidon asiantuntija -->
+		<!-- uudet 13.01.2019 -->
+		<xs:enumeration value="058"/> <!-- Julkisen taiteen taideasiantuntijan erikoistumiskoulutus -->
+		<xs:enumeration value="059"/> <!-- Soveltavan ja osallistavan taiteen asiantuntijan erikoistumiskoulutus -->
 	</xs:restriction>
 </xs:simpleType>
 
