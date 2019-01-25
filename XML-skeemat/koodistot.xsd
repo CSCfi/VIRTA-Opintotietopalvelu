@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<xs:schema version="1.06.24"
+<xs:schema version="1.06.25"
   attributeFormDefault="unqualified"
   elementFormDefault="qualified"
   targetNamespace="urn:mace:funet.fi:virta/2015/09/01"
@@ -619,6 +619,8 @@ YLEISET KOODISTOT
 		<!-- uudet 13.01.2019 -->
 		<xs:enumeration value="058"/> <!-- Julkisen taiteen taideasiantuntijan erikoistumiskoulutus -->
 		<xs:enumeration value="059"/> <!-- Soveltavan ja osallistavan taiteen asiantuntijan erikoistumiskoulutus -->
+		<!-- uudet 25.01.2019 -->
+		<xs:enumeration value="060"/> <!-- Meriklusterin erikoistumiskoulutus -->
 	</xs:restriction>
 </xs:simpleType>
 
