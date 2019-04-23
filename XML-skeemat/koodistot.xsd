@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<xs:schema version="1.06.27"
+<xs:schema version="1.06.28"
   attributeFormDefault="unqualified"
   elementFormDefault="qualified"
   targetNamespace="urn:mace:funet.fi:virta/2015/09/01"
@@ -623,6 +623,8 @@ YLEISET KOODISTOT
 		<xs:enumeration value="060"/> <!-- Meriklusterin erikoistumiskoulutus -->
 		<!-- uudet 08.02.2019 -->
 		<xs:enumeration value="061"/> <!-- Aivoterveys erikoistumiskoulutus -->
+		<!-- uudet 23.04.2019 -->
+		<xs:enumeration value="062"/> <!-- Uraohjauksen erikoistumiskoulutus -->		
 	</xs:restriction>
 </xs:simpleType>
 
