@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<xs:schema version="1.06.28"
+<xs:schema version="1.06.29"
   attributeFormDefault="unqualified"
   elementFormDefault="qualified"
   targetNamespace="urn:mace:funet.fi:virta/2015/09/01"
@@ -412,6 +412,9 @@ YLEISET KOODISTOT
 		<xs:enumeration value="pte"/> <!-- Psykoterapeutti -->
 		<xs:enumeration value="put"/> <!-- Puheterapeutti -->
 		<xs:enumeration value="rte"/> <!-- Ravitsemusterapeutti -->
+		<!-- TIE-333 29.5.2019:  -->
+		<xs:enumeration value="vs"/> <!-- Tutkintoon sisältyy varhaiskasvatukseen ja sosiaalipedagogiikkaan suuntautuneet vähintään 60 opintopisteen laajuiset opinnot (amk) -->
+		<xs:enumeration value="vo"/> <!-- Erilliset varhaiskasvatuksen sosionomipätevyyteen tähtäävät opinnot (amk) 60 op -->
 	</xs:restriction>
 </xs:simpleType>
 
