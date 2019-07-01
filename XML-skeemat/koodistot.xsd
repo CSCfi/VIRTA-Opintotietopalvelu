@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<xs:schema version="1.06.29"
+<xs:schema version="1.06.30"
   attributeFormDefault="unqualified"
   elementFormDefault="qualified"
   targetNamespace="urn:mace:funet.fi:virta/2015/09/01"
@@ -9283,6 +9283,8 @@ ISOT / PITKÄT
 		<xs:enumeration value="00619"/> <!-- Joensuun aikuislukio -->
 		<xs:enumeration value="03869"/> <!-- Taikatahdin koulu -->
 		<xs:enumeration value="10125"/> <!-- Careeria -->
+		<!-- Uudet 01.07.2019 -->
+		<xs:enumeration value="03878"/> <!-- Savulahden päiväkotikoulu -->
 	</xs:restriction>
 </xs:simpleType>
 
