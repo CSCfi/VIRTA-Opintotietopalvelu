@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LukukausiIlmoittautumiset xmlns="urn:mace:funet.fi:virta/2015/09/01"
+ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+ xsi:schemaLocation="urn:mace:funet.fi:virta/2015/09/01 LukukausiIlmoittautumiset.xsd">
+		<LukukausiIlmoittautuminen opiskelijaAvain="12345" opiskeluoikeusAvain="98765">
+		  <Myontaja>02535</Myontaja>
+		  <Tila>1</Tila>
+		  <IlmoittautumisPvm>2017-07-12</IlmoittautumisPvm>
+		  <AlkuPvm>2017-08-01</AlkuPvm>
+		  <LoppuPvm>2017-12-31</LoppuPvm>
+		</LukukausiIlmoittautuminen>
+		<LukukausiIlmoittautuminen opiskelijaAvain="12345" opiskeluoikeusAvain="98765">
+		  <Myontaja>02535</Myontaja>
+		  <Tila>1</Tila>
+		  <IlmoittautumisPvm>2017-07-12</IlmoittautumisPvm>
+		  <AlkuPvm>2018-01-01</AlkuPvm>
+		  <LoppuPvm>2018-07-31</LoppuPvm>
+		</LukukausiIlmoittautuminen>
+		<LukukausiIlmoittautuminen opiskelijaAvain="12345" opiskeluoikeusAvain="98765">
+		  <Myontaja>02535</Myontaja>
+		  <Tila>2</Tila>
+		  <IlmoittautumisPvm>2018-07-21</IlmoittautumisPvm>
+		  <AlkuPvm>2018-08-01</AlkuPvm>
+		  <LoppuPvm>2018-12-31</LoppuPvm>
+		</LukukausiIlmoittautuminen>
+		<LukukausiIlmoittautuminen opiskelijaAvain="12345" opiskeluoikeusAvain="98765">
+		  <Myontaja>02535</Myontaja>
+		  <Tila>2</Tila>
+		  <IlmoittautumisPvm>2018-07-21</IlmoittautumisPvm>
+		  <AlkuPvm>2019-01-01</AlkuPvm>
+		  <LoppuPvm>2019-07-31</LoppuPvm>
+		</LukukausiIlmoittautuminen>
+		<LukukausiIlmoittautuminen opiskelijaAvain="12345" opiskeluoikeusAvain="98765">
+		  <Myontaja>02535</Myontaja>
+		  <Tila>1</Tila>
+		  <IlmoittautumisPvm>2019-06-02</IlmoittautumisPvm>
+		  <AlkuPvm>2019-08-01</AlkuPvm>
+		  <LoppuPvm>2019-12-31</LoppuPvm>
+		</LukukausiIlmoittautuminen>
+		<LukukausiIlmoittautuminen opiskelijaAvain="12345" opiskeluoikeusAvain="98765">
+		  <Myontaja>02535</Myontaja>
+		  <Tila>1</Tila>
+		  <IlmoittautumisPvm>2019-06-02</IlmoittautumisPvm>
+		  <AlkuPvm>2020-01-01</AlkuPvm>
+		  <LoppuPvm>2020-07-31</LoppuPvm>
+		</LukukausiIlmoittautuminen>
+</LukukausiIlmoittautumiset>

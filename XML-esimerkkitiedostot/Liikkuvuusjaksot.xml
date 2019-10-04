@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Liikkuvuusjaksot xmlns="urn:mace:funet.fi:virta/2015/09/01"
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xsi:schemaLocation="urn:mace:funet.fi:virta/2015/09/01 Liikkuvuusjaksot.xsd">
+		<Liikkuvuusjakso avain="123" opiskelijaAvain="12345" opiskeluoikeusAvain="98765">
+		  <Myontaja>02535</Myontaja>
+		  <AlkuPvm>2018-03-18</AlkuPvm>
+		  <LoppuPvm>2018-03-27</LoppuPvm>
+		  <Suunta>1</Suunta>
+		  <Maa>056</Maa>
+		  <Tyyppi>1</Tyyppi>
+		  <Liikkuvuusohjelma>101</Liikkuvuusohjelma>
+		  <OpiskeluoikeusTyyppi>1</OpiskeluoikeusTyyppi>
+		</Liikkuvuusjakso>
+</Liikkuvuusjaksot>

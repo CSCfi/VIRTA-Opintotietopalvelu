@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Opiskelijat xmlns="urn:mace:funet.fi:virta/2015/09/01"
+ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+ xsi:schemaLocation="urn:mace:funet.fi:virta/2015/09/01 Opiskelijat.xsd">
+	<Opiskelija avain="12345">
+	  <Henkilotunnus>010190-020A</Henkilotunnus>
+	  <Sukunimi>Virtanen</Sukunimi>
+	  <Etunimet>Satu</Etunimet>
+	  <Sukupuoli>2</Sukupuoli>
+	  <Kansalaisuus>246</Kansalaisuus>
+	  <Aidinkieli>fi</Aidinkieli>
+	  <Asuinkunta>272</Asuinkunta>
+	  <KirjoihintuloPvm>2017-08-26</KirjoihintuloPvm>
+	  <KansallinenOppijanumero>1.2.246.562.24.12345612345</KansallinenOppijanumero>
+	</Opiskelija>
+</Opiskelijat>
