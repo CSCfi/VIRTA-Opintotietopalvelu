@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Opiskeluoikeudet xmlns="urn:mace:funet.fi:virta/2015/09/01"
+ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+ xsi:schemaLocation="urn:mace:funet.fi:virta/2015/09/01 Opiskeluoikeudet.xsd">
+	<Opiskeluoikeus avain="98765" opiskelijaAvain="12345">
+	  <AlkuPvm>2017-08-23</AlkuPvm>
+	  <LoppuPvm>2022-07-31</LoppuPvm>
+	  <Tila>
+		<AlkuPvm>2017-08-23</AlkuPvm>
+		<Koodi>1</Koodi>
+	  </Tila>
+	  <Tyyppi>1</Tyyppi>
+	  <Myontaja>02535</Myontaja>
+	  <Jakso koulutusmoduulitunniste="EMT">
+		<AlkuPvm>2017-08-23</AlkuPvm>
+		<LoppuPvm>2022-07-31</LoppuPvm>
+		<Koulutuskoodi>651102</Koulutuskoodi>
+		<Koulutuskunta>091</Koulutuskunta>
+		<Koulutuskieli>en</Koulutuskieli>
+		<Rahoituslahde>1</Rahoituslahde>
+	  </Jakso>
+	  <Koulutusala versio="ohjausala">8</Koulutusala>
+	  <Laajuus>
+		<Opintopiste>240</Opintopiste>
+	  </Laajuus>
+	</Opiskeluoikeus>
+</Opiskeluoikeudet>

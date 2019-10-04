@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Opintosuoritukset xmlns="urn:mace:funet.fi:virta/2015/09/01"
+ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+ xsi:schemaLocation="urn:mace:funet.fi:virta/2015/09/01 Opintosuoritukset.xsd">
+	<Opintosuoritus avain="K373315" opiskelijaAvain="12345" koulutusmoduulitunniste="YH-3-041-0" opiskeluoikeusAvain="98765">
+		<SuoritusPvm>2018-07-02</SuoritusPvm>
+		<Laajuus>
+			<Opintopiste>5</Opintopiste>
+		</Laajuus>
+		<Arvosana>
+			<Viisiportainen>3</Viisiportainen>
+		</Arvosana>
+		<Myontaja>02535</Myontaja>
+		<Organisaatio>
+			<Rooli>2</Rooli>
+			<Koodi>02535</Koodi>
+		</Organisaatio>
+		<Laji>2</Laji>
+		<Nimi kieli="fi">Change Leadership</Nimi>
+		<Nimi kieli="sv">Change Leadership</Nimi>
+		<Nimi kieli="en">Change Leadership</Nimi>
+		<Kieli>en</Kieli>
+		<Koulutuskoodi>651102</Koulutuskoodi>
+		<Koulutusala>
+			<Koodi versio="ohjausala">5</Koodi>
+		</Koulutusala>
+		<TKILaajuusMuu>
+			<Opintopiste>2</Opintopiste>
+		</TKILaajuusMuu>
+	</Opintosuoritus>
+	<Opintosuoritus avain="K373314" opiskelijaAvain="12345" koulutusmoduulitunniste="YH-3-040-0" opiskeluoikeusAvain="98765">
+		<SuoritusPvm>2018-07-27</SuoritusPvm>
+		<Laajuus>
+			<Opintopiste>5</Opintopiste>
+		</Laajuus>
+		<Arvosana>
+			<Viisiportainen>5</Viisiportainen>
+		</Arvosana>
+		<Myontaja>02535</Myontaja>
+		<Organisaatio>
+			<Rooli>2</Rooli>
+			<Koodi>02535</Koodi>
+		</Organisaatio>
+		<Laji>2</Laji>
+		<Nimi kieli="fi">Teams and Leadership</Nimi>
+		<Nimi kieli="sv">Teams and Leadership</Nimi>
+		<Nimi kieli="en">Teams and Leadership</Nimi>
+		<Kieli>en</Kieli>
+		<Koulutuskoodi>651102</Koulutuskoodi>
+		<Koulutusala>
+			<Koodi versio="ohjausala">5</Koodi>
+		</Koulutusala>
+	</Opintosuoritus>
+	<Opintosuoritus avain="K373313" opiskelijaAvain="12345" koulutusmoduulitunniste="YH-3-039-0" opiskeluoikeusAvain="98765">
+		<SuoritusPvm>2018-06-28</SuoritusPvm>
+		<Laajuus>
+			<Opintopiste>5</Opintopiste>
+		</Laajuus>
+		<Arvosana>
+			<Viisiportainen>4</Viisiportainen>
+		</Arvosana>
+		<Myontaja>02535</Myontaja>
+		<Organisaatio>
+			<Rooli>2</Rooli>
+			<Koodi>02535</Koodi>
+		</Organisaatio>
+		<Laji>2</Laji>
+		<Nimi kieli="fi">Personal Leadership</Nimi>
+		<Nimi kieli="sv">Personal Leadership</Nimi>
+		<Nimi kieli="en">Personal Leadership</Nimi>
+		<Kieli>en</Kieli>
+		<Koulutuskoodi>651102</Koulutuskoodi>
+		<Koulutusala>
+			<Koodi versio="ohjausala">5</Koodi>
+		</Koulutusala>
+	</Opintosuoritus>
+	<Opintosuoritus avain="K373308" opiskelijaAvain="12345" koulutusmoduulitunniste="EX-3-1955-0" opiskeluoikeusAvain="98765">
+		<SuoritusPvm>2017-12-04</SuoritusPvm>
+		<Laajuus>
+			<Opintopiste>5</Opintopiste>
+		</Laajuus>
+		<Arvosana>
+			<Viisiportainen>5</Viisiportainen>
+		</Arvosana>
+		<Myontaja>02535</Myontaja>
+		<Organisaatio>
+			<Rooli>3</Rooli>
+			<Koodi>01910</Koodi>
+		</Organisaatio>
+		<Organisaatio>
+			<Rooli>2</Rooli>
+			<Koodi>02535</Koodi>
+		</Organisaatio>
+		<Laji>2</Laji>
+		<Nimi kieli="sv">Venäjä I A</Nimi>
+		<Nimi kieli="sv">Ryska I A</Nimi>
+		<Nimi kieli="en">Russian I A</Nimi>
+		<Kieli>sv</Kieli>
+		<Koulutuskoodi>651102</Koulutuskoodi>
+		<Koulutusala>
+			<Koodi versio="ohjausala">3</Koodi>
+		</Koulutusala>
+		<HyvaksilukuPvm>2018-03-16</HyvaksilukuPvm>
+	</Opintosuoritus>	
+	<Opintosuoritus avain="K396251" opiskelijaAvain="12345" koulutusmoduulitunniste="P34319" opiskeluoikeusAvain="98765">
+		<SuoritusPvm>2019-09-05</SuoritusPvm>
+		<Laajuus>
+			<Opintopiste>12</Opintopiste>
+		</Laajuus>
+		<Arvosana>
+			<Hyvaksytty>HYV</Hyvaksytty>
+		</Arvosana>
+		<Myontaja>02535</Myontaja>
+		<Organisaatio>
+			<Rooli>3</Rooli>
+			<Koodi>UM</Koodi>
+		</Organisaatio>
+		<Organisaatio>
+			<Rooli>2</Rooli>
+			<Koodi>02535</Koodi>
+		</Organisaatio>
+		<Laji>2</Laji>
+		<Nimi kieli="sv">Työharjoittelu</Nimi>
+		<Nimi kieli="sv">Arbetspraktik</Nimi>
+		<Nimi kieli="en">Work experience</Nimi>
+		<Kieli>20</Kieli>
+		<Koulutuskoodi>651102</Koulutuskoodi>
+		<Koulutusala>
+			<Koodi versio="ohjausala">8</Koodi>
+		</Koulutusala>
+		<TKILaajuusHarjoittelu>
+			<Opintopiste>12</Opintopiste>
+		</TKILaajuusHarjoittelu>
+		<Luokittelu>8</Luokittelu>
+	</Opintosuoritus>
+</Opintosuoritukset>
