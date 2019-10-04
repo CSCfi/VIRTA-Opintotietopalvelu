@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<xs:schema version="1.06.34"
+<xs:schema version="1.06.35"
   attributeFormDefault="unqualified"
   elementFormDefault="qualified"
   targetNamespace="urn:mace:funet.fi:virta/2015/09/01"
@@ -9293,6 +9293,8 @@ ISOT / PITKÄT
 		<xs:enumeration value="03871"/> <!-- Kivimiehen koulu -->
 		<!-- Uudet 17.09.2019 -->
 		<xs:enumeration value="03877"/> <!-- Jokilaakson koulu -->
+		<!-- Uudet 04.10.2019 -->
+		<xs:enumeration value="00620"/> <!-- Nurmijärven lukio -->
 	</xs:restriction>
 </xs:simpleType>
 
