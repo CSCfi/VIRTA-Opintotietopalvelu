@@ -1,0 +1,14 @@
+
+<LukukausiIlmoittautuminen opiskelijaAvain="123456">
+	<Myontaja>01901</Myontaja>
+	<Tila>1</Tila>
+	<IlmoittautumisPvm>2018-08-01</IlmoittautumisPvm>
+	<AlkuPvm>2018-08-01</AlkuPvm>
+	<LoppuPvm>2018-12-31</LoppuPvm>
+	<YlioppilaskuntaJasen>1</YlioppilaskuntaJasen>
+	<YTHSMaksu>1</YTHSMaksu>
+	<LukuvuosiMaksu opiskeluoikeusAvain="888999">			
+		<Maksettu>1</Maksettu>	
+		<Summa>5000</Summa>
+	</LukuvuosiMaksu>
+</LukukausiIlmoittautuminen>		

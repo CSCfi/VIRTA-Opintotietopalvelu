@@ -1,0 +1,23 @@
+<Opiskeluoikeus avain="888999" opiskelijaAvain="123456">
+	<AlkuPvm>2018-08-01</AlkuPvm>
+	<LoppuPvm>2022-07-31</LoppuPvm>
+	<Tila>
+		<AlkuPvm>2018-08-01</AlkuPvm>
+		<Koodi>1</Koodi>
+	</Tila>				
+	<Tyyppi>4</Tyyppi>
+	<Myontaja>01901</Myontaja>
+	<Jakso koulutusmoduulitunniste="XX123">
+		<AlkuPvm>2018-08-01</AlkuPvm>
+		<LoppuPvm>2022-07-31</LoppuPvm>
+		<Koulutuskoodi>742301</Koulutuskoodi>
+		<Koulutuskunta>091</Koulutuskunta>
+		<Rahoituslahde>5</Rahoituslahde>
+	</Jakso>	
+	<LukuvuosiMaksu>
+		<AlkuPvm>2018-08-01</AlkuPvm>
+		<LoppuPvm>2022-07-31</LoppuPvm>
+		<Summa>25000</Summa>
+	</LukuvuosiMaksu>
+	<Koulutusala versio="ohjausala">6</Koulutusala>
+</Opiskeluoikeus>		
