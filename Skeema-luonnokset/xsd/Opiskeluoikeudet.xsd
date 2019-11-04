@@ -314,35 +314,28 @@
 			</xs:annotation>
 		</xs:element>
 		<!-- Lukuvuosimaksu tieto -->
-		<xs:element name="LukuvuosiMaksu" minOccurs="0" maxOccurs="1">
+		<xs:element name="LukuvuosiMaksu" minOccurs="0" maxOccurs="unbounded">
 					<xs:annotation>
-						<xs:documentation xml:lang="fi">LukuvuosiMaksu.</xs:documentation>
+						<xs:documentation xml:lang="fi">
+						Lukuvuosimaksuna suoritettava summan voi ilmoittaa useassa aikajaksossa.
+						Aikajaksot eivät saa mennä päällekkäin. 
+						Mikäli päättymispäivämäärää (loppupvm) ei ilmoiteta, tulkitaan ko. tieto toistaiseksi jatkuvaksi.
+						</xs:documentation>
 					</xs:annotation>	
 					<xs:complexType>
-					<xs:sequence>	
-						<xs:element name="AlkuPvm" type="virta:PvmTyyppi" minOccurs="1" maxOccurs="1">
-						<xs:annotation>
-								<xs:documentation xml:lang="fi">
-									Lukuvuosimaksuvelvollisuuden alkamispäivämäärä
-								</xs:documentation>
-						</xs:annotation>
-						</xs:element>
-						<xs:element name="LoppuPvm" type="virta:PvmTyyppi" minOccurs="0" maxOccurs="1">
-							<xs:annotation>
-								<xs:documentation xml:lang="fi">
-									Lukuvuosimaksuvelvollisuuden päättymispäivämäärä
-								</xs:documentation>
-							</xs:annotation>
-						</xs:element>
-						<xs:element name="Summa" type="virta:RahaMaaraTyyppi" minOccurs="0" maxOccurs="1">
-							<xs:annotation>
-								<xs:documentation xml:lang="fi">
-									Maksetettava summa
-								</xs:documentation>
-							</xs:annotation>
-						</xs:element>	
-						
-					</xs:sequence>					
+						<xs:complexContent>
+						<xs:extension base="virta:AikajaksoTyyppi">
+								<xs:sequence>
+									<xs:element name="Summa" type="virta:RahaMaaraTyyppi" minOccurs="1" maxOccurs="1">
+										<xs:annotation>
+											<xs:documentation xml:lang="fi">
+												Maksetettava summa.
+											</xs:documentation>
+										</xs:annotation>
+									</xs:element>									
+								</xs:sequence>					
+							</xs:extension>
+						</xs:complexContent>
 					</xs:complexType>
 		</xs:element>
 	</xs:sequence>

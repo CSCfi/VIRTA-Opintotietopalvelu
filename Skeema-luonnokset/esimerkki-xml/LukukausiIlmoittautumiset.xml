@@ -1,4 +1,4 @@
-
+<LukukausiIlmoittautumiset xmlns="urn:mace:funet.fi:virta/2015/09/01">
 <LukukausiIlmoittautuminen opiskelijaAvain="123456">
 	<Myontaja>01901</Myontaja>
 	<Tila>1</Tila>
@@ -9,6 +9,20 @@
 	<YTHSMaksu>1</YTHSMaksu>
 	<LukuvuosiMaksu opiskeluoikeusAvain="888999">			
 		<Maksettu>1</Maksettu>	
-		<Summa>5000</Summa>
+		<Summa>4000</Summa>
 	</LukuvuosiMaksu>
-</LukukausiIlmoittautuminen>		
+</LukukausiIlmoittautuminen>
+<LukukausiIlmoittautuminen opiskelijaAvain="123456">
+	<Myontaja>01901</Myontaja>
+	<Tila>1</Tila>
+	<IlmoittautumisPvm>2018-08-01</IlmoittautumisPvm>
+	<AlkuPvm>2019-01-01</AlkuPvm>
+	<LoppuPvm>2019-07-31</LoppuPvm>
+	<YlioppilaskuntaJasen>1</YlioppilaskuntaJasen>
+	<YTHSMaksu>1</YTHSMaksu>
+	<LukuvuosiMaksu opiskeluoikeusAvain="888999">			
+		<Maksettu>1</Maksettu>	
+		<Summa>2000</Summa>
+	</LukuvuosiMaksu>
+</LukukausiIlmoittautuminen>	
+</LukukausiIlmoittautumiset>

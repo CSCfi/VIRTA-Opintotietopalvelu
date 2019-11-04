@@ -1,3 +1,4 @@
+<Opiskeluoikeudet xmlns="urn:mace:funet.fi:virta/2015/09/01">
 <Opiskeluoikeus avain="888999" opiskelijaAvain="123456">
 	<AlkuPvm>2018-08-01</AlkuPvm>
 	<LoppuPvm>2022-07-31</LoppuPvm>
@@ -16,8 +17,13 @@
 	</Jakso>	
 	<LukuvuosiMaksu>
 		<AlkuPvm>2018-08-01</AlkuPvm>
-		<LoppuPvm>2022-07-31</LoppuPvm>
-		<Summa>25000</Summa>
+		<LoppuPvm>2018-12-31</LoppuPvm>
+		<Summa>4000</Summa>
+	</LukuvuosiMaksu>	
+	<LukuvuosiMaksu>
+		<AlkuPvm>2019-01-01</AlkuPvm>
+		<LoppuPvm>2019-07-31</LoppuPvm>
+		<Summa>5000</Summa>
 	</LukuvuosiMaksu>
-	<Koulutusala versio="ohjausala">6</Koulutusala>
 </Opiskeluoikeus>		
+</Opiskeluoikeudet>	
