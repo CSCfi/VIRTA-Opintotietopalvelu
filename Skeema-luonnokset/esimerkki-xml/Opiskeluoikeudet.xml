@@ -14,6 +14,9 @@
 		<Koulutuskoodi>742301</Koulutuskoodi>
 		<Koulutuskunta>091</Koulutuskunta>
 		<Rahoituslahde>5</Rahoituslahde>
+		<Nimi kieli="fi">Filosofian maisteri, Fysiikan maisteriohjelma</Nimi>
+		<Nimi kieli="sv">Filosofie magister, magisterprogrammet i Fysik</Nimi>
+		<Nimi kieli="en">Master of Science in Physics</Nimi>
 	</Jakso>	
 	<LukuvuosiMaksu>
 		<AlkuPvm>2018-08-01</AlkuPvm>

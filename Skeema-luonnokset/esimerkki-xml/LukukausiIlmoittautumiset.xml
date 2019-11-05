@@ -21,7 +21,7 @@
 	<YlioppilaskuntaJasen>1</YlioppilaskuntaJasen>
 	<YTHSMaksu>1</YTHSMaksu>
 	<LukuvuosiMaksu opiskeluoikeusAvain="888999">			
-		<Maksettu>1</Maksettu>	
+		<Maksettu>0</Maksettu>	
 		<Summa>2000</Summa>
 	</LukuvuosiMaksu>
 </LukukausiIlmoittautuminen>	

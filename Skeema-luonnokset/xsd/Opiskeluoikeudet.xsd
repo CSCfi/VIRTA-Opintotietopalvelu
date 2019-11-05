@@ -163,6 +163,13 @@
 									</xs:documentation>
 								</xs:annotation>
 							</xs:element>
+							<xs:element name="Nimi" type="virta:OpiskeluoikeusNimiTyyppi" minOccurs="0" maxOccurs="unbounded">
+								<xs:annotation>
+									<xs:documentation xml:lang="fi">
+										Opiskeluoikeuden nimi.
+									</xs:documentation>
+								</xs:annotation>
+							</xs:element>
 						</xs:sequence>
 						<xs:attribute name="koulutusmoduulitunniste" type="virta:KoulutusmoduulitunnisteTyyppi" use="required">
 							<xs:annotation>
