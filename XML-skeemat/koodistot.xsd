@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<xs:schema version="1.06.35"
+<xs:schema version="1.06.36"
   attributeFormDefault="unqualified"
   elementFormDefault="qualified"
   targetNamespace="urn:mace:funet.fi:virta/2015/09/01"
@@ -9295,6 +9295,14 @@ ISOT / PITKÄT
 		<xs:enumeration value="03877"/> <!-- Jokilaakson koulu -->
 		<!-- Uudet 04.10.2019 -->
 		<xs:enumeration value="00620"/> <!-- Nurmijärven lukio -->
+		<!-- Uudet 13.11.2019 -->
+		<xs:enumeration value="03870"/> <!-- Päivölänlaakson koulu -->
+		<xs:enumeration value="03872"/> <!-- Rantakylän normaalikoulu -->
+		<xs:enumeration value="03873"/> <!-- Tulliportin normaalikoulu -->
+		<xs:enumeration value="03874"/> <!-- Aavarinteen koulu -->
+		<xs:enumeration value="03875"/> <!-- Pohjoiskehän koulu -->
+		<xs:enumeration value="03876"/> <!-- Naulan peruskoulu -->
+		<xs:enumeration value="10126"/> <!-- LAB-ammattikorkeakoulu -->
 	</xs:restriction>
 </xs:simpleType>
 
