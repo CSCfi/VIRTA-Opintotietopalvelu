@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<xs:schema version="1.06.36"
+<xs:schema version="1.06.37"
   attributeFormDefault="unqualified"
   elementFormDefault="qualified"
   targetNamespace="urn:mace:funet.fi:virta/2015/09/01"
@@ -9303,6 +9303,18 @@ ISOT / PITKÄT
 		<xs:enumeration value="03875"/> <!-- Pohjoiskehän koulu -->
 		<xs:enumeration value="03876"/> <!-- Naulan peruskoulu -->
 		<xs:enumeration value="10126"/> <!-- LAB-ammattikorkeakoulu -->
+		<!-- Uudet 29.11.2019 -->
+		<xs:enumeration value="15132"/> <!-- Resonaarin musiikkikoulu -->
+        <xs:enumeration value="15133"/> <!-- Keravan kuvataidekoulu -->
+        <xs:enumeration value="15134"/> <!-- Kauniaisten kuvataidekoulu -->
+        <xs:enumeration value="15135"/> <!-- Keski-Pohjanmaan TAITO käsityökoulu -->
+        <xs:enumeration value="15136"/> <!-- Käsityökoulu Robotti -->
+        <xs:enumeration value="15137"/> <!-- Sirkus Taika-Aika -->
+        <xs:enumeration value="15138"/> <!-- Pukinmäen sirkuskoulu -->
+        <xs:enumeration value="15139"/> <!-- Riihimäen Nuorisoteatteri -->
+        <xs:enumeration value="15140"/> <!-- Suomen Teatteriopisto -->
+        <xs:enumeration value="15141"/> <!-- Tanssikoulu Vinha -->
+        <xs:enumeration value="15142"/> <!-- Tanssistudio Jami -->
 	</xs:restriction>
 </xs:simpleType>
 
