@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<xs:schema version="1.06.37"
+<xs:schema version="1.06.38"
   attributeFormDefault="unqualified"
   elementFormDefault="qualified"
   targetNamespace="urn:mace:funet.fi:virta/2015/09/01"
@@ -9315,6 +9315,8 @@ ISOT / PITKÄT
         <xs:enumeration value="15140"/> <!-- Suomen Teatteriopisto -->
         <xs:enumeration value="15141"/> <!-- Tanssikoulu Vinha -->
         <xs:enumeration value="15142"/> <!-- Tanssistudio Jami -->
+		<!-- Uudet 02.12.2019 -->
+		<xs:enumeration value="03880"/> <!-- Vattuniemen ala-aste -->
 	</xs:restriction>
 </xs:simpleType>
 
