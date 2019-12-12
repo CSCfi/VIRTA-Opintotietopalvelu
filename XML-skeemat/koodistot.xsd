@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<xs:schema version="1.06.39"
+<xs:schema version="1.06.40"
   attributeFormDefault="unqualified"
   elementFormDefault="qualified"
   targetNamespace="urn:mace:funet.fi:virta/2015/09/01"
@@ -9319,6 +9319,8 @@ ISOT / PITKÄT
 		<xs:enumeration value="03880"/> <!-- Vattuniemen ala-aste -->
 		<!-- Uudet 09.12.2019 -->
 		<xs:enumeration value="03882"/> <!-- Merenojan yhtenäiskoulu -->
+		<!-- Uudet 11.12.2019 -->
+		<xs:enumeration value="03881"/> <!-- Uusi koulu -->
 	</xs:restriction>
 </xs:simpleType>
 
