@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<xs:schema version="1.06.42"
+<xs:schema version="1.06.43"
   attributeFormDefault="unqualified"
   elementFormDefault="qualified"
   targetNamespace="urn:mace:funet.fi:virta/2015/09/01"
@@ -11485,6 +11485,11 @@ ISOT / PITKÄT
 		<!-- 1.4.2019 Teatteripedagogit  -->
 		<xs:enumeration value="621502"/> <!-- Teatteripedagogi (AMK) -->
 		<xs:enumeration value="721502"/> <!-- Teatteripedagogi (ylempi AMK) -->		
+		<!-- 24.1.2020 Uudet  -->
+		<xs:enumeration value="733409"/> <!-- Fil. maist., kaupunkitutkimus / Fil.mag., urbana studier / Master of Arts, Urban Studies. -->
+		<xs:enumeration value="733111"/> <!-- Valtiot. maist., kaupunkitutkimus / Politices mag., urbana studier / Master of Social Sciences, Urban Studies. -->
+		<xs:enumeration value="623405"/> <!-- Hum. kand., logopedia / Hum. kand., logopedi / Bachelor of Arts, Logopedics -->
+		<xs:enumeration value="726405"/> <!-- Fil. maist., logopedia / Fil. mag., logopedi / Master of Arts, Logopedics -->
 		<!-- Mahdollisesti kaikki poistettavat 00 päätteiset, muutama yllä 2017 ja 999 alkavat koodit alla -->				
 		<xs:enumeration value="511000"/> <!-- Opettajankoulutus, alin korkea-aste -->
 		<xs:enumeration value="511200"/> <!-- Ammattikoulun ammatinopettaja -->
