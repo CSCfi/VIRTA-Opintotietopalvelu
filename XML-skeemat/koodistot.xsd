@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<xs:schema version="1.06.45"
+<xs:schema version="1.06.46"
   attributeFormDefault="unqualified"
   elementFormDefault="qualified"
   targetNamespace="urn:mace:funet.fi:virta/2015/09/01"
@@ -632,6 +632,8 @@ YLEISET KOODISTOT
 		<xs:enumeration value="063"/> <!-- Vaativan erityisen tuen erikoistumiskoulutus -->
 		<!-- uusi 24.02.2020 -->
 		<xs:enumeration value="064"/> <!-- Kliinisen mielenterveyspsykologian erikoispsykologikoulutus -->
+		<!-- uusi 13.03.2020 -->
+		<xs:enumeration value="065"/> <!-- Monialainen osaaminen sosiaali- ja terveysalan digitalisaation kehittämisessä -->
 	</xs:restriction>
 </xs:simpleType>
 
