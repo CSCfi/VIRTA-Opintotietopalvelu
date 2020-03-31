@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<xs:schema version="1.06.43"
+<xs:schema version="1.06.46"
   attributeFormDefault="unqualified"
   elementFormDefault="qualified"
   targetNamespace="urn:mace:funet.fi:virta/2015/09/01"
@@ -630,6 +630,10 @@ YLEISET KOODISTOT
 		<xs:enumeration value="062"/> <!-- Uraohjauksen erikoistumiskoulutus -->		
 		<!-- uudet 28.08.2019 -->
 		<xs:enumeration value="063"/> <!-- Vaativan erityisen tuen erikoistumiskoulutus -->
+		<!-- uusi 24.02.2020 -->
+		<xs:enumeration value="064"/> <!-- Kliinisen mielenterveyspsykologian erikoispsykologikoulutus -->
+		<!-- uusi 13.03.2020 -->
+		<xs:enumeration value="065"/> <!-- Monialainen osaaminen sosiaali- ja terveysalan digitalisaation kehittämisessä -->
 	</xs:restriction>
 </xs:simpleType>
 
@@ -9326,6 +9330,7 @@ ISOT / PITKÄT
         <xs:enumeration value="10124"/> <!-- Lappfjärds folkhögskola -->
 		<!-- Uudet 09.01.2020 -->
 		<xs:enumeration value="03883"/> <!-- Metsäkaltevan koulu -->
+		
 	</xs:restriction>
 </xs:simpleType>
 
@@ -12016,6 +12021,9 @@ ISOT / PITKÄT
 		<xs:enumeration value="999905"/> <!-- Perusopetukseen valmistava opetus -->
 		<xs:enumeration value="999906"/> <!-- Lukiokoulutukseen valmistava koulutus -->	
 		<xs:enumeration value="999907"/> <!-- Taiteen perusopetus -->		
+		<!-- Uudet 31.01.2020 -->
+		<xs:enumeration value="623116"/> <!-- Hum. kand., pohjoismaiset kielet -->
+        <xs:enumeration value="726116"/> <!-- Fil. maist., pohjoismaiset kielet -->
 	</xs:restriction>
 </xs:simpleType>
 
