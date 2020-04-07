@@ -9,7 +9,8 @@
 	<YTHSMaksu>1</YTHSMaksu>
 	<LukuvuosiMaksu opiskeluoikeusAvain="888999">			
 		<Maksettu>1</Maksettu>	
-		<Summa>4000</Summa>
+		<Summa>2000</Summa>
+		<Apuraha>2000</Apuraha>
 	</LukuvuosiMaksu>
 </LukukausiIlmoittautuminen>
 <LukukausiIlmoittautuminen opiskelijaAvain="123456">
@@ -23,6 +24,7 @@
 	<LukuvuosiMaksu opiskeluoikeusAvain="888999">			
 		<Maksettu>0</Maksettu>	
 		<Summa>2000</Summa>
+		<Apuraha>2000</Apuraha>
 	</LukuvuosiMaksu>
 </LukukausiIlmoittautuminen>	
 </LukukausiIlmoittautumiset>

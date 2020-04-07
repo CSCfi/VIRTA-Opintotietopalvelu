@@ -103,10 +103,17 @@
 						<xs:element name="Summa" type="virta:RahaMaaraTyyppi" minOccurs="0" maxOccurs="1">
 							<xs:annotation>
 								<xs:documentation xml:lang="fi">
-									Maksetettu summa
+									Maksetettu itse summa
 								</xs:documentation>
 							</xs:annotation>
-						</xs:element>		
+						</xs:element>
+						<xs:element name="Apuraha" type="virta:RahaMaaraTyyppi" minOccurs="0" maxOccurs="1">
+							<xs:annotation>
+								<xs:documentation xml:lang="fi">
+									Apurahan summa
+								</xs:documentation>
+							</xs:annotation>
+						</xs:element>				
 					</xs:sequence>			
 						<xs:attribute name="opiskeluoikeusAvain" type="virta:AvainTyyppi" use="optional">
 							<xs:annotation>

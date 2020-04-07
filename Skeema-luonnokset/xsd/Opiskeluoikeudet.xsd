@@ -336,7 +336,7 @@
 									<xs:element name="Summa" type="virta:RahaMaaraTyyppi" minOccurs="1" maxOccurs="1">
 										<xs:annotation>
 											<xs:documentation xml:lang="fi">
-												Maksetettava summa.
+												Maksetettava summa. Vaadittu koko rahasumma. Sisältää mahdollisen apurahan.
 											</xs:documentation>
 										</xs:annotation>
 									</xs:element>									

@@ -59,7 +59,7 @@ YLEISET TYYPIT
 	</xs:restriction>
 </xs:simpleType>
 
-<!-- Raha  -->
+<!-- Raha määrä  -->
 <xs:simpleType name="RahaMaaraTyyppi">
 	<xs:restriction base="xs:string">
 		<xs:maxLength value="5"/>
@@ -74,7 +74,7 @@ YLEISET TYYPIT
 <xs:complexType name="OpiskeluoikeusNimiTyyppi">
 	<xs:simpleContent>
 		<xs:extension base="virta:OpiskeluoikeusNimiTekstiTyyppi">
-			<xs:attribute name="kieli" type="virta:KieliKoodiTyyppi" use="optional">
+			<xs:attribute name="kieli" type="virta:KieliKoodiTyyppi" use="required">
 				<xs:annotation>
 					<xs:documentation xml:lang="fi">
 						Opiskeluoikeus nimen kieli. Valinnainen.
