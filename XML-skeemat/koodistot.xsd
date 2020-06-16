@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<xs:schema version="1.06.48"
+<xs:schema version="1.06.49"
   attributeFormDefault="unqualified"
   elementFormDefault="qualified"
   targetNamespace="urn:mace:funet.fi:virta/2015/09/01"
@@ -9334,7 +9334,9 @@ ISOT / PITKÄT
 		<xs:enumeration value="03883"/> <!-- Metsäkaltevan koulu -->
 		<!-- Uudet 29.05.2020 -->
 		<xs:enumeration value="03885"/> <!-- Kertunlaakson koulu -->
-		
+		<!-- Uudet 16.06.2020 -->
+		<xs:enumeration value="03884"/> <!-- Kauhavan yhtenäiskoulu -->
+
 	</xs:restriction>
 </xs:simpleType>
 
