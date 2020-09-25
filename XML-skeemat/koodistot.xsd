@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<xs:schema version="1.06.50"
+<xs:schema version="1.06.51"
   attributeFormDefault="unqualified"
   elementFormDefault="qualified"
   targetNamespace="urn:mace:funet.fi:virta/2015/09/01"
@@ -636,6 +636,8 @@ YLEISET KOODISTOT
 		<xs:enumeration value="065"/> <!-- Monialainen osaaminen sosiaali- ja terveysalan digitalisaation kehittämisessä -->
 		<!-- uusi 01.04.2020 -->
 		<xs:enumeration value="066"/> <!-- Kulttuurinen moninaisuus varhaiskasvatuksessa -->
+		<!-- uusi 25.09.2020 -->
+		<xs:enumeration value="067"/> <!-- Oppilaitoshyvinvoinnin erikoistumiskoulutus -->		
 	</xs:restriction>
 </xs:simpleType>
 
