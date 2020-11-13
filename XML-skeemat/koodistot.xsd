@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<xs:schema version="1.06.51"
+<xs:schema version="1.06.52"
   attributeFormDefault="unqualified"
   elementFormDefault="qualified"
   targetNamespace="urn:mace:funet.fi:virta/2015/09/01"
@@ -638,6 +638,9 @@ YLEISET KOODISTOT
 		<xs:enumeration value="066"/> <!-- Kulttuurinen moninaisuus varhaiskasvatuksessa -->
 		<!-- uusi 25.09.2020 -->
 		<xs:enumeration value="067"/> <!-- Oppilaitoshyvinvoinnin erikoistumiskoulutus -->		
+		<!-- uusi 13.11.2020 -->
+		<xs:enumeration value="068"/> <!-- Varhaiskasvatuksen verkkokuraattori -->
+
 	</xs:restriction>
 </xs:simpleType>
 
@@ -12043,6 +12046,8 @@ ISOT / PITKÄT
         <xs:enumeration value="600044"/> <!-- Lapsen kasvun, hyvinvoinnin ja oppimisen edistäminen -->
         <xs:enumeration value="600045"/> <!-- Lapsen, nuoren ja perheen terveyden ja hyvinvoinnin edistäminen -->
         <xs:enumeration value="600046"/> <!-- Sairaanhoitotyössä toimiminen -->
+		<xs:enumeration value="651303"/> <!-- Insinööri (AMK), robotiikka ja tekoäly -->
+        <xs:enumeration value="750204"/> <!-- Insinööri (ylempi AMK), kuljetustekniikka -->
 	</xs:restriction>
 </xs:simpleType>
 
