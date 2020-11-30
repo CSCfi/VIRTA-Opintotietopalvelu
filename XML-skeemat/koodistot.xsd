@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<xs:schema version="1.06.53"
+<xs:schema version="1.06.54"
   attributeFormDefault="unqualified"
   elementFormDefault="qualified"
   targetNamespace="urn:mace:funet.fi:virta/2015/09/01"
@@ -8,6 +8,9 @@
   xmlns:virta="urn:mace:funet.fi:virta/2015/09/01">
 
 <!--
+
+1.06.54 versio on päivitetty 30.11.2020
+
 KOODISTOMÄÄRITYKSET
 - YLEISET KOODISTOT
 - HENKILÖ/OPISKELIJA
@@ -642,7 +645,8 @@ YLEISET KOODISTOT
 		<xs:enumeration value="068"/> <!-- Varhaiskasvatuksen verkkokuraattori -->
 		<!-- uusi 17.11.2020 -->
 		<xs:enumeration value="069"/> <!-- Kohtaaminen ja yhteisöllisyys oppilaitosyhteisön kehittämisessä -->
-
+		<!-- uusi 30.11.2020 -->
+		<xs:enumeration value="070"/> <!-- Akuuttihoitotyön erikoistumiskoulutus -->		
 	</xs:restriction>
 </xs:simpleType>
 
