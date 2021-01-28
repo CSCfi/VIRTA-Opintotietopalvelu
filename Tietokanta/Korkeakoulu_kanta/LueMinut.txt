@@ -1,0 +1,13 @@
+27.1.2021
+
+Kaikki_dbo_taulut_ja_relaatiot.sql skriptin avulla voi luoda MS SQL Serverille tietomallin mukaiset taulut ja relaatiot.
+
+
+
+
+Kysymykset: virta(a)csc.fi
+
+
+
+
+
