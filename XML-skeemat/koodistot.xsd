@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<xs:schema version="1.06.59"
+<xs:schema version="1.06.60"
   attributeFormDefault="unqualified"
   elementFormDefault="qualified"
   targetNamespace="urn:mace:funet.fi:virta/2015/09/01"
@@ -9,7 +9,7 @@
 
 <!--
 
-1.06.59 versio on päivitetty 05.04.2021
+1.06.60 versio on päivitetty 14.05.2021
 
 KOODISTOMÄÄRITYKSET
 - YLEISET KOODISTOT
@@ -656,7 +656,8 @@ YLEISET KOODISTOT
 		<xs:enumeration value="070"/> <!-- Akuuttihoitotyön erikoistumiskoulutus -->
         <!-- uusi 15.12.2020 -->		
 		<xs:enumeration value="071"/> <!-- Työkykykuntoutus -->
-		
+        <!-- uusi 14.05.2021 -->
+		<xs:enumeration value="072"/> <!-- Merialan erikoistumiskoulutus -->				
 	</xs:restriction>
 </xs:simpleType>
 
