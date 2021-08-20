@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<xs:schema version="1.06.60"
+<xs:schema version="1.06.61"
   attributeFormDefault="unqualified"
   elementFormDefault="qualified"
   targetNamespace="urn:mace:funet.fi:virta/2015/09/01"
@@ -9367,7 +9367,11 @@ ISOT / PITKÄT
         <xs:enumeration value="03888"/> <!-- Kanavan koulu -->
 		<!-- Uusi 05.04.2021 -->
 		<xs:enumeration value="03889"/> <!-- Taanilan koulu -->
-		<xs:enumeration value="03890"/> <!-- Keimolanmäen koulu -->		
+		<xs:enumeration value="03890"/> <!-- Keimolanmäen koulu -->	
+        <!-- Uusi 02.06.2021 -->
+		<xs:enumeration value="03886"/> <!-- Kruunuvuorenrannan peruskoulu -->
+        <xs:enumeration value="03892"/> <!-- Sääksjärven alakoulu -->
+        <xs:enumeration value="03893"/> <!-- Tuiskulan koulu -->
 	</xs:restriction>
 </xs:simpleType>
 
