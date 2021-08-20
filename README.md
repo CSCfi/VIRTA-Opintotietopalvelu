@@ -1,5 +1,5 @@
 # VIRTA-Opintotietopalvelu
 VIRTA-Opintotietopalvelu
-https://confluence.csc.fi/display/VIRTA/VIRTA-opintotietopalvelu
+https://wiki.eduuni.fi/display/CSCVIRTA
 
-Tiedonsiirtomaaritykset korkeakouluille (XML-skeema tiedostot) ynm.
+Tiedonsiirtomaaritykset korkeakouluille (XML-skeema tiedostot), tietokantakuvaukset ynm.
