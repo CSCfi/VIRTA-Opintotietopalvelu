@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<xs:schema version="1.06.62"
+<xs:schema version="1.06.63"
   attributeFormDefault="unqualified"
   elementFormDefault="qualified"
   targetNamespace="urn:mace:funet.fi:virta/2015/09/01"
@@ -9,7 +9,7 @@
 
 <!--
 
-1.06.62 versio on päivitetty 21.10.2021
+1.06.63 versio on päivitetty 06.11.2021
 
 KOODISTOMÄÄRITYKSET
 - YLEISET KOODISTOT
@@ -657,7 +657,10 @@ YLEISET KOODISTOT
         <!-- uusi 15.12.2020 -->		
 		<xs:enumeration value="071"/> <!-- Työkykykuntoutus -->
         <!-- uusi 14.05.2021 -->
-		<xs:enumeration value="072"/> <!-- Merialan erikoistumiskoulutus -->				
+		<xs:enumeration value="072"/> <!-- Merialan erikoistumiskoulutus -->		
+        <!-- uusi 06.11.2021 -->
+		<xs:enumeration value="073"/> <!-- VFX Artist - Specialisation Education -->
+		<xs:enumeration value="074"/> <!-- Ikäosaamisen kehittäminen ja johtaminen yamk -->		
 	</xs:restriction>
 </xs:simpleType>
 
