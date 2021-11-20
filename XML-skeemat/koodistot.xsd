@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<xs:schema version="1.06.63"
+<xs:schema version="1.06.64"
   attributeFormDefault="unqualified"
   elementFormDefault="qualified"
   targetNamespace="urn:mace:funet.fi:virta/2015/09/01"
@@ -9,7 +9,7 @@
 
 <!--
 
-1.06.63 versio on päivitetty 06.11.2021
+1.06.64 versio on päivitetty 20.11.2021
 
 KOODISTOMÄÄRITYKSET
 - YLEISET KOODISTOT
@@ -9377,6 +9377,8 @@ ISOT / PITKÄT
         <xs:enumeration value="03893"/> <!-- Tuiskulan koulu -->
 		<!-- Uusi 21.10.2021 -->
 		<xs:enumeration value="00623"/> <!-- Lahden lukio Gaudia -->
+		<!-- Uusi 20.11.2021 -->
+		<xs:enumeration value="10127"/> <!-- Kouvolan Ammattiopisto Oy -->		
 	</xs:restriction>
 </xs:simpleType>
 
