@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<xs:schema version="1.06.65"
+<xs:schema version="1.06.66"
   attributeFormDefault="unqualified"
   elementFormDefault="qualified"
   targetNamespace="urn:mace:funet.fi:virta/2015/09/01"
@@ -7,9 +7,9 @@
   xmlns:xs="http://www.w3.org/2001/XMLSchema"
   xmlns:virta="urn:mace:funet.fi:virta/2015/09/01">
 
-<!-- 
+<!--
 
-1.06.65 versio on päivitetty 29.11.2021
+1.06.66 versio on päivitetty 1.12.2021
 
 KOODISTOMÄÄRITYKSET
 - YLEISET KOODISTOT
@@ -788,6 +788,8 @@ OPISKELUOIKEUS
 		<xs:enumeration value="17"/> <!-- Valmentava koulutus -->
 		<xs:enumeration value="18"/> <!-- Erillisoikeus -->
 		<xs:enumeration value="19"/> <!-- Erikoistumiskoulutus -->
+		<!-- 1.12.2021 koodi 20 lisätty  -->
+		<xs:enumeration value="20"/> <!-- Opiskeluyhteistyö muun kuin korkeakoulun kanssa -->
 	</xs:restriction>
 </xs:simpleType>
 
@@ -1080,8 +1082,13 @@ OPINTOSUORITUS
 		<!-- 14.2.2018 KL lisätty seuraavavt 4 koodia -->
 		<xs:enumeration value="12"/> <!-- Suoritus on korkeakoulujen välisillä yhteistyösopimuksilla opiskelevan suorittama ja kirjattu varsinaisena suorituksena opiskelijan kotikorkeakoulussa -->
 		<xs:enumeration value="13"/> <!-- Opintosuoritus on täydennyskoulutuksessa suoritettu -->
-		<xs:enumeration value="14"/> <!-- Suoritus on suomi/ruotsi vieraana kielenä -->
+		<!-- 1.12.2021 koodin 14 selite muuttunut -->
+		<xs:enumeration value="14"/> <!-- Suoritus on suomi toisena tai vieraana kielenä  -->  
 		<xs:enumeration value="15"/> <!-- Suoritus sisältää kotimaista harjoittelua -->
+		<!-- 1.12.2021 koodit 16 ja 17 lisätty -->
+		<xs:enumeration value="16"/> <!-- Suoritus on ruotsi toisena tai vieraana kielenä -->
+		<xs:enumeration value="17"/> <!-- Suoritus on muun kuin korkeakoulun kanssa tehtyyn yhteistyösopimukseen perustuvan opiskeluoikeuden perusteella suoritettu -->
+		
 		
 	</xs:restriction>
 </xs:simpleType>
@@ -1182,6 +1189,8 @@ LIIKKUVUUSJAKSO
 	<xs:restriction base="xs:string">
 		<xs:maxLength value="20"/>
 		<xs:enumeration value="a"/> <!-- Aikuiskoulutus -->
+		<!-- 1.12.2021 b koodi lisätty -->
+		<xs:enumeration value="b"/> <!-- Blended  -->
 	</xs:restriction>
 </xs:simpleType>
 
