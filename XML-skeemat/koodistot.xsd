@@ -1,15 +1,15 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<xs:schema version="1.06.66"
+<xs:schema version="1.06.67"
   attributeFormDefault="unqualified"
   elementFormDefault="qualified"
   targetNamespace="urn:mace:funet.fi:virta/2015/09/01"
   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
   xmlns:xs="http://www.w3.org/2001/XMLSchema"
   xmlns:virta="urn:mace:funet.fi:virta/2015/09/01">
- 
+
 <!--
 
-1.06.66 versio on päivitetty 1.12.2021
+1.06.67 versio on päivitetty 28.1.2022
 
 KOODISTOMÄÄRITYKSET
 - YLEISET KOODISTOT
@@ -12104,6 +12104,8 @@ ISOT / PITKÄT
 		<xs:enumeration value="999909"/> <!-- Kansanopistojen vapaan sivistystyön koulutus oppivelvollisille -->
         <xs:enumeration value="999910"/> <!-- Kotoutumiskoulutus oppivelvollisille -->
         <xs:enumeration value="999911"/> <!-- Lukutaitokoulutus oppivelvollisille -->
+		<!-- uusi 27.1.2022 -->
+		<xs:enumeration value="652901"/> <!-- Tietojärjestelmäsuunnittelija (AMK) Systemvetare (YH)  -->		
 	</xs:restriction>
 </xs:simpleType>
 
