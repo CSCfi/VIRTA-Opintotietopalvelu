@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<xs:schema version="1.06.67"
+<xs:schema version="1.06.68"
   attributeFormDefault="unqualified"
   elementFormDefault="qualified"
   targetNamespace="urn:mace:funet.fi:virta/2015/09/01"
@@ -9,7 +9,7 @@
 
 <!--
 
-1.06.67 versio on päivitetty 28.1.2022
+1.06.68 versio on päivitetty 01.06.2022
 
 KOODISTOMÄÄRITYKSET
 - YLEISET KOODISTOT
@@ -9389,7 +9389,9 @@ ISOT / PITKÄT
 		<!-- Uusi 20.11.2021 -->
 		<xs:enumeration value="10127"/> <!-- Kouvolan Ammattiopisto Oy -->	
         <!-- Uusi 29.11.2021 -->
-        <xs:enumeration value="51171"/> <!-- Savon Taito-käsityökoulu -->		
+        <xs:enumeration value="51171"/> <!-- Savon Taito-käsityökoulu -->
+		<!-- Uusi 1.6.2022 -->
+		<xs:enumeration value="00624"/> <!-- Kuopion aikuislukio -->
 	</xs:restriction>
 </xs:simpleType>
 
@@ -12105,7 +12107,9 @@ ISOT / PITKÄT
         <xs:enumeration value="999910"/> <!-- Kotoutumiskoulutus oppivelvollisille -->
         <xs:enumeration value="999911"/> <!-- Lukutaitokoulutus oppivelvollisille -->
 		<!-- uusi 27.1.2022 -->
-		<xs:enumeration value="652901"/> <!-- Tietojärjestelmäsuunnittelija (AMK) Systemvetare (YH)  -->		
+		<xs:enumeration value="652901"/> <!-- Tietojärjestelmäsuunnittelija (AMK) Systemvetare (YH)  -->	
+		<!-- uusi 1.6.2022 -->
+		<xs:enumeration value="742705"/> <!-- Fil. maist., farmaseuttiset tieteet -->
 	</xs:restriction>
 </xs:simpleType>
 
