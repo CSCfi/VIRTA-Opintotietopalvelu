@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<xs:schema version="1.06.69"
+<xs:schema version="1.06.70"
   attributeFormDefault="unqualified"
   elementFormDefault="qualified"
   targetNamespace="urn:mace:funet.fi:virta/2015/09/01"
@@ -9,7 +9,7 @@
 
 <!--
 
-1.06.69 versio on päivitetty 19.08.2022
+1.06.70 versio on päivitetty 03.10.2022
 
 KOODISTOMÄÄRITYKSET
 - YLEISET KOODISTOT
@@ -660,7 +660,9 @@ YLEISET KOODISTOT
 		<xs:enumeration value="072"/> <!-- Merialan erikoistumiskoulutus -->		
         <!-- uusi 06.11.2021 -->
 		<xs:enumeration value="073"/> <!-- VFX Artist - Specialisation Education -->
-		<xs:enumeration value="074"/> <!-- Ikäosaamisen kehittäminen ja johtaminen yamk -->		
+		<xs:enumeration value="074"/> <!-- Ikäosaamisen kehittäminen ja johtaminen yamk -->	
+		<!-- uusi 03.10.2022 -->
+		<xs:enumeration value="075"/> <!-- Erikoissosiaalityöntekijän koulutus, Aikuissosiaalityö ja sosiaalinen kuntoutus -->		
 	</xs:restriction>
 </xs:simpleType>
 
@@ -9393,7 +9395,10 @@ ISOT / PITKÄT
 		<!-- Uusi 1.6.2022 -->
 		<xs:enumeration value="00624"/> <!-- Kuopion aikuislukio -->
 		<!-- Uusi 19.8.2022 -->
-		<xs:enumeration value="03894"/> <!-- Palokankaan koulu -->		
+		<xs:enumeration value="03894"/> <!-- Palokankaan koulu -->
+		<!-- Uusi 03.10.2022 -->
+		<xs:enumeration value="03895"/> <!-- Varatien koulu -->
+		<xs:enumeration value="03896"/> <!-- Sääksmäen koulu -->		
 	</xs:restriction>
 </xs:simpleType>
 
@@ -12112,6 +12117,8 @@ ISOT / PITKÄT
 		<xs:enumeration value="652901"/> <!-- Tietojärjestelmäsuunnittelija (AMK) Systemvetare (YH)  -->	
 		<!-- uusi 1.6.2022 -->
 		<xs:enumeration value="742705"/> <!-- Fil. maist., farmaseuttiset tieteet -->
+		<!-- uusi 03.10.2022 -->
+		<xs:enumeration value="751303"/> <!-- Dipl.ins., tietojohtaminen -->
 	</xs:restriction>
 </xs:simpleType>
 
