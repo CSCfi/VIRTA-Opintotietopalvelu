@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<xs:schema version="1.06.70"
+<xs:schema version="1.06.71"
   attributeFormDefault="unqualified"
   elementFormDefault="qualified"
   targetNamespace="urn:mace:funet.fi:virta/2015/09/01"
@@ -9,7 +9,7 @@
 
 <!--
 
-1.06.70 versio on päivitetty 03.10.2022
+1.06.71 versio on päivitetty 29.10.2022
 
 KOODISTOMÄÄRITYKSET
 - YLEISET KOODISTOT
@@ -662,7 +662,9 @@ YLEISET KOODISTOT
 		<xs:enumeration value="073"/> <!-- VFX Artist - Specialisation Education -->
 		<xs:enumeration value="074"/> <!-- Ikäosaamisen kehittäminen ja johtaminen yamk -->	
 		<!-- uusi 03.10.2022 -->
-		<xs:enumeration value="075"/> <!-- Erikoissosiaalityöntekijän koulutus, Aikuissosiaalityö ja sosiaalinen kuntoutus -->		
+		<xs:enumeration value="075"/> <!-- Erikoissosiaalityöntekijän koulutus, Aikuissosiaalityö ja sosiaalinen kuntoutus -->	
+		<!-- uusi 29.10.2022 -->
+		<xs:enumeration value="076"/> <!-- Työ- ja organisaatiopsykologian erikoistumiskoulutusmoduuli -->		
 	</xs:restriction>
 </xs:simpleType>
 
@@ -9398,7 +9400,9 @@ ISOT / PITKÄT
 		<xs:enumeration value="03894"/> <!-- Palokankaan koulu -->
 		<!-- Uusi 03.10.2022 -->
 		<xs:enumeration value="03895"/> <!-- Varatien koulu -->
-		<xs:enumeration value="03896"/> <!-- Sääksmäen koulu -->		
+		<xs:enumeration value="03896"/> <!-- Sääksmäen koulu -->	
+		<!-- Uusi 29.10.2022 -->
+		<xs:enumeration value="00625"/> <!-- Raksilan lukio -->
 	</xs:restriction>
 </xs:simpleType>
 
