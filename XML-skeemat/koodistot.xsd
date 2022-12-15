@@ -5,7 +5,7 @@
   targetNamespace="urn:mace:funet.fi:virta/2015/09/01"
   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
   xmlns:xs="http://www.w3.org/2001/XMLSchema"
-  xmlns:virta="urn:mace:funet.fi:virta/2015/09/01">
+  xmlns:virta="urn:mace:funet.fi:virta/2015/09/01"> 
 
 <!--
 
