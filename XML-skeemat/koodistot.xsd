@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<xs:schema version="1.06.71"
+<xs:schema version="1.06.72"
   attributeFormDefault="unqualified"
   elementFormDefault="qualified"
   targetNamespace="urn:mace:funet.fi:virta/2015/09/01"
@@ -9,7 +9,7 @@
 
 <!--
 
-1.06.71 versio on päivitetty 29.10.2022
+1.06.72 versio on päivitetty 15.12.2022
 
 KOODISTOMÄÄRITYKSET
 - YLEISET KOODISTOT
@@ -425,6 +425,16 @@ YLEISET KOODISTOT
                                           Opintoihin hyväksyminen 1.9.2019 jälkeen, opinnot tuottavat vain varhaiskasvatuksen opettajan kelpoisuuden. -->
 		<xs:enumeration value="rv"/> <!-- erilliset varhaiskasvatuksen opettajan tehtäviin ammatillisia valmiuksia antavat opinnot (YO).
                                           Hyväksyminen opintoihin 1.9.2019 jälkeen, opinnot tuottavat vain varhaisvatuksen opettajan kelpoisuuden. -->
+		<!-- Lisätty Valvira: 15.12.2022 Rajatun lääkemääräämisen erikoispätevyyden edellyttämät koulutukset  -->								  
+		<xs:enumeration value="rls"/> <!-- Rajatun lääkemääräämisen erikoispätevyyden koulutus -->
+		<xs:enumeration value="rlo"/> <!-- Optikon lääkkeenmääräämisen edellyttämä lisäkoulutus -->
+		<xs:enumeration value="rlh"/> <!-- Suuhygienistin lääkkeenmääräämisen edellyttämä lisäkoulutus -->
+		<!-- Lisätty 15.12.2022 opettajan uudet pätevyyskoodit 1.1.2023 alkaen -->
+		<xs:enumeration value="oa"/> <!-- opettajan pedagogiset opinnot osana tutkintoa -->
+		<xs:enumeration value="ob"/> <!-- perusopetuksessa opetettavien aineiden ja aihekokonaisuuksien monialaiset opinnot osana tutkintoa -->
+		<xs:enumeration value="oe"/> <!-- erityisopettajan opinnot osana tutkintoa -->
+		<xs:enumeration value="of"/> <!-- peruskoulun ja lukion opinto-ohjaajan opinnot osana tutkintoa -->
+		<xs:enumeration value="og"/> <!-- varhaiskasvatuksen tehtäviin ja esiopetukseen ammatillisia valmiuksia antavat opinnot (YO) osana tutkintoa. -->
 	</xs:restriction>
 </xs:simpleType>
 
@@ -9403,6 +9413,9 @@ ISOT / PITKÄT
 		<xs:enumeration value="03896"/> <!-- Sääksmäen koulu -->	
 		<!-- Uusi 29.10.2022 -->
 		<xs:enumeration value="00625"/> <!-- Raksilan lukio -->
+		<!-- Uusi 15.12.2022 -->
+		<xs:enumeration value="00626"/> <!-- Kotkan aikuislukio -->
+        <xs:enumeration value="10128"/> <!-- Johtamisjärjestelmäkoulu -->
 	</xs:restriction>
 </xs:simpleType>
 
