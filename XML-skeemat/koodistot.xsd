@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<xs:schema version="1.06.73"
+<xs:schema version="1.06.74"
   attributeFormDefault="unqualified"
   elementFormDefault="qualified"
   targetNamespace="urn:mace:funet.fi:virta/2015/09/01"
@@ -9,7 +9,7 @@
    
 <!--
  
-1.06.73 versio on päivitetty 09.01.2023
+1.06.74 versio on päivitetty 27.01.2023
 
 KOODISTOMÄÄRITYKSET
 - YLEISET KOODISTOT
@@ -9418,6 +9418,8 @@ ISOT / PITKÄT
 		<!-- Uusi 15.12.2022 -->
 		<xs:enumeration value="00626"/> <!-- Kotkan aikuislukio -->
         <xs:enumeration value="10128"/> <!-- Johtamisjärjestelmäkoulu -->
+		<!-- Uusi 27.1.2023 -->
+		<xs:enumeration value="10129"/> <!-- Kolmen kampuksen urheiluopisto -->
 	</xs:restriction>
 </xs:simpleType>
 
