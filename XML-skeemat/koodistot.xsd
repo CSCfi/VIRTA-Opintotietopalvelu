@@ -37,7 +37,7 @@ YLEISET KOODISTOT
 	<xs:restriction base="xs:boolean"/>
 </xs:simpleType>
 
-<!-- PÄTEVYYS -->
+<!-- PÄTEVYYS -->  
 <xs:simpleType name="PatevyysKoodiTyyppi">
 	<xs:annotation>
 		<xs:documentation xml:lang="fi">
