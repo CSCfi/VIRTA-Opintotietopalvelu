@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<xs:schema version="1.06.74"
+<xs:schema version="1.06.75"
   attributeFormDefault="unqualified"
   elementFormDefault="qualified"
   targetNamespace="urn:mace:funet.fi:virta/2015/09/01"
@@ -9,7 +9,7 @@
    
 <!--
  
-1.06.74 versio on päivitetty 27.01.2023
+1.06.75 versio on päivitetty 03.02.2023
 
 KOODISTOMÄÄRITYKSET
 - YLEISET KOODISTOT
@@ -823,6 +823,11 @@ OPISKELUOIKEUS
 		<xs:enumeration value="3"/> <!-- TE-rahoitus, vain ammattikorkeakoulukoulutus -->
 		<xs:enumeration value="4"/> <!-- maksullinen tilauskoulutus -->
 		<xs:enumeration value="5"/> <!-- lukukausimaksukokeilu -->
+		<!-- 1.2.2023 koodit 6,7,8 ja 9 lisätty  -->
+		<xs:enumeration value="6"/> <!-- Koodia käytetään koulutukselle, jonka rahoituslähde on Jatkuvan oppimisen ja työllisyyden palvelukeskuksen-valtionavustuksena  myönnetty -->
+		<xs:enumeration value="7"/> <!-- Koodia käytetään koulutukselle, joka on Jatkuvan oppimisen ja työllisyyden palvelukeskuksen-hankintakoulutuksena hankittu -->
+		<xs:enumeration value="8"/> <!-- Koodia käytetään Jatkuvan oppimisen ja työllisyyden palvelukeskuksen RRF - rahoituksen valtionavustuskoulutukselle -->
+		<xs:enumeration value="9"/> <!-- Koodia käytetään Jatkuvan oppimisen ja työllisyyden palvelukeskuksen RRF-rahoituksen hankintakoulutukselle -->
 	</xs:restriction>
 </xs:simpleType>
 
@@ -1104,7 +1109,8 @@ OPINTOSUORITUS
 		<!-- 1.12.2021 koodit 16 ja 17 lisätty -->
 		<xs:enumeration value="16"/> <!-- Suoritus on ruotsi toisena tai vieraana kielenä -->
 		<xs:enumeration value="17"/> <!-- Suoritus on muun kuin korkeakoulun kanssa tehtyyn yhteistyösopimukseen perustuvan opiskeluoikeuden perusteella suoritettu -->
-		
+		<!-- 1.2.2023 koodi 18 lisätty -->
+		<xs:enumeration value="18"/> <!-- Opintosuoritus on Jatkuvan oppimisen ja työllisyyden palvelukeskuksen-rahoitetussa koulutuksessa suoritettu -->
 		
 	</xs:restriction>
 </xs:simpleType>
