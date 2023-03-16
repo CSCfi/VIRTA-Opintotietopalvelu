@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<xs:schema version="1.06.75"
+<xs:schema version="1.06.76"
   attributeFormDefault="unqualified"
   elementFormDefault="qualified"
   targetNamespace="urn:mace:funet.fi:virta/2015/09/01"
@@ -9,7 +9,7 @@
    
 <!--
  
-1.06.75 versio on päivitetty 03.02.2023
+1.06.76 versio on päivitetty 16.03.2023
 
 KOODISTOMÄÄRITYKSET
 - YLEISET KOODISTOT
@@ -435,6 +435,8 @@ YLEISET KOODISTOT
 		<xs:enumeration value="oe"/> <!-- erityisopettajan opinnot osana tutkintoa -->
 		<xs:enumeration value="of"/> <!-- peruskoulun ja lukion opinto-ohjaajan opinnot osana tutkintoa -->
 		<xs:enumeration value="og"/> <!-- varhaiskasvatuksen tehtäviin ja esiopetukseen ammatillisia valmiuksia antavat opinnot (YO) osana tutkintoa. -->
+		<!-- Lisätty 16.3.2023 Valvira pätevyyskoodi -->
+		<xs:enumeration value="vle"/> <!-- EU/ETA-alueen ulkopuolella hammaslääkärin tutkinnon suorittaneen kaikki pätevyyskuulustelut suoritettu, ei ennakkotietoa Virtaan -->
 	</xs:restriction>
 </xs:simpleType>
 
