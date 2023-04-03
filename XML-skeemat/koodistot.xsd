@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<xs:schema version="1.06.76"
+<xs:schema version="1.06.77"
   attributeFormDefault="unqualified"
   elementFormDefault="qualified"
   targetNamespace="urn:mace:funet.fi:virta/2015/09/01"
@@ -9,7 +9,7 @@
    
 <!--
  
-1.06.76 versio on päivitetty 16.03.2023
+1.06.77 versio on päivitetty 3.4.2023
 
 KOODISTOMÄÄRITYKSET
 - YLEISET KOODISTOT
@@ -9428,6 +9428,9 @@ ISOT / PITKÄT
         <xs:enumeration value="10128"/> <!-- Johtamisjärjestelmäkoulu -->
 		<!-- Uusi 27.1.2023 -->
 		<xs:enumeration value="10129"/> <!-- Kolmen kampuksen urheiluopisto -->
+		<!-- Uudet 3.4.2023 -->
+		<xs:enumeration value="03897"/> <!-- Lamminrahkan yhtenäiskoulu -->
+        <xs:enumeration value="03898"/> <!-- Etelä-Nummelan koulu -->
 	</xs:restriction>
 </xs:simpleType>
 
