@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<xs:schema version="1.06.77"
+<xs:schema version="1.06.78"
   attributeFormDefault="unqualified"
   elementFormDefault="qualified"
   targetNamespace="urn:mace:funet.fi:virta/2015/09/01"
@@ -9,7 +9,7 @@
    
 <!--
  
-1.06.77 versio on päivitetty 3.4.2023
+1.06.78 versio on päivitetty 29.5.2023
 
 KOODISTOMÄÄRITYKSET
 - YLEISET KOODISTOT
@@ -153,12 +153,13 @@ YLEISET KOODISTOT
 		<xs:enumeration value="be"/> <!-- Äidinkieli ja kirjallisuus, ruotsi viittomakielisille, 60 op. -->
 		<xs:enumeration value="bf"/> <!-- Äidinkieli ja kirjallisuus, ruotsi viittomakielisille, 120 op. -->
 		<xs:enumeration value="bg"/> <!-- Äidinkieli ja kirjallisuus, ruotsi viittomakielisille, muu laajuus -->
-		<xs:enumeration value="bh"/> <!-- Toinen kotimainen kieli ruotsi (suomenkiel.opetus), 60 op. -->
-		<xs:enumeration value="bi"/> <!-- Toinen kotimainen kieli ruotsi (suomenkiel.opetus), 120 op. -->
-		<xs:enumeration value="bj"/> <!-- Toinen kotimainen kieli ruotsi (suomenkiel.opetus), muu laajuus -->
-		<xs:enumeration value="bk"/> <!-- Toinen kotimainen kieli suomi (ruotsinkiel.opetus), 60 op. -->
-		<xs:enumeration value="bl"/> <!-- Toinen kotimainen kieli suomi (ruotsinkiel.opetus), 120 op. -->
-		<xs:enumeration value="bm"/> <!-- Toinen kotimainen kieli suomi (ruotsinkiel.opetus), muu laajuus -->
+		<!-- 29.5.2023 avattu/muutettu bh, bi, bj, bk, bl ja bm selitteitä-->
+		<xs:enumeration value="bh"/> <!-- Toinen kotimainen kieli ruotsi (suomenkielinen opetus), 60 op. -->
+		<xs:enumeration value="bi"/> <!-- Toinen kotimainen kieli ruotsi (suomenkielinen opetus), 120 op. -->
+		<xs:enumeration value="bj"/> <!-- Toinen kotimainen kieli ruotsi (suomenkielinen opetus), muu laajuus -->
+		<xs:enumeration value="bk"/> <!-- Toinen kotimainen kieli suomi (ruotsinkielinen opetus), 60 op. -->
+		<xs:enumeration value="bl"/> <!-- Toinen kotimainen kieli suomi (ruotsinkielinen opetus), 120 op. -->
+		<xs:enumeration value="bm"/> <!-- Toinen kotimainen kieli suomi (ruotsinkielinen opetus), muu laajuus -->
 		<xs:enumeration value="bn"/> <!-- Saame vieraana kielenä, 60 op. -->
 		<xs:enumeration value="bo"/> <!-- Saame vieraana kielenä, 120 op. -->
 		<xs:enumeration value="bq"/> <!-- Saame vieraana kielenä, muu laajuus -->
@@ -772,9 +773,11 @@ OPISKELUOIKEUS
 		<xs:maxLength value="20"/>
 		<xs:enumeration value="1"/> <!-- aktiivinen -->
 		<xs:enumeration value="2"/> <!-- optio -->
-		<xs:enumeration value="3"/> <!-- päättynyt -->
+		<xs:enumeration value="3"/> <!-- valmistunut -->
 		<xs:enumeration value="4"/> <!-- passivoitu -->
 		<xs:enumeration value="5"/> <!-- luopunut -->
+		<!-- 29.5.2023 koodi 6 lisätty, selite päättynyt ja 3 koodilla selite valmistunut -->
+		<xs:enumeration value="6"/> <!-- päättynyt -->
 	</xs:restriction>
 </xs:simpleType>
 
@@ -9431,6 +9434,8 @@ ISOT / PITKÄT
 		<!-- Uudet 3.4.2023 -->
 		<xs:enumeration value="03897"/> <!-- Lamminrahkan yhtenäiskoulu -->
         <xs:enumeration value="03898"/> <!-- Etelä-Nummelan koulu -->
+		<!-- Uusi 29.5.2023 -->
+		<xs:enumeration value="03899"/> <!-- Siltatien yhtenäiskoulu -->
 	</xs:restriction>
 </xs:simpleType>
 
