@@ -1,19 +1,19 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<xs:schema version="1.06.72"
+<xs:schema version="1.06.78"
   attributeFormDefault="unqualified"
   elementFormDefault="qualified"
   targetNamespace="urn:mace:funet.fi:virta/2015/09/01"
   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
   xmlns:xs="http://www.w3.org/2001/XMLSchema"
   xmlns:virta="urn:mace:funet.fi:virta/2015/09/01"> 
-  
+   
 <!--
  
-1.06.72 versio on päivitetty 15.12.2022
+1.06.78 versio on päivitetty 29.5.2023
 
 KOODISTOMÄÄRITYKSET
 - YLEISET KOODISTOT
-- HENKILÖ/OPISKELIJA
+- HENKILÖ/OPISKELIJA 
 - OPISKELUOIKEUS
 - OPINTOSUORITUS
 - LUKUKAUSI-ILMOITTAUTUMINEN
@@ -37,7 +37,7 @@ YLEISET KOODISTOT
 	<xs:restriction base="xs:boolean"/>
 </xs:simpleType>
 
-<!-- PÄTEVYYS -->
+<!-- PÄTEVYYS -->  
 <xs:simpleType name="PatevyysKoodiTyyppi">
 	<xs:annotation>
 		<xs:documentation xml:lang="fi">
@@ -153,12 +153,13 @@ YLEISET KOODISTOT
 		<xs:enumeration value="be"/> <!-- Äidinkieli ja kirjallisuus, ruotsi viittomakielisille, 60 op. -->
 		<xs:enumeration value="bf"/> <!-- Äidinkieli ja kirjallisuus, ruotsi viittomakielisille, 120 op. -->
 		<xs:enumeration value="bg"/> <!-- Äidinkieli ja kirjallisuus, ruotsi viittomakielisille, muu laajuus -->
-		<xs:enumeration value="bh"/> <!-- Toinen kotimainen kieli ruotsi (suomenkiel.opetus), 60 op. -->
-		<xs:enumeration value="bi"/> <!-- Toinen kotimainen kieli ruotsi (suomenkiel.opetus), 120 op. -->
-		<xs:enumeration value="bj"/> <!-- Toinen kotimainen kieli ruotsi (suomenkiel.opetus), muu laajuus -->
-		<xs:enumeration value="bk"/> <!-- Toinen kotimainen kieli suomi (ruotsinkiel.opetus), 60 op. -->
-		<xs:enumeration value="bl"/> <!-- Toinen kotimainen kieli suomi (ruotsinkiel.opetus), 120 op. -->
-		<xs:enumeration value="bm"/> <!-- Toinen kotimainen kieli suomi (ruotsinkiel.opetus), muu laajuus -->
+		<!-- 29.5.2023 avattu/muutettu bh, bi, bj, bk, bl ja bm selitteitä-->
+		<xs:enumeration value="bh"/> <!-- Toinen kotimainen kieli ruotsi (suomenkielinen opetus), 60 op. -->
+		<xs:enumeration value="bi"/> <!-- Toinen kotimainen kieli ruotsi (suomenkielinen opetus), 120 op. -->
+		<xs:enumeration value="bj"/> <!-- Toinen kotimainen kieli ruotsi (suomenkielinen opetus), muu laajuus -->
+		<xs:enumeration value="bk"/> <!-- Toinen kotimainen kieli suomi (ruotsinkielinen opetus), 60 op. -->
+		<xs:enumeration value="bl"/> <!-- Toinen kotimainen kieli suomi (ruotsinkielinen opetus), 120 op. -->
+		<xs:enumeration value="bm"/> <!-- Toinen kotimainen kieli suomi (ruotsinkielinen opetus), muu laajuus -->
 		<xs:enumeration value="bn"/> <!-- Saame vieraana kielenä, 60 op. -->
 		<xs:enumeration value="bo"/> <!-- Saame vieraana kielenä, 120 op. -->
 		<xs:enumeration value="bq"/> <!-- Saame vieraana kielenä, muu laajuus -->
@@ -435,6 +436,8 @@ YLEISET KOODISTOT
 		<xs:enumeration value="oe"/> <!-- erityisopettajan opinnot osana tutkintoa -->
 		<xs:enumeration value="of"/> <!-- peruskoulun ja lukion opinto-ohjaajan opinnot osana tutkintoa -->
 		<xs:enumeration value="og"/> <!-- varhaiskasvatuksen tehtäviin ja esiopetukseen ammatillisia valmiuksia antavat opinnot (YO) osana tutkintoa. -->
+		<!-- Lisätty 16.3.2023 Valvira pätevyyskoodi -->
+		<xs:enumeration value="vle"/> <!-- EU/ETA-alueen ulkopuolella hammaslääkärin tutkinnon suorittaneen kaikki pätevyyskuulustelut suoritettu, ei ennakkotietoa Virtaan -->
 	</xs:restriction>
 </xs:simpleType>
 
@@ -674,7 +677,9 @@ YLEISET KOODISTOT
 		<!-- uusi 03.10.2022 -->
 		<xs:enumeration value="075"/> <!-- Erikoissosiaalityöntekijän koulutus, Aikuissosiaalityö ja sosiaalinen kuntoutus -->	
 		<!-- uusi 29.10.2022 -->
-		<xs:enumeration value="076"/> <!-- Työ- ja organisaatiopsykologian erikoistumiskoulutusmoduuli -->		
+		<xs:enumeration value="076"/> <!-- Työ- ja organisaatiopsykologian erikoistumiskoulutusmoduuli -->	
+        <!-- uusi 09.01.2023 -->	
+        <xs:enumeration value="077"/> <!-- Median erikoistumiskoulutus: Digitaalisen datan hyödyntäminen mediassa ja journalismissa -->		
 	</xs:restriction>
 </xs:simpleType>
 
@@ -768,9 +773,11 @@ OPISKELUOIKEUS
 		<xs:maxLength value="20"/>
 		<xs:enumeration value="1"/> <!-- aktiivinen -->
 		<xs:enumeration value="2"/> <!-- optio -->
-		<xs:enumeration value="3"/> <!-- päättynyt -->
+		<xs:enumeration value="3"/> <!-- valmistunut -->
 		<xs:enumeration value="4"/> <!-- passivoitu -->
 		<xs:enumeration value="5"/> <!-- luopunut -->
+		<!-- 29.5.2023 koodi 6 lisätty, selite päättynyt ja 3 koodilla selite valmistunut -->
+		<xs:enumeration value="6"/> <!-- päättynyt -->
 	</xs:restriction>
 </xs:simpleType>
 
@@ -796,7 +803,7 @@ OPISKELUOIKEUS
 		<xs:enumeration value="11"/> <!-- Pätevöitymiskoulutus -->
 		<xs:enumeration value="12"/> <!-- Erikoistumisopinnot --> 
 		<xs:enumeration value="13"/> <!-- Avoimen opinnot -->
-		<xs:enumeration value="14"/> <!-- Opettajan pedagogiset opinnot -->
+		<xs:enumeration value="14"/> <!-- Erilliset opettajankoulutuksen opinnot -->
 		<xs:enumeration value="15"/> <!-- Ammatillinen opettajankoulutus -->
 		<xs:enumeration value="16"/> <!-- Oppisopimustyyppinenkoulutus -->
 		<xs:enumeration value="17"/> <!-- Valmentava koulutus -->
@@ -821,6 +828,11 @@ OPISKELUOIKEUS
 		<xs:enumeration value="3"/> <!-- TE-rahoitus, vain ammattikorkeakoulukoulutus -->
 		<xs:enumeration value="4"/> <!-- maksullinen tilauskoulutus -->
 		<xs:enumeration value="5"/> <!-- lukukausimaksukokeilu -->
+		<!-- 1.2.2023 koodit 6,7,8 ja 9 lisätty  -->
+		<xs:enumeration value="6"/> <!-- Koodia käytetään koulutukselle, jonka rahoituslähde on Jatkuvan oppimisen ja työllisyyden palvelukeskuksen-valtionavustuksena  myönnetty -->
+		<xs:enumeration value="7"/> <!-- Koodia käytetään koulutukselle, joka on Jatkuvan oppimisen ja työllisyyden palvelukeskuksen-hankintakoulutuksena hankittu -->
+		<xs:enumeration value="8"/> <!-- Koodia käytetään Jatkuvan oppimisen ja työllisyyden palvelukeskuksen RRF - rahoituksen valtionavustuskoulutukselle -->
+		<xs:enumeration value="9"/> <!-- Koodia käytetään Jatkuvan oppimisen ja työllisyyden palvelukeskuksen RRF-rahoituksen hankintakoulutukselle -->
 	</xs:restriction>
 </xs:simpleType>
 
@@ -1102,7 +1114,8 @@ OPINTOSUORITUS
 		<!-- 1.12.2021 koodit 16 ja 17 lisätty -->
 		<xs:enumeration value="16"/> <!-- Suoritus on ruotsi toisena tai vieraana kielenä -->
 		<xs:enumeration value="17"/> <!-- Suoritus on muun kuin korkeakoulun kanssa tehtyyn yhteistyösopimukseen perustuvan opiskeluoikeuden perusteella suoritettu -->
-		
+		<!-- 1.2.2023 koodi 18 lisätty -->
+		<xs:enumeration value="18"/> <!-- Opintosuoritus on Jatkuvan oppimisen ja työllisyyden palvelukeskuksen-rahoitetussa koulutuksessa suoritettu -->
 		
 	</xs:restriction>
 </xs:simpleType>
@@ -9416,6 +9429,13 @@ ISOT / PITKÄT
 		<!-- Uusi 15.12.2022 -->
 		<xs:enumeration value="00626"/> <!-- Kotkan aikuislukio -->
         <xs:enumeration value="10128"/> <!-- Johtamisjärjestelmäkoulu -->
+		<!-- Uusi 27.1.2023 -->
+		<xs:enumeration value="10129"/> <!-- Kolmen kampuksen urheiluopisto -->
+		<!-- Uudet 3.4.2023 -->
+		<xs:enumeration value="03897"/> <!-- Lamminrahkan yhtenäiskoulu -->
+        <xs:enumeration value="03898"/> <!-- Etelä-Nummelan koulu -->
+		<!-- Uusi 29.5.2023 -->
+		<xs:enumeration value="03899"/> <!-- Siltatien yhtenäiskoulu -->
 	</xs:restriction>
 </xs:simpleType>
 
