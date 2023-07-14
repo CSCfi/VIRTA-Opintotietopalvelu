@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<xs:schema version="1.06.78"
+<xs:schema version="1.06.79"
   attributeFormDefault="unqualified"
   elementFormDefault="qualified"
   targetNamespace="urn:mace:funet.fi:virta/2015/09/01"
@@ -9,11 +9,11 @@
    
 <!--
  
-1.06.78 versio on päivitetty 29.5.2023
+1.06.79 versio on päivitetty 14.7.2023
 
 KOODISTOMÄÄRITYKSET
 - YLEISET KOODISTOT
-- HENKILÖ/OPISKELIJA 
+- HENKILÖ/OPISKELIJA
 - OPISKELUOIKEUS
 - OPINTOSUORITUS
 - LUKUKAUSI-ILMOITTAUTUMINEN
@@ -12156,6 +12156,10 @@ ISOT / PITKÄT
 		<xs:enumeration value="742705"/> <!-- Fil. maist., farmaseuttiset tieteet -->
 		<!-- uusi 03.10.2022 -->
 		<xs:enumeration value="751303"/> <!-- Dipl.ins., tietojohtaminen -->
+		<!-- Uudet 14.07.2023 -->
+		<xs:enumeration value="823405"/> <!-- Fil. lis., logopedia -->
+		<xs:enumeration value="826405"/> <!-- Fil. toht., logopedia -->
+		<xs:enumeration value="999951"/> <!-- Muu kuin säännelty koulutus -->		
 	</xs:restriction>
 </xs:simpleType>
 
