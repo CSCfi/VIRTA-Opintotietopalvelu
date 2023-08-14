@@ -1,0 +1,25 @@
+<Opiskeluoikeus avain="112233" opiskelijaAvain="55661">
+  <AlkuPvm>2021-01-18</AlkuPvm>
+  <LoppuPvm>2024-07-31</LoppuPvm>
+  <Tila>
+    <AlkuPvm>2021-01-18</AlkuPvm>
+    <Koodi>1</Koodi>
+  </Tila>
+  <Tyyppi>1</Tyyppi>
+  <Myontaja>02630</Myontaja>
+  <Jakso koulutusmoduulitunniste="SO Sosionomin tutkinto-ohjelma">
+    <AlkuPvm>2021-01-18</AlkuPvm>
+    <LoppuPvm>2024-07-31</LoppuPvm>
+    <Koulutuskoodi>671201</Koulutuskoodi>
+    <Koulutuskunta>837</Koulutuskunta>
+    <Koulutuskieli>fi</Koulutuskieli>
+    <Rahoituslahde>1</Rahoituslahde>
+    <Luokittelu>3</Luokittelu>
+    <Nimi kieli="fi">Sosionomin tutkinto-ohjelma</Nimi>
+    <Nimi kieli="en">Degree Programme in Social Services</Nimi>
+  </Jakso>
+  <Koulutusala versio="ohjausala">11</Koulutusala>
+  <Laajuus>
+    <Opintopiste>210</Opintopiste>
+  </Laajuus>
+</Opiskeluoikeus>
