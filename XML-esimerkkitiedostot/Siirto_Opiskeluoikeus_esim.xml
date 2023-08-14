@@ -1,0 +1,36 @@
+<Opiskeluoikeus avain="123456789" opiskelijaAvain="987654">
+  <AlkuPvm>2022-08-01</AlkuPvm>
+  <LoppuPvm>2024-07-31</LoppuPvm>
+  <Tila>
+    <AlkuPvm>2022-08-01</AlkuPvm>
+    <Koodi>1</Koodi>
+  </Tila>
+  <Tyyppi>1</Tyyppi>
+  <Myontaja>02630</Myontaja>
+  <Organisaatio>
+    <Rooli>3</Rooli>
+    <Koodi>02627</Koodi>
+    <Osuus>1</Osuus>
+  </Organisaatio>
+  <Jakso koulutusmoduulitunniste="TIETO Tietotekniikan tutkinto-ohjelma">
+    <AlkuPvm>2022-08-01</AlkuPvm>
+    <LoppuPvm>2024-07-31</LoppuPvm>
+    <Koulutuskoodi>651301</Koulutuskoodi>
+    <Koulutuskunta>837</Koulutuskunta>
+    <Koulutuskieli>fi</Koulutuskieli>
+    <Rahoituslahde>1</Rahoituslahde>
+    <Nimi kieli="fi">Tietotekniikan tutkinto-ohjelma</Nimi>
+    <Nimi kieli="en">Degree Programme in ICT Engineering</Nimi>
+  </Jakso>
+  <Koulutusala versio="ohjausala">7</Koulutusala>
+  <SiirtoOpiskelija>
+    <SiirtoPvm>2020-08-31</SiirtoPvm>
+    <Lukukausikertyma>
+      <IlmoittautuminenTila>1</IlmoittautuminenTila>
+      <Maara>4</Maara>
+    </Lukukausikertyma>
+  </SiirtoOpiskelija>
+  <Laajuus>
+    <Opintopiste>240</Opintopiste>
+  </Laajuus>
+</Opiskeluoikeus>
