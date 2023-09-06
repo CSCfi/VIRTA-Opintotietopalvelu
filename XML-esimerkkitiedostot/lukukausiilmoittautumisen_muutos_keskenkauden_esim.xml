@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LukukausiIlmoittautumiset xmlns="urn:mace:funet.fi:virta/2015/09/01"
+ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+ xsi:schemaLocation="urn:mace:funet.fi:virta/2015/09/01 LukukausiIlmoittautumiset.xsd">
+ 
+ 		<LukukausiIlmoittautuminen opiskeluoikeusAvain="AAA-123" opiskelijaAvain="O1234">
+		 <Myontaja>01235</Myontaja>
+		 <Tila>1</Tila>
+		 <IlmoittautumisPvm>2022-08-01</IlmoittautumisPvm>
+		 <AlkuPvm>2022-08-01</AlkuPvm>
+		 <LoppuPvm>2022-12-31</LoppuPvm>
+		</LukukausiIlmoittautuminen>
+ 
+		<LukukausiIlmoittautuminen opiskeluoikeusAvain="AAA-123" opiskelijaAvain="O1234">
+		  <Myontaja>01235</Myontaja>
+		  <Tila>1</Tila>
+		  <IlmoittautumisPvm>2023-01-01</IlmoittautumisPvm>
+		  <AlkuPvm>2023-01-01</AlkuPvm>
+		  <LoppuPvm>2023-07-31</LoppuPvm>
+		</LukukausiIlmoittautuminen>
+		
+		<LukukausiIlmoittautuminen opiskeluoikeusAvain="AAA-123" opiskelijaAvain="O1234">
+		 <Myontaja>01235</Myontaja>
+		 <Tila>1</Tila>
+		 <IlmoittautumisPvm>2023-08-01</IlmoittautumisPvm>
+		 <AlkuPvm>2023-08-01</AlkuPvm>
+		 <LoppuPvm>2023-09-30</LoppuPvm>
+		</LukukausiIlmoittautuminen>
+		
+		<LukukausiIlmoittautuminen opiskeluoikeusAvain="AAA-123" opiskelijaAvain="O1234">
+		 <Myontaja>01235</Myontaja>
+		 <Tila>2</Tila>
+		 <IlmoittautumisPvm>2023-09-30</IlmoittautumisPvm>
+		 <AlkuPvm>2023-10-01</AlkuPvm>
+		 <LoppuPvm>2023-12-31</LoppuPvm>
+		</LukukausiIlmoittautuminen>
+		
+		<LukukausiIlmoittautuminen opiskeluoikeusAvain="AAA-123" opiskelijaAvain="O1234">
+		 <Myontaja>01235</Myontaja>
+		 <Tila>2</Tila>
+		 <IlmoittautumisPvm>2023-09-30</IlmoittautumisPvm>
+		 <AlkuPvm>2024-01-01</AlkuPvm>
+		 <LoppuPvm>2024-07-31</LoppuPvm>
+		</LukukausiIlmoittautuminen>
+		
+		
+</LukukausiIlmoittautumiset>			  
