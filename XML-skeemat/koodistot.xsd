@@ -9443,7 +9443,7 @@ ISOT / PITKÄT
 		<!-- Uusi 14.12.2023 -->
 		<xs:enumeration value="03900"/> <!-- Pohjois-Ritaharjun koulu -->
         <xs:enumeration value="03901"/> <!-- Saimaanportin yhtenäiskoulu  -->
-        <xs:enumeration value="09173"/> <!-- Kurikan musiikkiopisto -->
+        <xs:enumeration value="09173"/> <!-- Kurikan musiikkiopisto --> 
 	</xs:restriction>
 </xs:simpleType>
 
