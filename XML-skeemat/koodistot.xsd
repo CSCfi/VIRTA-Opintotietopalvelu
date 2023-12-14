@@ -9444,7 +9444,7 @@ ISOT / PITKÄT
 		<xs:enumeration value="03900"/> <!-- Pohjois-Ritaharjun koulu -->
         <xs:enumeration value="03901"/> <!-- Saimaanportin yhtenäiskoulu  -->
         <xs:enumeration value="09173"/> <!-- Kurikan musiikkiopisto -->  
-	</xs:restriction>
+	</xs:restriction> 
 </xs:simpleType>
 
 
