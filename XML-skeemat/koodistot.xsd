@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<xs:schema version="1.06.81"
+<xs:schema version="1.06.82"
   attributeFormDefault="unqualified"
   elementFormDefault="qualified"
   targetNamespace="urn:mace:funet.fi:virta/2015/09/01"
@@ -9,7 +9,7 @@
     
 <!--  
  
-1.06.81 versio on päivitetty 3.11.2023
+1.06.82 versio on päivitetty 14.12.2023
 
 KOODISTOMÄÄRITYKSET
 - YLEISET KOODISTOT
@@ -9440,6 +9440,10 @@ ISOT / PITKÄT
 		<xs:enumeration value="03899"/> <!-- Siltatien yhtenäiskoulu -->
 		<!-- Uusi 03.11.2023 -->
 		<xs:enumeration value="09016"/> <!-- Eiran musiikkiopisto -->
+		<!-- Uusi 14.12.2023 -->
+		<xs:enumeration value="03900"/> <!-- Pohjois-Ritaharjun koulu -->
+        <xs:enumeration value="03901"/> <!-- Saimaanportin yhtenäiskoulu  -->
+        <xs:enumeration value="09173"/> <!-- Kurikan musiikkiopisto -->
 	</xs:restriction>
 </xs:simpleType>
 
