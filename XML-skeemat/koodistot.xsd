@@ -1,15 +1,15 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<xs:schema version="1.06.82"
+<xs:schema version="1.06.83"
   attributeFormDefault="unqualified"
   elementFormDefault="qualified"
   targetNamespace="urn:mace:funet.fi:virta/2015/09/01"
   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
   xmlns:xs="http://www.w3.org/2001/XMLSchema"
-  xmlns:virta="urn:mace:funet.fi:virta/2015/09/01"> 
+  xmlns:virta="urn:mace:funet.fi:virta/2015/09/01">  
     
 <!--  
  
-1.06.82 versio on päivitetty 14.12.2023
+1.06.83 versio on päivitetty 18.1.2024  
 
 KOODISTOMÄÄRITYKSET
 - YLEISET KOODISTOT
@@ -682,6 +682,8 @@ YLEISET KOODISTOT
         <xs:enumeration value="077"/> <!-- Median erikoistumiskoulutus: Digitaalisen datan hyödyntäminen mediassa ja journalismissa -->	
 		<!-- uusi 03.11.2023 -->	
 		<xs:enumeration value="078"/> <!-- AV-tuotantojen johtamisen erikoistumiskoulutus -->
+		<!-- uusi 18.1.2024 -->
+		<xs:enumeration value="079"/> <!-- Ilmastoasiantuntijan erikoistumiskoulutus -->
 	</xs:restriction>
 </xs:simpleType>
 
@@ -9444,6 +9446,59 @@ ISOT / PITKÄT
 		<xs:enumeration value="03900"/> <!-- Pohjois-Ritaharjun koulu -->
         <xs:enumeration value="03901"/> <!-- Saimaanportin yhtenäiskoulu  -->
         <xs:enumeration value="09173"/> <!-- Kurikan musiikkiopisto -->  
+		<!-- Uusia 18.1.2024 -->
+		<xs:enumeration value="09000"/> <!-- Asikkalan seudun musiikkiopisto -->
+		<xs:enumeration value="09001"/> <!-- Askolan kuvataidekoulu -->
+		<xs:enumeration value="09002"/> <!-- Amado musiikkikoulu ry. -->
+		<xs:enumeration value="09004"/> <!-- Espoon musiikki- ja tanssikoulu Estrada -->
+		<xs:enumeration value="09008"/> <!-- Rytmimusiikkiopisto Tauko -->
+		<xs:enumeration value="09014"/> <!-- Cantores Minores -musiikkiopisto -->
+		<xs:enumeration value="09017"/> <!-- Helsingin Kristillinen Musiikkikoulu -->
+		<xs:enumeration value="09025"/> <!-- International School of Music -->
+		<xs:enumeration value="09026"/> <!-- Kallion musiikkikoulu -->
+		<xs:enumeration value="09031"/> <!-- Laulukoulu Il Canto -->
+		<xs:enumeration value="09032"/> <!-- Meri-Helsingin musiikkiopisto -->
+		<xs:enumeration value="09033"/> <!-- Musiikkikoulu Demo  -->
+		<xs:enumeration value="09034"/> <!-- Musiikkikoulu Groove -->
+		<xs:enumeration value="09035"/> <!-- Musiikkikoulu Malmi & Itäkeskus -->
+		<xs:enumeration value="09038"/> <!-- Pitäjänmäen musiikkiopisto -->
+		<xs:enumeration value="09039"/> <!-- Pohjois-Helsingin bändikoulu -->
+		<xs:enumeration value="09054"/> <!-- Töölön musiikkiopisto -->
+		<xs:enumeration value="09056"/> <!-- Vuosaaren musiikkikoulu -->
+		<xs:enumeration value="09057"/> <!-- Hyvinkään lasten ja nuorten kuvataidekoulu -->
+		<xs:enumeration value="09064"/> <!-- Järvenpään Rock-koulu -->
+		<xs:enumeration value="09066"/> <!-- Tuusulanjärven avoin musiikkikoulu -->
+		<xs:enumeration value="09080"/> <!-- Musiikkikoulu Kantele -->
+		<xs:enumeration value="09081"/> <!-- Musiikkikoulu Johanna Kaarto -->
+		<xs:enumeration value="09085"/> <!-- Musiikkikoulu MuSiKa -->
+		<xs:enumeration value="09087"/> <!-- Etelä-Pirkanmaan Musiikkiopisto -->
+		<xs:enumeration value="09106"/> <!-- Pianokoulu Subito -->
+		<xs:enumeration value="09114"/> <!-- Hurja Piruetti Länsi-Uudenmaan Tanssiopisto -->
+		<xs:enumeration value="09126"/> <!-- Sipoon musiikkikoulu -->
+		<xs:enumeration value="09132"/> <!-- Musiikkikoulu KUMO -->
+		<xs:enumeration value="09135"/> <!-- Musiikkikoulu Musiikkitoteemi -->
+		<xs:enumeration value="09136"/> <!-- Musiikkikoulu Ritva Autio -->
+		<xs:enumeration value="09137"/> <!-- Musiikkikoulu Sointula -->
+		<xs:enumeration value="09138"/> <!-- Musiikkikoulu Uulu -->
+		<xs:enumeration value="09141"/> <!-- Pianokoulu Leena -->
+		<xs:enumeration value="09145"/> <!-- Tampereen kitarakoulu -->
+		<xs:enumeration value="09146"/> <!-- Tampereen Laulukoulu -->
+		<xs:enumeration value="09149"/> <!-- Musiikkikoulu Ainola-Talvio -->
+		<xs:enumeration value="09155"/> <!-- Turun Suzukikoulu -->
+		<xs:enumeration value="09159"/> <!-- Itä-Vantaan musiikkikoulu -->
+		<xs:enumeration value="09160"/> <!-- Keski-Vantaan musiikkiopisto -->
+		<xs:enumeration value="09161"/> <!-- Musiikkileikkikoulu Lystileikki -->
+		<xs:enumeration value="09163"/> <!-- Kivistön Musiikkiopisto Musaiikki -->
+		<xs:enumeration value="09164"/> <!-- Länsi-Vantaan musiikkiopisto -->
+		<xs:enumeration value="09169"/> <!-- Palmun musiikkikoulu -->
+		<xs:enumeration value="09181"/> <!-- Kirkkomusikantit -->
+		<xs:enumeration value="09182"/> <!-- Jyväskylän musiikkiopisto -->
+		<xs:enumeration value="09184"/> <!-- Musiikkikoulu Alkusoitto Oy -->
+		<xs:enumeration value="09185"/> <!-- Musiikkikoulu Moodi -->
+		<xs:enumeration value="09186"/> <!-- Musiikkikoulu PiaCello -->
+		<xs:enumeration value="09188"/> <!-- Musiikkikoulu Tilulii -->
+		<xs:enumeration value="09190"/> <!-- Suzukikoulu Oktaavia -->
+		<xs:enumeration value="09192"/> <!-- Länsi-Tampereen musiikkiopisto -->
 	</xs:restriction> 
 </xs:simpleType>
 
@@ -12173,6 +12228,8 @@ ISOT / PITKÄT
 		<!-- Uudet 03.11.2023 -->
 		<xs:enumeration value="851303"/> <!-- Tekn. lis., tietojohtaminen -->
         <xs:enumeration value="855303"/> <!-- Tekn. toht., tietojohtaminen -->
+		<!-- Uusi 18.1.2024 -->
+		<xs:enumeration value="771302"/> <!-- Sosionomi (ylempi AMK), rikosseuraamusala -->
 	</xs:restriction>
 </xs:simpleType>
 
