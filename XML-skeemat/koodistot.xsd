@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<xs:schema version="1.06.83" 
+<xs:schema version="1.06.84"
   attributeFormDefault="unqualified"
   elementFormDefault="qualified"
   targetNamespace="urn:mace:funet.fi:virta/2015/09/01"
@@ -9,7 +9,7 @@
     
 <!--  
  
-1.06.83 versio on päivitetty 18.1.2024  
+1.06.84 versio on päivitetty 16.2.2024  
 
 KOODISTOMÄÄRITYKSET
 - YLEISET KOODISTOT
@@ -684,6 +684,8 @@ YLEISET KOODISTOT
 		<xs:enumeration value="078"/> <!-- AV-tuotantojen johtamisen erikoistumiskoulutus -->
 		<!-- uusi 18.1.2024 -->
 		<xs:enumeration value="079"/> <!-- Ilmastoasiantuntijan erikoistumiskoulutus -->
+		<!-- uusi 16.2.2024 -->
+		<xs:enumeration value="080"/> <!-- Yrittäjyyskasvatuksen erikoistumiskoulutus -->
 	</xs:restriction>
 </xs:simpleType>
 
@@ -9499,6 +9501,8 @@ ISOT / PITKÄT
 		<xs:enumeration value="09188"/> <!-- Musiikkikoulu Tilulii -->
 		<xs:enumeration value="09190"/> <!-- Suzukikoulu Oktaavia -->
 		<xs:enumeration value="09192"/> <!-- Länsi-Tampereen musiikkiopisto -->
+		<!-- Uusia 16.2.2024 -->
+		<xs:enumeration value="09029"/> <!-- Ilmaisukoulu Tuike -->
 	</xs:restriction> 
 </xs:simpleType>
 
