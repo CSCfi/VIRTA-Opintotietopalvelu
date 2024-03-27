@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<xs:schema version="1.06.84"
+<xs:schema version="1.06.85"
   attributeFormDefault="unqualified"
   elementFormDefault="qualified"
   targetNamespace="urn:mace:funet.fi:virta/2015/09/01"
@@ -9,7 +9,7 @@
     
 <!--  
  
-1.06.84 versio on päivitetty 16.2.2024  
+1.06.85 versio on päivitetty 27.3.2024  
 
 KOODISTOMÄÄRITYKSET
 - YLEISET KOODISTOT
@@ -438,6 +438,9 @@ YLEISET KOODISTOT
 		<xs:enumeration value="og"/> <!-- varhaiskasvatuksen tehtäviin ja esiopetukseen ammatillisia valmiuksia antavat opinnot (YO) osana tutkintoa. -->
 		<!-- Lisätty 16.3.2023 Valvira pätevyyskoodi -->
 		<xs:enumeration value="vle"/> <!-- EU/ETA-alueen ulkopuolella hammaslääkärin tutkinnon suorittaneen kaikki pätevyyskuulustelut suoritettu, ei ennakkotietoa Virtaan -->
+		<!-- Lisätty 27.3.2023 lisäykset -->
+		<xs:enumeration value="tt"/> <!-- Teatteri ja tanssi, 60 op -->
+		<xs:enumeration value="ts"/> <!-- Teatteri ja tanssi, 120 op -->
 	</xs:restriction>
 </xs:simpleType>
 
@@ -686,6 +689,8 @@ YLEISET KOODISTOT
 		<xs:enumeration value="079"/> <!-- Ilmastoasiantuntijan erikoistumiskoulutus -->
 		<!-- uusi 16.2.2024 -->
 		<xs:enumeration value="080"/> <!-- Yrittäjyyskasvatuksen erikoistumiskoulutus -->
+		<!-- uusi 27.3.2024 -->
+		<xs:enumeration value="081"/> <!-- Erityinen tuki ja ohjaus erikoistumiskoulutus -->
 	</xs:restriction>
 </xs:simpleType>
 
@@ -833,7 +838,7 @@ OPISKELUOIKEUS
 		<xs:enumeration value="2"/> <!-- ESR-rahoitus, vain ammattikorkeakoulukoulutus -->
 		<xs:enumeration value="3"/> <!-- TE-rahoitus, vain ammattikorkeakoulukoulutus -->
 		<xs:enumeration value="4"/> <!-- maksullinen tilauskoulutus -->
-		<xs:enumeration value="5"/> <!-- lukukausimaksukokeilu -->
+		<xs:enumeration value="5"/> <!-- lukuvuosimaksu -->
 		<!-- 1.2.2023 koodit 6,7,8 ja 9 lisätty  -->
 		<xs:enumeration value="6"/> <!-- Koodia käytetään koulutukselle, jonka rahoituslähde on Jatkuvan oppimisen ja työllisyyden palvelukeskuksen-valtionavustuksena  myönnetty -->
 		<xs:enumeration value="7"/> <!-- Koodia käytetään koulutukselle, joka on Jatkuvan oppimisen ja työllisyyden palvelukeskuksen-hankintakoulutuksena hankittu -->
