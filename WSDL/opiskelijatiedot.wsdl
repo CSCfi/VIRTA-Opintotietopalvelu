@@ -821,7 +821,7 @@
       </wsdl:output>
     </wsdl:operation>
     <wsdl:operation name="Tutkinnot">
-      <soap:operation soapAction=""/>
+      <soap:operation soapAction=""/> 
       <wsdl:input name="TutkinnotRequest">
         <soap:body use="literal"/>
       </wsdl:input>
