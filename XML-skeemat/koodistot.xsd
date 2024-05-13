@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<xs:schema version="1.06.85"
+<xs:schema version="1.06.86"
   attributeFormDefault="unqualified"
   elementFormDefault="qualified"
   targetNamespace="urn:mace:funet.fi:virta/2015/09/01"
@@ -9,7 +9,7 @@
     
 <!--  
  
-1.06.85 versio on päivitetty 27.3.2024  
+1.06.86 versio on päivitetty 13.5.2024  
 
 KOODISTOMÄÄRITYKSET
 - YLEISET KOODISTOT
@@ -9508,6 +9508,15 @@ ISOT / PITKÄT
 		<xs:enumeration value="09192"/> <!-- Länsi-Tampereen musiikkiopisto -->
 		<!-- Uusia 16.2.2024 -->
 		<xs:enumeration value="09029"/> <!-- Ilmaisukoulu Tuike -->
+		<!-- Uusia 13.5.2024 -->
+		<xs:enumeration value="00627"/> <!-- Konepajan lukio -->
+        <xs:enumeration value="03902"/> <!-- Hulmin koulu -->
+        <xs:enumeration value="03903"/> <!-- Isonkylän koulu -->
+        <xs:enumeration value="03904"/> <!-- Kirkonkylän koulu -->
+        <xs:enumeration value="03905"/> <!-- Kylänpään koulu -->
+        <xs:enumeration value="03906"/> <!-- Perälän koulu -->
+        <xs:enumeration value="03907"/> <!-- Rauhalan koulu -->
+        <xs:enumeration value="03908"/> <!-- Laihian yläkoulu -->
 	</xs:restriction> 
 </xs:simpleType>
 
