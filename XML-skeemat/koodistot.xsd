@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<xs:schema version="1.06.86"
+<xs:schema version="1.06.87"
   attributeFormDefault="unqualified"
   elementFormDefault="qualified"
   targetNamespace="urn:mace:funet.fi:virta/2015/09/01"
@@ -9,7 +9,7 @@
     
 <!--  
  
-1.06.86 versio on päivitetty 13.5.2024  
+1.06.86 versio on päivitetty 29.5.2024  
 
 KOODISTOMÄÄRITYKSET
 - YLEISET KOODISTOT
@@ -9517,6 +9517,10 @@ ISOT / PITKÄT
         <xs:enumeration value="03906"/> <!-- Perälän koulu -->
         <xs:enumeration value="03907"/> <!-- Rauhalan koulu -->
         <xs:enumeration value="03908"/> <!-- Laihian yläkoulu -->
+		<!-- Uusia 29.5.2024 -->
+		<xs:enumeration value="00628"/> <!-- Lappeenrannan lukio -->
+        <xs:enumeration value="03909"/> <!-- Kauniaisten peruskoulu -->
+        <xs:enumeration value="03910"/> <!-- Grundskolan i Grankulla -->
 	</xs:restriction> 
 </xs:simpleType>
 
@@ -12248,6 +12252,10 @@ ISOT / PITKÄT
         <xs:enumeration value="855303"/> <!-- Tekn. toht., tietojohtaminen -->
 		<!-- Uusi 18.1.2024 -->
 		<xs:enumeration value="771302"/> <!-- Sosionomi (ylempi AMK), rikosseuraamusala -->
+		<!-- Uusi 29.5.2024 -->
+		<xs:enumeration value="752101"/> <!-- Rakennusmestari (ylempi AMK) -->
+		
+
 	</xs:restriction>
 </xs:simpleType>
 
