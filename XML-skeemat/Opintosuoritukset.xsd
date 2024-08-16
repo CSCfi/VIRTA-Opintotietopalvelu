@@ -322,7 +322,7 @@
 	<xs:attribute name="opiskeluoikeusAvain" type="virta:AvainTyyppi" use="optional">
 		<xs:annotation>
 			<xs:documentation xml:lang="fi">
-				Opintosuoritukseen liittyvän opiskeluoikeuden avain. Valinnainen, mutta pakollinen tutkinnoilla.
+				Opintosuoritukseen liittyvän opiskeluoikeuden avain. Olennainen tutkinnoilla, mutta vanhat puuttuvat ok, mikäli tietoa ei ole saatavissa.
 			</xs:documentation>
 		</xs:annotation>
 	</xs:attribute>
