@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<xs:schema version="1.06.2"
+<xs:schema version="1.06.3"
   attributeFormDefault="unqualified"
   elementFormDefault="qualified"
   targetNamespace="urn:mace:funet.fi:virta/2015/09/01"
@@ -17,6 +17,7 @@
 
 <!-- OPISKELUOIKEUKSIEN RAKENNE -->
 
+<!-- 6.9.2024 versio 1.06.03 Lisätty Jotpaasianumero -->
 <!-- Elementtinä, jos skeema-tiedostoa käytetään suoraan xml-tiedoston skeemana -->
 <!-- Tämä on siis ainoa globaali "Opiskeluoikeudet" elementti, muutoin oltava jonkin muun elementin sisällä -->
 <xs:element name="Opiskeluoikeudet" type="virta:OpiskeluoikeudetTyyppi"/>
@@ -345,6 +346,13 @@
 						</xs:complexContent>
 					</xs:complexType>
 		</xs:element>
+		<xs:element name="Jotpaasianumero" type="virta:JotpaasianumeroKoodiTyyppi" minOccurs="0" maxOccurs="1">
+				<xs:annotation>
+					<xs:documentation xml:lang="fi">
+						Jotpaasianumero (koodisto).
+					</xs:documentation>
+				</xs:annotation>
+		</xs:element>	
 	</xs:sequence>
 	<xs:attribute name="avain" type="virta:AvainTyyppi" use="required">
 		<xs:annotation>
