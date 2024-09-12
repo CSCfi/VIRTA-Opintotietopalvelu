@@ -1,0 +1,24 @@
+<Opiskeluoikeus avain="2345" opiskelijaAvain="12345">
+  <AlkuPvm>2024-01-01</AlkuPvm>
+  <LoppuPvm>2024-12-31</LoppuPvm>
+  <Tila>
+    <AlkuPvm>2024-01-01</AlkuPvm>
+    <Koodi>1</Koodi>
+  </Tila>
+  <Tyyppi>19</Tyyppi>
+  <Myontaja>02630</Myontaja>
+  <Jakso koulutusmoduulitunniste="AKU Akuuttihoitotyön erikoistumiskoulutus">
+    <AlkuPvm>2024-01-01</AlkuPvm>
+    <LoppuPvm>2024-12-31</LoppuPvm>
+    <Koulutuskunta>837</Koulutuskunta>
+    <Koulutuskieli>fi</Koulutuskieli>
+    <Rahoituslahde>1</Rahoituslahde>
+    <Nimi kieli="fi">Akuuttihoitotyön erikoistumiskoulutus</Nimi>
+    <Nimi kieli="en">Acute Care Nursing Specialisation Education</Nimi>
+  </Jakso>
+  <Koulutusala versio="ohjausala">11</Koulutusala>
+  <Erikoistumiskoulutus>070</Erikoistumiskoulutus>		<!-- 070 = Akuuttihoitotyön erikoistumiskoulutus -->
+  <Laajuus>
+    <Opintopiste>30</Opintopiste>
+  </Laajuus>
+</Opiskeluoikeus>
