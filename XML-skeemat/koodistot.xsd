@@ -1,6 +1,6 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
-<xs:schema version="1.06.87"
-  attributeFormDefault="unqualified"
+﻿<?xml version="1.0" encoding="UTF-8"?> 
+<xs:schema version="1.06.88"
+  attributeFormDefault="unqualified" 
   elementFormDefault="qualified"
   targetNamespace="urn:mace:funet.fi:virta/2015/09/01"
   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
@@ -9,7 +9,7 @@
     
 <!--  
  
-1.06.86 versio on päivitetty 29.5.2024  
+1.06.88 versio on päivitetty 6.11.2024  
 
 KOODISTOMÄÄRITYKSET
 - YLEISET KOODISTOT
@@ -9521,6 +9521,9 @@ ISOT / PITKÄT
 		<xs:enumeration value="00628"/> <!-- Lappeenrannan lukio -->
         <xs:enumeration value="03909"/> <!-- Kauniaisten peruskoulu -->
         <xs:enumeration value="03910"/> <!-- Grundskolan i Grankulla -->
+		<!-- Uusia 6.11.2024 -->
+		<xs:enumeration value="03911"/> <!-- Aurinkovuoren koulu -->
+        <xs:enumeration value="09113"/> <!-- Tanssiopisto Uusikuu -->
 	</xs:restriction> 
 </xs:simpleType>
 
