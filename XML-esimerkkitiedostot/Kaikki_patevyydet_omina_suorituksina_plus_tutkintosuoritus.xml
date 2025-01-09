@@ -1,0 +1,110 @@
+<Opintosuoritukset>
+
+<!-- 	cv	Kemia, 60 op. 
+		cq	Matematiikka, 120 op.
+		oa	Opettajan pedagogiset opinnot osana tutkintoa
+		
+		
+		Tutkinnon koulutuskoodi 742101 = "Fil. maist., matematiikka", 72 Ylempi korkeakoulututkinto
+		
+-->
+
+<!-- cv = Kemia, 60 op. -->
+<Opintosuoritus avain="ATTAINED-COMPETENCY-otm-2b966413-8b1b-4bce-a18b-395646648d20" opiskelijaAvain="hy-hlo-123456" koulutusmoduulitunniste="QUALIFICATION-hy-competence-cv" opiskeluoikeusAvain="hy-opinoik-11223344_PHASE2">
+  <SuoritusPvm>2023-06-26</SuoritusPvm>
+  <Laajuus>
+    <Opintopiste>0</Opintopiste>
+  </Laajuus>
+  <Arvosana>
+    <Hyvaksytty>HYV</Hyvaksytty>
+  </Arvosana>
+  <Myontaja>01901</Myontaja>
+  <Laji>2</Laji>
+  <Nimi kieli="fi">Kemia, 60 op.</Nimi>
+  <Nimi kieli="en">Chemistry, 60 cr.</Nimi>
+  <Nimi kieli="sv">Kemi 60 sp</Nimi>
+  <Koulutusala>
+    <Koodi versio="ohjausala">6</Koodi>
+    <Osuus>1</Osuus>
+  </Koulutusala>
+  <Patevyys>cv</Patevyys> <!-- cv = Kemia, 60 op. -->
+</Opintosuoritus>
+
+<!-- cq = Matematiikka, 120 op. -->
+<Opintosuoritus avain="ATTAINED-COMPETENCY-otm-e7620e5a-27da-4b92-bb99-838e6b2d79b6" opiskelijaAvain="hy-hlo-123456" koulutusmoduulitunniste="QUALIFICATION-hy-competence-cq" opiskeluoikeusAvain="hy-opinoik-11223344_PHASE2">
+  <SuoritusPvm>2023-06-26</SuoritusPvm>
+  <Laajuus>
+    <Opintopiste>0</Opintopiste>
+  </Laajuus>
+  <Arvosana>
+    <Hyvaksytty>HYV</Hyvaksytty>
+  </Arvosana>
+  <Myontaja>01901</Myontaja>
+  <Laji>2</Laji>
+  <Nimi kieli="fi">Matematiikka, 120 op.</Nimi>
+  <Nimi kieli="en">Mathematics, 120 cr.</Nimi>
+  <Nimi kieli="sv">Matematik, 120 sp</Nimi>
+  <Koulutusala>
+    <Koodi versio="ohjausala">6</Koodi>
+    <Osuus>1</Osuus>
+  </Koulutusala>
+  <Patevyys>cq</Patevyys> <!-- cq = Matematiikka, 120 op. -->
+</Opintosuoritus>
+
+<!-- oa = Opettajan pedagogiset opinnot osana tutkintoa -->
+<Opintosuoritus avain="ATTAINED-QUALIFICATION-otm-d5c483f3-13ac-4e47-928b-70d05bba0ff0" opiskelijaAvain="hy-hlo-123456" koulutusmoduulitunniste="QUALIFICATION-otm-a819966e-e588-4ae0-90f7-97f040c6ca15" opiskeluoikeusAvain="hy-opinoik-11223344_PHASE2">
+  <SuoritusPvm>2023-06-26</SuoritusPvm>
+  <Laajuus>
+    <Opintopiste>0</Opintopiste>
+  </Laajuus>
+  <Arvosana>
+    <Hyvaksytty>HYV</Hyvaksytty>
+  </Arvosana>
+  <Myontaja>01901</Myontaja>
+  <Laji>2</Laji>
+  <Nimi kieli="fi">Opettajan pedagogiset opinnot osana tutkintoa</Nimi>
+  <Koulutusala>
+    <Koodi versio="ohjausala">1</Koodi>
+    <Osuus>1</Osuus>
+  </Koulutusala>
+  <Patevyys>oa</Patevyys> <!-- oa = Opettajan pedagogiset opinnot osana tutkintoa -->
+</Opintosuoritus>
+
+
+<!-- Tutkinto 742101 = "Fil. maist., matematiikka" -->
+<Opintosuoritus avain="ATTAINMENT-otm-2f9d5ced-a1ad-4ab6-87c9-a9819d79a1d6" opiskelijaAvain="hy-hlo-123456" koulutusmoduulitunniste="DEGREE-PROGRAMME-otm-cd1dfb19-4a74-4457-8037-fdee3074c6b4" opiskeluoikeusAvain="hy-opinoik-11223344_PHASE2">
+  <SuoritusPvm>2023-06-26</SuoritusPvm>
+  <Laajuus>
+    <Opintopiste>122</Opintopiste>
+  </Laajuus>
+  <Arvosana>
+    <Hyvaksytty>HYV</Hyvaksytty>
+  </Arvosana>
+  <Myontaja>01901</Myontaja>
+  <Laji>1</Laji>
+  <Nimi kieli="fi">Matematiikan, fysiikan ja kemian opettajan maisteriohjelma</Nimi>
+  <Nimi kieli="en">Master's Programme for Teachers of Mathematics, Physics and Chemistry</Nimi>
+  <Nimi kieli="sv">Magisterprogrammet för ämneslärare i matematik, fysik och kemi</Nimi>
+  <Kieli>fi</Kieli>
+  <Koulutuskoodi>742101</Koulutuskoodi>
+  <Koulutusala>
+    <Koodi versio="ohjausala">6</Koodi>
+    <Osuus>1</Osuus>
+  </Koulutusala>
+  <Sisaltyvyys sisaltyvaOpintosuoritusAvain="ATTAINMENT-otm-b6e3f4e5-2429-4e0d-b5fe-894b70dcdd35">
+    <Opintopiste>79</Opintopiste>
+  </Sisaltyvyys>
+  <Sisaltyvyys sisaltyvaOpintosuoritusAvain="ATTAINMENT-otm-99c7eb5e-bc33-4bbf-81be-43825ed7b2c9">
+    <Opintopiste>35</Opintopiste>
+  </Sisaltyvyys>
+  <Sisaltyvyys sisaltyvaOpintosuoritusAvain="ATTAINMENT-otm-d3f44d64-65ba-4a33-b294-59acecbcb1bc">
+    <Opintopiste>6</Opintopiste>
+  </Sisaltyvyys>
+  <Sisaltyvyys sisaltyvaOpintosuoritusAvain="ATTAINMENT-otm-34229203-2804-46d3-8d46-b1b3bb574553">
+    <Opintopiste>2</Opintopiste>
+  </Sisaltyvyys>
+</Opintosuoritus>
+
+
+
+</Opintosuoritukset>

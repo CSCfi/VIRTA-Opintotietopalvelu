@@ -1,0 +1,20 @@
+<!-- cq = Matematiikka, 120 op. --> 
+
+<Opintosuoritus avain="PATEVYYS-303636" opiskelijaAvain="101001" opiskeluoikeusAvain="234567" koulutusmoduulitunniste="KE-LUON Ei tutkintoon johtava koulutus, luonnontieteellinen ala">
+  <SuoritusPvm>2023-04-30</SuoritusPvm>
+  <Laajuus>
+    <Opintopiste>0</Opintopiste>
+  </Laajuus>
+  <Arvosana>
+    <Hyvaksytty>HYV</Hyvaksytty>
+  </Arvosana>
+  <Myontaja>01904</Myontaja>
+  <Laji>2</Laji>
+  <Nimi>Pätevyys cq</Nimi>
+  <Kieli>fi</Kieli>
+  <Koulutusala>
+    <Koodi versio="ohjausala">6</Koodi>
+  </Koulutusala>
+  <Opinnaytetyo>0</Opinnaytetyo>
+  <Patevyys>cq</Patevyys> <!-- cq = Matematiikka, 120 op. --> 
+</Opintosuoritus>

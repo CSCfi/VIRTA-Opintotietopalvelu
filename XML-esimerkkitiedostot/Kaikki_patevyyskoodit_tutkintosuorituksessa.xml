@@ -1,0 +1,37 @@
+<!-- 	br	Englannin kieli, 60 op.
+		bv	Saksan kieli, 120 op.
+		oa	Opettajan pedagogiset opinnot osana tutkintoa
+		
+		Tutkinnon koulutuskoodi 726104 = "Fil. maist., saksan kieli" , 72 Ylempi korkeakoulututkinto
+-->
+
+<Opintosuoritus avain="TUTKINTO-189718" opiskelijaAvain="111111" opiskeluoikeusAvain="Y333333" koulutusmoduulitunniste="KY102 Germaanisen filologian tutkinto-ohjelma">
+  <SuoritusPvm>2023-05-31</SuoritusPvm>
+  <Laajuus>
+    <Opintopiste>129</Opintopiste>
+  </Laajuus>
+  <Arvosana>
+    <Hyvaksytty>HYV</Hyvaksytty>
+  </Arvosana>
+  <Myontaja>01904</Myontaja>
+  <Laji>1</Laji>
+  <Nimi kieli="fi">Filosofian maisteri, Aineenopettaja</Nimi>
+  <Nimi kieli="en">Master of Arts, Subject Teacher</Nimi>
+  <Kieli>fi</Kieli>
+  <Koulutuskoodi>726104</Koulutuskoodi>
+  <Sisaltyvyys sisaltyvaOpintosuoritusAvain="4873820">
+    <Opintopiste>70</Opintopiste>
+  </Sisaltyvyys>
+  <Sisaltyvyys sisaltyvaOpintosuoritusAvain="4873831">
+    <Opintopiste>35</Opintopiste>
+  </Sisaltyvyys>
+  <Sisaltyvyys sisaltyvaOpintosuoritusAvain="4874522">
+    <Opintopiste>24</Opintopiste>
+  </Sisaltyvyys>
+  <Sisaltyvyys sisaltyvaOpintosuoritusAvain="4845257">
+    <Opintopiste>0</Opintopiste>
+  </Sisaltyvyys>
+  <Patevyys>br</Patevyys>	<!-- Englannin kieli, 60 op. -->
+  <Patevyys>bv</Patevyys>	<!-- Saksan kieli, 120 op. -->
+  <Patevyys>oa</Patevyys>	<!-- Opettajan pedagogiset opinnot osana tutkintoa -->
+</Opintosuoritus>
