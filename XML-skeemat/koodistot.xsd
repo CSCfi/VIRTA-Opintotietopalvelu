@@ -6,12 +6,12 @@
   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
   xmlns:xs="http://www.w3.org/2001/XMLSchema"
   xmlns:virta="urn:mace:funet.fi:virta/2015/09/01">  
-      
+    
 <!--  
  
-1.06.88 versio on päivitetty 6.11.2024  
+1.06.88 versio on päivitetty 8.1.2025   
 
-KOODISTOMÄÄRITYKSET
+KOODISTOMÄÄRITYKSET  
 - YLEISET KOODISTOT
 - HENKILÖ/OPISKELIJA
 - OPISKELUOIKEUS
@@ -691,6 +691,8 @@ YLEISET KOODISTOT
 		<xs:enumeration value="080"/> <!-- Yrittäjyyskasvatuksen erikoistumiskoulutus -->
 		<!-- uusi 27.3.2024 -->
 		<xs:enumeration value="081"/> <!-- Erityinen tuki ja ohjaus erikoistumiskoulutus -->
+		<!-- uusi 8.1.2025 -->
+		<xs:enumeration value="082"/> <!-- Logopedian erikoistumiskoulutus -->
 	</xs:restriction>
 </xs:simpleType>
 
@@ -9521,9 +9523,11 @@ ISOT / PITKÄT
 		<xs:enumeration value="00628"/> <!-- Lappeenrannan lukio -->
         <xs:enumeration value="03909"/> <!-- Kauniaisten peruskoulu -->
         <xs:enumeration value="03910"/> <!-- Grundskolan i Grankulla -->
-		<!-- Uusia 6.11.2024 -->
+		<!-- Uusia 8.1.2025 -->
 		<xs:enumeration value="03911"/> <!-- Aurinkovuoren koulu -->
         <xs:enumeration value="09113"/> <!-- Tanssiopisto Uusikuu -->
+		<xs:enumeration value="10130"/> <!-- Sasky Voionmaan kansanopisto -->
+		<xs:enumeration value="03912"/> <!-- Piispanmäen koulun  -->
 	</xs:restriction> 
 </xs:simpleType>
 
@@ -12257,7 +12261,12 @@ ISOT / PITKÄT
 		<xs:enumeration value="771302"/> <!-- Sosionomi (ylempi AMK), rikosseuraamusala -->
 		<!-- Uusi 29.5.2024 -->
 		<xs:enumeration value="752101"/> <!-- Rakennusmestari (ylempi AMK) -->
-		
+		<!-- Uusi 08.1.2025 -->
+		<xs:enumeration value="672102"/> <!-- Lääketieteen kandidaatti (2025-) -->
+        <xs:enumeration value="672202"/> <!-- Hammaslääketieteen kandidaatti (2025-)  -->
+        <xs:enumeration value="772102"/> <!-- Lääketieteen lisensiaatti (2025-) -->
+        <xs:enumeration value="772202"/> <!-- Hammaslääketieteen lisensiaatti (2025-) -->
+
 
 	</xs:restriction>
 </xs:simpleType>
