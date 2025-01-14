@@ -1,0 +1,27 @@
+<?xml version="1.0" ?><Opiskeluoikeudet xmlns="urn:mace:funet.fi:virta/2015/09/01">
+<Opiskeluoikeus avain="2401536" opiskelijaAvain="223645">
+  <AlkuPvm>2024-01-01</AlkuPvm>
+  <LoppuPvm>2024-12-31</LoppuPvm>
+  <Tila>
+    <AlkuPvm>2024-01-01</AlkuPvm>
+    <Koodi>1</Koodi>
+  </Tila>
+  <Tyyppi>13</Tyyppi>
+  <Myontaja>10065</Myontaja>
+  <Jakso koulutusmoduulitunniste="LS Sosiaali- ja terveysalan täydennyskoulutus">
+    <AlkuPvm>2024-01-01</AlkuPvm>
+    <LoppuPvm>2024-12-31</LoppuPvm>
+    <Koulutuskunta>091</Koulutuskunta>
+    <Koulutuskieli>fi</Koulutuskieli>
+    <Rahoituslahde>6</Rahoituslahde>
+    <Nimi kieli="fi">Sosiaali- ja terveysalan täydennyskoulutus</Nimi>
+    <Nimi kieli="sv">Sosiaali- ja terveysalan täydennyskoulutus</Nimi>
+    <Nimi kieli="en">Further Education Programme in Health Care and Social Services</Nimi>
+  </Jakso>
+  <Koulutusala versio="ohjausala">11</Koulutusala>
+  <Laajuus>
+    <Opintopiste>0</Opintopiste>
+  </Laajuus>
+  <Jotpaasianumero>1/4988/2023</Jotpaasianumero>
+</Opiskeluoikeus>
+</Opiskeluoikeudet>
