@@ -9,11 +9,11 @@
     
 <!--  
  
-1.06.88 versio on päivitetty 8.1.2025   
+1.06.89 versio on päivitetty 28.1.2025   
 
-KOODISTOMÄÄRITYKSET   
+KOODISTOMÄÄRITYKSET  
 - YLEISET KOODISTOT
-- HENKILÖ/OPISKELIJA 
+- HENKILÖ/OPISKELIJA
 - OPISKELUOIKEUS
 - OPINTOSUORITUS
 - LUKUKAUSI-ILMOITTAUTUMINEN
@@ -441,6 +441,10 @@ YLEISET KOODISTOT
 		<!-- Lisätty 27.3.2023 lisäykset -->
 		<xs:enumeration value="tt"/> <!-- Teatteri ja tanssi, 60 op -->
 		<xs:enumeration value="ts"/> <!-- Teatteri ja tanssi, 120 op -->
+		<!-- Lisätty 28.1.2025 lisäykset -->
+		<xs:enumeration value="ku"/> <!-- Uskonto (katolinen), 60 op. -->
+		<xs:enumeration value="kt"/> <!-- Uskonto (katolinen), 120 op -->
+		<xs:enumeration value="ks"/> <!-- Uskonto (katolinen), muu laajuus  -->
 	</xs:restriction>
 </xs:simpleType>
 
@@ -9528,6 +9532,8 @@ ISOT / PITKÄT
         <xs:enumeration value="09113"/> <!-- Tanssiopisto Uusikuu -->
 		<xs:enumeration value="10130"/> <!-- Sasky Voionmaan kansanopisto -->
 		<xs:enumeration value="03912"/> <!-- Piispanmäen koulun  -->
+		<!-- Uusia 28.1.2025 -->
+        <xs:enumeration value="03914"/> <!-- Tiedonpuiston yhtenäiskoulu -->
 	</xs:restriction> 
 </xs:simpleType>
 
