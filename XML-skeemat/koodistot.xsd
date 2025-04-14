@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?> 
-<xs:schema version="1.06.88"
+<xs:schema version="1.06.90"
   attributeFormDefault="unqualified" 
   elementFormDefault="qualified"
   targetNamespace="urn:mace:funet.fi:virta/2015/09/01"
@@ -9,10 +9,10 @@
     
 <!--  
  
-1.06.89 versio on päivitetty 28.1.2025   
+1.06.90 versio on päivitetty 08.04.2025   
 
 KOODISTOMÄÄRITYKSET  
-- YLEISET KOODISTOT 
+- YLEISET KOODISTOT
 - HENKILÖ/OPISKELIJA
 - OPISKELUOIKEUS
 - OPINTOSUORITUS
@@ -85,8 +85,8 @@ YLEISET KOODISTOT
 		<xs:enumeration value="far"/> <!-- farmasian opinnot -->
 		<xs:enumeration value="teh"/> <!-- terveydenhuoltoalan 2/3 -->
 		<!-- opettajan yleiset pätevyydet -->
-		<xs:enumeration value="ik"/> <!-- pääaineeseen kuuluvat aineen opettajan pedagogiset opinnot -->
-		<xs:enumeration value="il"/> <!-- sivuaineena aineen opettajan pedagogiset opinnot -->
+		<xs:enumeration value="ik"/> <!-- pääaineeseen kuuluvat aineenopettajan pedagogiset opinnot -->
+		<xs:enumeration value="il"/> <!-- sivuaineena aineenopettajan pedagogiset opinnot -->
 		<xs:enumeration value="im"/> <!-- erilliset opettajan pedagogiset opinnot -->
 		<xs:enumeration value="in"/> <!-- pääaineeseen kuuluvat perusopetuksessa opetettavien aineiden ja aihekokonaisuuksien monialaiset opinnot -->
 		<xs:enumeration value="io"/> <!-- sivuaineena perusopetuksessa opetettavien aineiden ja aihekokonaisuuksien monialaiset opinnot -->
@@ -9534,6 +9534,8 @@ ISOT / PITKÄT
 		<xs:enumeration value="03912"/> <!-- Piispanmäen koulun  -->
 		<!-- Uusia 28.1.2025 -->
         <xs:enumeration value="03914"/> <!-- Tiedonpuiston yhtenäiskoulu -->
+		<!-- Uusia 08.04.2025 -->
+		<xs:enumeration value="03913"/> <!-- Tuiran koulu -->
 	</xs:restriction> 
 </xs:simpleType>
 
@@ -12272,6 +12274,8 @@ ISOT / PITKÄT
         <xs:enumeration value="672202"/> <!-- Hammaslääketieteen kandidaatti (2025-)  -->
         <xs:enumeration value="772102"/> <!-- Lääketieteen lisensiaatti (2025-) -->
         <xs:enumeration value="772202"/> <!-- Hammaslääketieteen lisensiaatti (2025-) -->
+		<!-- Uusi 08.04.2025 -->
+		<xs:enumeration value="826116"/> <!-- Fil. toht., pohjoismaiset kielet -->
 
 
 	</xs:restriction>
