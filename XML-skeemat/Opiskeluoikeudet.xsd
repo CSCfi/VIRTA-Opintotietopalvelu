@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<xs:schema version="1.06.2"
+<xs:schema version="1.06.3"
   attributeFormDefault="unqualified"
   elementFormDefault="qualified"
   targetNamespace="urn:mace:funet.fi:virta/2015/09/01"
@@ -14,6 +14,9 @@
 		</xs:documentation>
 	</xs:annotation>
 </xs:include>
+
+
+<!-- 1.06.3 Päivitys 28.4.2025: Lisätty Jotpa asianumero virta:JotpaasianumeroKoodiTyyppi -->
 
 <!-- OPISKELUOIKEUKSIEN RAKENNE -->
 
@@ -344,6 +347,14 @@
 							</xs:extension>
 						</xs:complexContent>
 					</xs:complexType>
+		</xs:element>
+		<!-- Jotpa asianumero -->
+		<xs:element name="Jotpaasianumero" type="virta:JotpaasianumeroKoodiTyyppi" minOccurs="0" maxOccurs="1">
+				<xs:annotation>
+					<xs:documentation xml:lang="fi">
+						Jotpaasianumero (koodisto).
+					</xs:documentation>
+				</xs:annotation>
 		</xs:element>
 	</xs:sequence>
 	<xs:attribute name="avain" type="virta:AvainTyyppi" use="required">
