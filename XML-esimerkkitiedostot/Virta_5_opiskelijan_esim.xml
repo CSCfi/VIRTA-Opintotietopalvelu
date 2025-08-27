@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <Virta xmlns="urn:mace:funet.fi:virta/2015/09/01" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:mace:funet.fi:virta/2015/09/01 Virta.xsd">
   <Opiskelija avain="345678">
-    <Henkilotunnus>100984-938M</Henkilotunnus>
+    <Henkilotunnus>100984-712B</Henkilotunnus>
     <Sukunimi>Ström</Sukunimi>
     <Etunimet>Myki</Etunimet>
     <Sukupuoli>2</Sukupuoli>
@@ -91,7 +91,7 @@
     </Opintosuoritukset>
   </Opiskelija>
   <Opiskelija avain="987654">
-    <Henkilotunnus>050888-928A</Henkilotunnus>
+    <Henkilotunnus>050888-192K</Henkilotunnus>
     <Sukunimi>Virta</Sukunimi>
     <Etunimet>Voima</Etunimet>
     <Sukupuoli>2</Sukupuoli>
@@ -1030,7 +1030,7 @@
     </Liikkuvuusjaksot>
   </Opiskelija>
   <Opiskelija avain="998855">
-    <Henkilotunnus>250576-994U</Henkilotunnus>
+    <Henkilotunnus>250576-6602</Henkilotunnus>
     <Sukunimi>Karkki-Tassu</Sukunimi>
     <Etunimet>Miina</Etunimet>
     <Sukupuoli>2</Sukupuoli>
@@ -2782,7 +2782,7 @@
     </Opintosuoritukset>
   </Opiskelija>
   <Opiskelija avain="112255">
-    <Henkilotunnus>060682-978D</Henkilotunnus>
+    <Henkilotunnus>060682-650U</Henkilotunnus>
     <Sukunimi>Vilpas</Sukunimi>
     <Etunimet>Maija</Etunimet>
     <Sukupuoli>2</Sukupuoli>
