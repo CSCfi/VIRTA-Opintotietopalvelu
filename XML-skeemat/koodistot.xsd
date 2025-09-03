@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?> 
-<xs:schema version="1.06.91"
+<xs:schema version="1.06.92"
   attributeFormDefault="unqualified" 
   elementFormDefault="qualified"
   targetNamespace="urn:mace:funet.fi:virta/2015/09/01"
@@ -9,9 +9,10 @@
     
 <!--  
  
-1.06.91 versio on päivitetty 27.05.2025   
+1.06.92 versio on päivitetty 03.09.2025   
 
-1.06.91 päivitys 27.05.2025 Lisätty Jotpaasianumero
+1.06.92 päivitys 03.09.2025 Lisätty 70kpl  Jotpa-asianumeroa ja 
+Oppilaitosnumero 09208 = Sastamalan Taidekoulu
 
 KOODISTOMÄÄRITYKSET  
 - YLEISET KOODISTOT
@@ -9541,7 +9542,9 @@ ISOT / PITKÄT
 		<!-- Uusia 27.05.2025 -->
 		<xs:enumeration value="00629"/> <!-- Aviapoliksen lukio -->
 		<xs:enumeration value="03915"/> <!-- Rykmentinpuiston koulu -->
-		<xs:enumeration value="09207"/> <!-- Lohjan Tanssiopisto -->		
+		<xs:enumeration value="09207"/> <!-- Lohjan Tanssiopisto -->	
+		<!-- Uusia 03.09.2025 -->
+        <xs:enumeration value="09208"/> <!-- Sastamalan Taidekoulu -->		
 	</xs:restriction> 
 </xs:simpleType>
 
@@ -12839,6 +12842,77 @@ ISOT / PITKÄT
 		<xs:enumeration value="va-jotpa-2024-2-7"/> <!-- va-jotpa-2024-2-7 - Työtehoseura ry, ruotsiksi Arbetseffektivitetsföreningen rf - Maarakentajien vesihuollon täydennyskoulutus -->
 		<xs:enumeration value="va-jotpa-2024-2-8"/> <!-- va-jotpa-2024-2-8 - Turun ammattikorkeakoulu Oy - Harmaiden vesien ja hulevesien sovellusinnovaatiot –kurssiin (HAHU) -->
 		<xs:enumeration value="va-jotpa-2024-2-9"/> <!-- va-jotpa-2024-2-9 - Aalto-korkeakoulusäätiö sr - FITech puhtaan siirtymän osaaminen II -->
+		<!-- Uusia 03.09.2025 -->
+		<xs:enumeration value="1/1746/2025"/> <!-- 1/1746/2025 - Hämeen ammattikorkeakoulu Oy - Maaperän terveyden ja kasvukunnon parantaminen sekä ilmastonmuutokseen sopeutuminen -->
+		<xs:enumeration value="1/2267/2022"/> <!-- 1/2267/2022 - Peimarin koulutus Oy - Kausityönjohtajien lyhytkoulutus -->
+		<xs:enumeration value="10/586/2024"/> <!-- 10/586/2024 - Etelä-Savon Koulutus Oy - Korjausrakentamisella tulevaisuuteen -->
+		<xs:enumeration value="11/586/2024"/> <!-- 11/586/2024 - Jyväskylän koulutuskuntayhtymä Gradia - Rakennusalan kestävyys- ja kiertotalousosaaminen -->
+		<xs:enumeration value="13/586/2024"/> <!-- 13/586/2024 - Tampereen kaupunki - Korjausrakentamisen Osaamispolku -->
+		<xs:enumeration value="14/586/2024"/> <!-- 14/586/2024 - Raision Seudun Koulutuskuntayhtymä - Korjausrakentamiseen lisäosaamista -->
+		<xs:enumeration value="16/586/2024"/> <!-- 16/586/2024 - Etelä-Karjalan Koulutuskuntayhtymä - Korjausrakentaja Pro -->
+		<xs:enumeration value="19/586/2024"/> <!-- 19/586/2024 - Tampereen Aikuiskoulutussäätiö sr - Kestävää korjausrakentamista -->
+		<xs:enumeration value="2/1746/2025"/> <!-- 2/1746/2025 - REDU Edu Oy - Maaperän terveyden ja kasvukunnon parantaminen sekä ilmastonmuutokseen sopeutuminen -->
+		<xs:enumeration value="2/586/2024"/> <!-- 2/586/2024 - Jyväskylän Ammattikorkeakoulu Oy - Vastuullinen korjausrakentaminen   – tarpeesta tilaukseen -->
+		<xs:enumeration value="23/586/2024"/> <!-- 23/586/2024 - Seinäjoen Ammattikorkeakoulu Oy - KOTU – Korjausrakentamisen tulevaisuus: Rakentamislaki, kiertotalous ja digitalisaatio -->
+		<xs:enumeration value="27/586/2024"/> <!-- 27/586/2024 - Savonia-ammattikorkeakoulu oy - Korjausrakentaminen ja kiertotalous -->
+		<xs:enumeration value="28/586/2024"/> <!-- 28/586/2024 - Karelia Ammattikorkeakoulu Oy - Kestävän korjausrakentamisen osaaja -->
+		<xs:enumeration value="29/586/2024"/> <!-- 29/586/2024 - Turun ammattikorkeakoulu Oy - Uusi rakennuslaki kestävässä korjausrakentamisessa -->
+		<xs:enumeration value="3/1746/2025"/> <!-- 3/1746/2025 - Savonia-ammattikorkeakoulu oy - Datan omistajuus ja hyödyntäminen maataloudessa -->
+		<xs:enumeration value="30/586/2024"/> <!-- 30/586/2024 - AEL-Amiedu Oy - Korjausrakentamisen suunnittelu ja toteutus -->
+		<xs:enumeration value="31/586/2024"/> <!-- 31/586/2024 - Optima samkommun - Forum och kompetens för cirkulärt byggande -->
+		<xs:enumeration value="32/586/2024"/> <!-- 32/586/2024 - Tampereen korkeakoulusäätiö sr - Korjausliike – korjausrakentamisosaamisen koulutus -->
+		<xs:enumeration value="33/586/2024"/> <!-- 33/586/2024 - Yrkeshögskolan Novia - Kestävän korjausrakentamisen täsmäkoulutus -->
+		<xs:enumeration value="34/586/2024"/> <!-- 34/586/2024 - Tampereen korkeakoulusäätiö sr - Kiertotalousosaamista rakennusalalle -->
+		<xs:enumeration value="35/586/2024"/> <!-- 35/586/2024 - Tampereen ammattikorkeakoulu Oy - Kiertotalous korjausrakentamishankkeiden johtamisessa -->
+		<xs:enumeration value="36/586/2024"/> <!-- 36/586/2024 - Yrkeshögskolan Novia - Hållbarhetskompetens för byggarbetsledare vid reparationsbyggande -->
+		<xs:enumeration value="4/1746/2025"/> <!-- 4/1746/2025 - Hämeen ammattikorkeakoulu Oy - Datan omistajuus ja hyödyntäminen maataloudessa -->
+		<xs:enumeration value="4/586/2024"/> <!-- 4/586/2024 - Rakennusteollisuuden Koulutuskeskus RATEKO - KORKI - Korjausrakentaminen ja kiertotalous työmaalla -->
+		<xs:enumeration value="5/1746/2025"/> <!-- 5/1746/2025 - Hämeen ammattikorkeakoulu Oy - Ruoantuotannon kiertotalous ja omavaraisuuden tukeminen -->
+		<xs:enumeration value="6/1746/2025"/> <!-- 6/1746/2025 - REDU Edu Oy - Ruoantuotannon kiertotalous ja omavaraisuuden tukeminen -->
+		<xs:enumeration value="7/1746/2025"/> <!-- 7/1746/2025 - REDU Edu Oy - Turvepeltojen ilmastopäästöjen vähentäminen -->
+		<xs:enumeration value="va-jotpa-2024-3-1"/> <!-- va-jotpa-2024-3-1 - Oulun Ammattikorkeakoulu Oy - OTO - Opi Työssä Osaajaksi -->
+		<xs:enumeration value="va-jotpa-2024-3-10"/> <!-- va-jotpa-2024-3-10 - Karelia Ammattikorkeakoulu Oy - Työn ohessa opiskelun vahvistaminen sosionomikoulutuksessa -->
+		<xs:enumeration value="va-jotpa-2024-3-11"/> <!-- va-jotpa-2024-3-11 - Jyväskylän koulutuskuntayhtymä Gradia - Työn ohessa lähihoitajaksi -->
+		<xs:enumeration value="va-jotpa-2024-3-12"/> <!-- va-jotpa-2024-3-12 - Jyväskylän Ammattikorkeakoulu Oy - Työn ohella opiskellen -->
+		<xs:enumeration value="va-jotpa-2024-3-13"/> <!-- va-jotpa-2024-3-13 - Karelia Ammattikorkeakoulu Oy - Sh-koulutuksen työnohessa opiskelun kehittäminen -->
+		<xs:enumeration value="va-jotpa-2024-3-16"/> <!-- va-jotpa-2024-3-16 - Lapin ammattikorkeakoulu Oy - Hankeavustus työn ohessa opiskelun vahvistamiseksi -->
+		<xs:enumeration value="va-jotpa-2024-3-19"/> <!-- va-jotpa-2024-3-19 - Vaasan kaupunki - Työn ohessa opiskelun vahvistaminen – Stärka studier vid sidan om arbetet -->
+		<xs:enumeration value="va-jotpa-2024-3-20"/> <!-- va-jotpa-2024-3-20 - Laurea-ammattikorkeakoulu Oy - Lähihoitajasta sairaanhoitajaksi työssä oppinen -->
+		<xs:enumeration value="va-jotpa-2024-3-21"/> <!-- va-jotpa-2024-3-21 - Savonia-ammattikorkeakoulu oy - Sosionomi ja Sairaanhoitaja Express -->
+		<xs:enumeration value="va-jotpa-2024-3-22"/> <!-- va-jotpa-2024-3-22 - Hämeen ammattikorkeakoulu Oy - Ammatillinen erityisopettaja - Työn ohessa opiskelun vahvistaminen -->
+		<xs:enumeration value="va-jotpa-2024-3-23"/> <!-- va-jotpa-2024-3-23 - Seinäjoen koulutuskuntayhtymä Sedu - Työn ohessa oppien ja ohjaten – TOHINA -->
+		<xs:enumeration value="va-jotpa-2024-3-26"/> <!-- va-jotpa-2024-3-26 - Jyväskylän yliopisto - VAKA -->
+		<xs:enumeration value="va-jotpa-2024-3-28"/> <!-- va-jotpa-2024-3-28 - Salon Seudun Koulutuskuntayhtymä - Urapolku lähihoitajaksi vammaistyöhön -->
+		<xs:enumeration value="va-jotpa-2024-3-4"/> <!-- va-jotpa-2024-3-4 - Lab-ammattikorkeakoulu Oy - Työn ohessa opiskelun mallin kehittäminen LABin sosionomikoulutuksessa -->
+		<xs:enumeration value="va-jotpa-2024-3-5"/> <!-- va-jotpa-2024-3-5 - Turun yliopisto - HAORMA - Harjoitteluorganisointimalli varhaiskasvatuksen opettajankoulutuksessa -->
+		<xs:enumeration value="va-jotpa-2024-3-6"/> <!-- va-jotpa-2024-3-6 - Laurea-ammattikorkeakoulu Oy - Työn ohessa opiskelun vahvistaminen Sote/Laurea-ammattikorkeakoulu -->
+		<xs:enumeration value="va-jotpa-2024-3-7"/> <!-- va-jotpa-2024-3-7 - Kajaanin Ammattikorkeakoulu Oy - Kainuulainen polku hoitajaksi -->
+		<xs:enumeration value="va-jotpa-2024-3-9"/> <!-- va-jotpa-2024-3-9 - Kemi-Tornionlaakson koulutuskuntayhtymä Lappia - SOTEPÄTE - Joustavia polkuja sosiaali- ja terveysalan pätevyyteen -->
+		<xs:enumeration value="va-jotpa-2025-1-1"/> <!-- va-jotpa-2025-1-1 - Äänekosken Ammatillisen Koulutuksen kuntayhtymä - “Palveluja kotiin” -henkilökohtaisen avustajan ja kotipalvelun -täydennyskoulutus -->
+		<xs:enumeration value="va-jotpa-2025-1-10"/> <!-- va-jotpa-2025-1-10 - Jokilaaksojen koulutuskuntayhtymä - Kotipalvelu -->
+		<xs:enumeration value="va-jotpa-2025-1-11"/> <!-- va-jotpa-2025-1-11 - Careeria Oy - Taitavat ja osaavat avustajat -->
+		<xs:enumeration value="va-jotpa-2025-1-12"/> <!-- va-jotpa-2025-1-12 - AEL-Amiedu Oy - Kotipalveluosaajat – Laatua ja ammattitaitoa tulevaisuuteen -->
+		<xs:enumeration value="va-jotpa-2025-1-13"/> <!-- va-jotpa-2025-1-13 - Savon Koulutuskuntayhtymä - KotitaitoPRO - Monipuolista taitoa kotipalveluihin ja hoivaan -->
+		<xs:enumeration value="va-jotpa-2025-1-14"/> <!-- va-jotpa-2025-1-14 - Työtehoseura ry, ruotsiksi Arbetseffektivitetsföreningen rf - Ikääntyvien asumisratkaisut ja asumisviihtyvyyttä parantava tilasuunnittelu -koulutus hoiva- ja sote-alojen osaajille -->
+		<xs:enumeration value="va-jotpa-2025-1-2"/> <!-- va-jotpa-2025-1-2 - Helsingin kaupunki - Osaamista Stadin Kotipalveluun -->
+		<xs:enumeration value="va-jotpa-2025-1-3"/> <!-- va-jotpa-2025-1-3 - Raision Seudun Koulutuskuntayhtymä - Kotityöpalvelu ja henkilökohtaiset avustajat -->
+		<xs:enumeration value="va-jotpa-2025-1-4"/> <!-- va-jotpa-2025-1-4 - Keski-Pohjanmaan Koulutusyhtymä - Avustajakoulutuksella tukea ja laatua työhön -->
+		<xs:enumeration value="va-jotpa-2025-1-5"/> <!-- va-jotpa-2025-1-5 - Luksia, Länsi-Uudenmaan koulutuskuntayhtymä - Hankeavustus kotipalvelutyöntekijöiden ja henkilökohtaisten avustajien täydennyskoulutuksiin -->
+		<xs:enumeration value="va-jotpa-2025-1-6"/> <!-- va-jotpa-2025-1-6 - Länsirannikon Koulutus Oy - AvustaWin -->
+		<xs:enumeration value="va-jotpa-2025-1-7"/> <!-- va-jotpa-2025-1-7 - Tampereen Aikuiskoulutussäätiö sr - Henkilökohtaisen avun ja kotityöpalvelujen taitajaksi -->
+		<xs:enumeration value="va-jotpa-2025-1-8"/> <!-- va-jotpa-2025-1-8 - Hyria koulutus Oy - Kotipalvelutaituri – Kotipalvelutyöntekijöiden koulutustarjotin -->
+		<xs:enumeration value="va-jotpa-2025-1-9"/> <!-- va-jotpa-2025-1-9 - Axxell Utbildning Ab - Koukot - koulutusta kotipalvelualalle -->
+		<xs:enumeration value="va-jotpa-2025-3-1"/> <!-- va-jotpa-2025-3-1 - SASKY koulutuskuntayhtymä - Vastuullinen lähimatkailu -->
+		<xs:enumeration value="va-jotpa-2025-3-12"/> <!-- va-jotpa-2025-3-12 - Turun kaupunki - Vastuullinen vieraanvaraisuus Turun saariston matkailu- ja hyvinvointipalveluiden kehittämisessä -->
+		<xs:enumeration value="va-jotpa-2025-3-14"/> <!-- va-jotpa-2025-3-14 - Sykli Oy - Vastuullisuusstartti matkailun kehittämiseen -->
+		<xs:enumeration value="va-jotpa-2025-3-16"/> <!-- va-jotpa-2025-3-16 - Itä-Suomen yliopisto - Uusia ratkaisuja kestävään matkailuliiketoimintaan -->
+		<xs:enumeration value="va-jotpa-2025-3-17"/> <!-- va-jotpa-2025-3-17 - Koulutuskuntayhtymä Tavastia - Kestävän matkailun Häme -->
+		<xs:enumeration value="va-jotpa-2025-3-18"/> <!-- va-jotpa-2025-3-18 - Tampereen kaupunki - Uudistava elämysosaaja – Koulutus matkailualalle -->
+		<xs:enumeration value="va-jotpa-2025-3-23"/> <!-- va-jotpa-2025-3-23 - Centria-ammattikorkeakoulu Oy - Kestävän ja vastuullisen matkailun eri ulottuvuudet -->
+		<xs:enumeration value="va-jotpa-2025-3-24"/> <!-- va-jotpa-2025-3-24 - Hyria koulutus Oy - Vastuullisuusvoimala - Kestävää kasvua matkailuun -->
+		<xs:enumeration value="va-jotpa-2025-3-26"/> <!-- va-jotpa-2025-3-26 - Rastor-instituutti ry - Vastuullisten ja innovatiivisten matkailupalveluiden helminauha -->
+		<xs:enumeration value="va-jotpa-2025-3-3"/> <!-- va-jotpa-2025-3-3 - Turun ammattikorkeakoulu Oy - VASTUULLINEN ESIHENKILÖOSAAMINEN MATKAILU- JA RAVITSEMISALALLA -->
+		<xs:enumeration value="va-jotpa-2025-3-4"/> <!-- va-jotpa-2025-3-4 - Työtehoseura ry, ruotsiksi Arbetseffektivitetsföreningen rf - Digitaalinen luontomatkailuyrittäjä - uutta yrittäjyyttä Etelä-Karjalaan ja Varsinais-Suomeen -->
 	</xs:restriction>
 </xs:simpleType>
 
