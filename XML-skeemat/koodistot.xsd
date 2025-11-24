@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?> 
-<xs:schema version="1.06.93"
+<xs:schema version="1.06.94"
   attributeFormDefault="unqualified" 
   elementFormDefault="qualified"
   targetNamespace="urn:mace:funet.fi:virta/2015/09/01"
@@ -8,6 +8,8 @@
   xmlns:virta="urn:mace:funet.fi:virta/2015/09/01">  
     
 <!--  
+
+1.06.94 versio on päivitetty 24.11.2025 
  
 1.06.93 versio on päivitetty 17.10.2025   
 
@@ -702,6 +704,8 @@ YLEISET KOODISTOT
 		<xs:enumeration value="082"/> <!-- Logopedian erikoistumiskoulutus -->
 		<!-- uusi 17.10.2025 -->
 		<xs:enumeration value="083"/> <!-- Kuntajohdon erikoistumiskoulutus, oikeudellisen osaamisen kehittäminen -->
+		<!-- uusi 24.11.2025 -->
+		<xs:enumeration value="084"/> <!-- Pelialan liiketoiminta ja sen kehittäminen -->
 	</xs:restriction>
 </xs:simpleType>
 
@@ -9546,7 +9550,10 @@ ISOT / PITKÄT
 		<xs:enumeration value="03915"/> <!-- Rykmentinpuiston koulu -->
 		<xs:enumeration value="09207"/> <!-- Lohjan Tanssiopisto -->	
 		<!-- Uusia 03.09.2025 -->
-        <xs:enumeration value="09208"/> <!-- Sastamalan Taidekoulu -->		
+        <xs:enumeration value="09208"/> <!-- Sastamalan Taidekoulu -->	
+		<!-- Uusia 24.11.2025 -->
+		<xs:enumeration value="03916"/> <!-- Keran koulu -->
+		<xs:enumeration value="09065"/> <!-- Keski-Uudenmaan Tanssiopisto -->
 	</xs:restriction> 
 </xs:simpleType>
 
