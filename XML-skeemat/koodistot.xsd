@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?> 
-<xs:schema version="1.06.94"
+<xs:schema version="1.06.95"
   attributeFormDefault="unqualified" 
   elementFormDefault="qualified"
   targetNamespace="urn:mace:funet.fi:virta/2015/09/01"
@@ -8,6 +8,8 @@
   xmlns:virta="urn:mace:funet.fi:virta/2015/09/01">  
     
 <!--  
+
+1.06.95 versio on päivitetty 10.12.2025 OpintosuoritusLuokitteluKoodiTyyppi 19 = Täydennyskoulutuksessa suoritettu tutkinnon osa
 
 1.06.94 versio on päivitetty 24.11.2025 
  
@@ -1142,6 +1144,8 @@ OPINTOSUORITUS
 		<xs:enumeration value="17"/> <!-- Suoritus on muun kuin korkeakoulun kanssa tehtyyn yhteistyösopimukseen perustuvan opiskeluoikeuden perusteella suoritettu -->
 		<!-- 1.2.2023 koodi 18 lisätty -->
 		<xs:enumeration value="18"/> <!-- Opintosuoritus on Jatkuvan oppimisen ja työllisyyden palvelukeskuksen-rahoitetussa koulutuksessa suoritettu -->
+		<!-- 10.12.2025 koodi 19 lisätty -->
+		<xs:enumeration value="19"/> <!-- Täydennyskoulutuksessa suoritettu tutkinnon osa -->		
 		
 	</xs:restriction>
 </xs:simpleType>
