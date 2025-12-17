@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?> 
-<xs:schema version="1.06.95"
+<xs:schema version="1.06.96"
   attributeFormDefault="unqualified" 
   elementFormDefault="qualified"
   targetNamespace="urn:mace:funet.fi:virta/2015/09/01"
@@ -8,6 +8,8 @@
   xmlns:virta="urn:mace:funet.fi:virta/2015/09/01">  
     
 <!--  
+
+1.06.96 versio 17.12.2025 lisätty 22 kpl uutta Jotpa-asianumeroa
 
 1.06.95 versio on päivitetty 10.12.2025 OpintosuoritusLuokitteluKoodiTyyppi 19 = Täydennyskoulutuksessa suoritettu tutkinnon osa
 
@@ -12968,6 +12970,29 @@ ISOT / PITKÄT
 		<xs:enumeration value="va-jotpa-2025-4-5"/> <!-- va-jotpa-2025-4-5 - Tampereen ammattikorkeakoulu Oy - RoboStep: Valmistavan Teollisuuden Robotiikan Koulutusohjelma Suomessa -->
 		<xs:enumeration value="va-jotpa-2025-4-6"/> <!-- va-jotpa-2025-4-6 - Suomen Yrittäjäopisto Oy - Robotiikkaa arjen ammattilaisille -->
 		<xs:enumeration value="va-jotpa-2025-4-9"/> <!-- va-jotpa-2025-4-9 - Kajaanin Ammattikorkeakoulu Oy - Hankehakemus JOTPA robotiikka -->		
+		<!-- uusia 17.12.2025 -->
+		<xs:enumeration value="1/5229/2025"/> <!-- 1/5229/2025 - Double Round Oy - Turvepeltojen ilmastopäästöjen vähentäminen -->
+		<xs:enumeration value="va-jotpa-2025-5-11"/> <!-- va-jotpa-2025-5-11 - Etelä-Savon Koulutus Oy - Työpolku -->
+		<xs:enumeration value="va-jotpa-2025-5-15"/> <!-- va-jotpa-2025-5-15 - Hämeen ammattikorkeakoulu Oy - Urastartti - Työn ohessa sosionomiksi -->
+		<xs:enumeration value="va-jotpa-2025-5-16"/> <!-- va-jotpa-2025-5-16 - Jyväskylän Ammattikorkeakoulu Oy - Ammatillinen erityisopettaja -->
+		<xs:enumeration value="va-jotpa-2025-5-2"/> <!-- va-jotpa-2025-5-2 - Laurea-ammattikorkeakoulu Oy - Lähihoitajasta sairaanhoitajaksi työssä oppien 2.0 -->
+		<xs:enumeration value="va-jotpa-2025-5-4"/> <!-- va-jotpa-2025-5-4 - Metropolia Ammattikorkeakoulu Oy - Sosionomiopiskelijoiden työn ja opiskelun yhteensovittamisen vahvistaminen -->
+		<xs:enumeration value="va-jotpa-2025-5-6"/> <!-- va-jotpa-2025-5-6 - Laurea-ammattikorkeakoulu Oy - Työn ohessa opiskelun vahvistaminen/vakasosionomi 2 -->
+		<xs:enumeration value="va-jotpa-2025-5-9"/> <!-- va-jotpa-2025-5-9 - Jyväskylän yliopisto - ERMO - Erityisopettajakoulutuksen monimuotototeutus -->
+		<xs:enumeration value="va-jotpa-2025-6-1"/> <!-- va-jotpa-2025-6-1 - Jyväskylän Ammattikorkeakoulu Oy - Terveysteknologia osaaja -koulutuspaketti -->
+		<xs:enumeration value="va-jotpa-2025-6-10"/> <!-- va-jotpa-2025-6-10 - Länsirannikon Koulutus Oy - WinBalance - terveysteknologiaosaaja -->
+		<xs:enumeration value="va-jotpa-2025-6-13"/> <!-- va-jotpa-2025-6-13 - Turun kaupunki - MOTTO – Monialaisuutta Terveysteknologiaan Toiminnan ja Osaamisen kautta -->
+		<xs:enumeration value="va-jotpa-2025-6-15"/> <!-- va-jotpa-2025-6-15 - Aalto-korkeakoulusäätiö sr - FITech Health Technology -->
+		<xs:enumeration value="va-jotpa-2025-6-3"/> <!-- va-jotpa-2025-6-3 - Itä-Suomen yliopisto - Terveysteknologian avaintaidot (Key Skills of Health Technology) -->
+		<xs:enumeration value="va-jotpa-2025-6-4"/> <!-- va-jotpa-2025-6-4 - AEL-Amiedu Oy - Terveys- ja hyvinvointiteknologian osaajaksi Taitotalossa -->
+		<xs:enumeration value="va-jotpa-2025-6-5"/> <!-- va-jotpa-2025-6-5 - Metropolia Ammattikorkeakoulu Oy - Osaamista hyvinvointi- ja terveysteknologioiden arviointiin työelämän asiantuntijoille (HTA-Kasvu) -->
+		<xs:enumeration value="va-jotpa-2025-6-6"/> <!-- va-jotpa-2025-6-6 - Metropolia Ammattikorkeakoulu Oy - Teknologiaosaamista ikääntyneiden kotihoitoon -->
+		<xs:enumeration value="va-jotpa-2025-6-7"/> <!-- va-jotpa-2025-6-7 - Tampereen Aikuiskoulutussäätiö sr - Voimavaralähtöinen vuorovaikutus etähoivassa -->
+		<xs:enumeration value="va-jotpa-2025-6-8"/> <!-- va-jotpa-2025-6-8 - Karelia Ammattikorkeakoulu Oy - Terveys- ja hyvinvointivalmennus teknologiaa hyödyntäen -->
+		<xs:enumeration value="va-jotpa-2025-6-9"/> <!-- va-jotpa-2025-6-9 - Helsingin kaupunki - Terveysteknologian osaamista Stadiin -->
+		<xs:enumeration value="va-jotpa-2025-7-1"/> <!-- va-jotpa-2025-7-1 - Turun kaupunki - Työn ohessa joustavasti ammattiin ja urapoluille Varhassa -->
+		<xs:enumeration value="va-jotpa-2025-7-5"/> <!-- va-jotpa-2025-7-5 - Itä-Suomen yliopisto - Itä-Suomen yliopiston varhaiskasvatuksen koulutus -->
+		<xs:enumeration value="va-jotpa-2025-7-6"/> <!-- va-jotpa-2025-7-6 - Jyväskylän yliopisto - Varhaiskasvatuksen opettajien osaajapulaan vastaaminen (JOTPA/Vaka 2) -->		
 	</xs:restriction>
 </xs:simpleType>
 
