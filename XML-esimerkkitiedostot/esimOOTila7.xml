@@ -1,0 +1,36 @@
+<Opiskeluoikeus avain="555664_123456_A" opiskelijaAvain="1234">
+  <AlkuPvm>2022-08-01</AlkuPvm>
+  <LoppuPvm>2027-07-31</LoppuPvm>
+  <Tila>
+    <AlkuPvm>2022-08-01</AlkuPvm>
+    <LoppuPvm>2024-07-31</LoppuPvm>
+    <Koodi>1</Koodi>
+  </Tila>
+  <Tila>
+    <AlkuPvm>2024-08-01</AlkuPvm>
+    <LoppuPvm>2027-07-31</LoppuPvm>
+    <Koodi>4</Koodi>
+  </Tila>
+  <Tila>
+    <AlkuPvm>2027-08-01</AlkuPvm>
+    <Koodi>7</Koodi>
+  </Tila>
+  <Tyyppi>2</Tyyppi>
+  <Myontaja>10089</Myontaja>
+  <Jakso koulutusmoduulitunniste="ECT Bachelor's Degree Programme in Early Childhood Teacher Education">
+    <AlkuPvm>2022-08-01</AlkuPvm>
+    <LoppuPvm>2027-07-31</LoppuPvm>
+    <Koulutuskoodi>612101</Koulutuskoodi>
+    <Koulutuskunta>684</Koulutuskunta>
+    <Koulutuskieli>en</Koulutuskieli>
+    <Rahoituslahde>1</Rahoituslahde>
+    <Patevyys>og</Patevyys>
+    <Nimi kieli="fi">Bachelor's Degree Programme in Early Childhood Teacher Education</Nimi>
+    <Nimi kieli="sv">Bachelor's Degree Program in Early Childhood Teacher Education</Nimi>
+    <Nimi kieli="en">Bachelor's Degree Program in Early Childhood Teacher Education</Nimi>
+  </Jakso>
+  <Koulutusala versio="ohjausala">1</Koulutusala>
+  <Laajuus>
+    <Opintopiste>180</Opintopiste>
+  </Laajuus>
+</Opiskeluoikeus>
