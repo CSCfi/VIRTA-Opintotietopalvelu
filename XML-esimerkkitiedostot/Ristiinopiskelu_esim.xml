@@ -1,0 +1,134 @@
+<virta>
+
+<!-- 
+
+Ristiinopiskeluo esim, 
+Kotikorkeakoulu AMK opiskeloikeus TuAMK  (tyyppi 1)
+Ristiinopiskelu, Kotimainen opiskeluyhteistyö  opiskeluoikeus Metropoliassa (tyyppi 8)
+
+Hyväksiluettu suoritus TuAMKssa, alkuperäinen Metropoliassa
+
+-->
+
+<!-- AMK opiskeluoikeus TuAMK (opiskelijan kotikorkeakoulu) 
+ 
+<Tyyppi>1</Tyyppi>  
+
+-->
+
+<Opiskeluoikeus avain="2325252" opiskelijaAvain="191985">
+  <AlkuPvm>2023-08-30</AlkuPvm>
+  <LoppuPvm>2026-12-31</LoppuPvm>
+  <Tila>
+    <AlkuPvm>2023-08-30</AlkuPvm>
+    <Koodi>1</Koodi>
+  </Tila>
+  <Tyyppi>1</Tyyppi>
+  <Myontaja>02509</Myontaja>
+  <Jakso koulutusmoduulitunniste="LOGIST2 Liiketoiminnan logistiikan koulutus">
+    <AlkuPvm>2023-08-30</AlkuPvm>
+    <LoppuPvm>2026-12-31</LoppuPvm>
+    <Koulutuskoodi>631101</Koulutuskoodi>
+    <Koulutuskunta>853</Koulutuskunta>
+    <Koulutuskieli>fi</Koulutuskieli>
+    <Rahoituslahde>1</Rahoituslahde>
+    <Nimi kieli="fi">Liiketoiminnan logistiikan koulutus</Nimi>
+    <Nimi kieli="en">Degree Programme in Business Logistics</Nimi>
+  </Jakso>  
+  <Koulutusala versio="ohjausala">5</Koulutusala>
+  <Laajuus>
+    <Opintopiste>210</Opintopiste>
+  </Laajuus>
+</Opiskeluoikeus>
+
+
+<!--  Hyväksiluettu Opintosuoritus TuAMKissa (kotikorkeakoulussa) 
+
+ <HyvaksilukuPvm>2025-12-11</HyvaksilukuPvm> 
+
+ -->
+
+<Opintosuoritus avain="6679954" opiskeluoikeusAvain="2325252" opiskelijaAvain="191985" koulutusmoduulitunniste="MLILOS24 C-10065-XX00CH59-3020">
+  <SuoritusPvm>2025-12-11</SuoritusPvm>
+  <Laajuus>
+    <Opintopiste>5</Opintopiste>
+  </Laajuus>
+  <Arvosana>
+    <Viisiportainen>HYV</Viisiportainen>
+  </Arvosana>
+  <Myontaja>02509</Myontaja>
+  <Organisaatio>
+    <Rooli>3</Rooli>
+    <Koodi>10065</Koodi>
+    <Osuus>1</Osuus>
+  </Organisaatio>
+  <Laji>2</Laji>
+  <Nimi kieli="fi">Työssä hyvin, kaikki hyvin - Työhyvinvointi</Nimi>
+  <Kieli>fi</Kieli>
+  <Koulutusala>
+    <Koodi versio="ohjausala">11</Koodi>
+  </Koulutusala>
+  <HyvaksilukuPvm>2025-12-11</HyvaksilukuPvm>
+  <Opinnaytetyo>0</Opinnaytetyo>
+</Opintosuoritus>
+
+
+
+<!-- Ristiinopiskelu, Opiskeluoikeuden tyyppi Metropoliassa, 
+ 
+Kotimainen opiskeluyhteistyö  
+
+ <Tyyppi>8</Tyyppi>  
+-->
+
+<Opiskeluoikeus avain="2534566" opiskelijaAvain="232311">
+  <AlkuPvm>2025-08-27</AlkuPvm>
+  <LoppuPvm>2026-07-31</LoppuPvm>
+  <Tila>
+    <AlkuPvm>2025-08-27</AlkuPvm>
+    <Koodi>1</Koodi>
+  </Tila>
+  <Tyyppi>8</Tyyppi>
+  <Myontaja>10065</Myontaja>
+  <Jakso koulutusmoduulitunniste="RIPA Ristiinopiskelu">
+    <AlkuPvm>2025-08-27</AlkuPvm>
+    <LoppuPvm>2026-07-31</LoppuPvm>
+    <Koulutuskunta>091</Koulutuskunta>
+    <Koulutuskieli>fi</Koulutuskieli>
+    <Nimi kieli="fi">Ristiinopiskelu</Nimi>
+    <Nimi kieli="sv">Cross-Institutional Studies</Nimi>
+    <Nimi kieli="en">Cross-Institutional Studies</Nimi>
+  </Jakso>
+  <Koulutusala versio="ohjausala">8</Koulutusala>
+  <Laajuus>
+    <Opintopiste>0</Opintopiste>
+  </Laajuus>
+</Opiskeluoikeus>
+
+
+
+<!-- Ristiinopiskelu, Opintosuorituksen luokittelu   Metropoliassa  
+Kotimainen opiskeluyhteistyö <Luokittelu>3</Luokittelu> 
+3= Suoritus on korkeakoulujen välisen yhteistyösopimuksen perusteella myönnetyllä opiskeluoikeudella suoritettu  -->
+
+<Opintosuoritus avain="7740911" opiskeluoikeusAvain="2534566" opiskelijaAvain="232311" koulutusmoduulitunniste="XXX XX00CH59-3020">
+  <SuoritusPvm>2025-12-11</SuoritusPvm>
+  <Laajuus>
+    <Opintopiste>5</Opintopiste>
+  </Laajuus>
+  <Arvosana>
+    <Viisiportainen>HYV</Viisiportainen>
+  </Arvosana>
+  <Myontaja>10065</Myontaja>
+  <Laji>2</Laji>
+  <Nimi kieli="fi">Työssä hyvin, kaikki hyvin - Työhyvinvointi</Nimi>
+  <Nimi kieli="en">Workplace wellbeing</Nimi>
+  <Kieli>fi</Kieli>
+  <Koulutusala>
+    <Koodi versio="ohjausala">11</Koodi>
+  </Koulutusala>
+  <Opinnaytetyo>0</Opinnaytetyo>
+  <Luokittelu>3</Luokittelu>
+</Opintosuoritus>
+
+</virta>
