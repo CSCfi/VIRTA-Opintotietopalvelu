@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?> 
-<xs:schema version="1.06.96"
+<xs:schema version="1.06.97"
   attributeFormDefault="unqualified" 
   elementFormDefault="qualified"
   targetNamespace="urn:mace:funet.fi:virta/2015/09/01"
@@ -9,6 +9,7 @@
     
 <!--  
 
+1.06.97 versio 25.03.2026 lisätty 16 kpl uutta Jotpa-asianumeroa, 752501 Rakennusarkkitehti (ylempi AMK), oppilaitokset 03917 Saikkalan koulu, 03918 Ojapuiston koulu 
 1.06.96 versio 17.12.2025 lisätty 22 kpl uutta Jotpa-asianumeroa
 
 1.06.95 versio on päivitetty 10.12.2025 OpintosuoritusLuokitteluKoodiTyyppi 19 = Täydennyskoulutuksessa suoritettu tutkinnon osa
@@ -9560,6 +9561,9 @@ ISOT / PITKÄT
 		<!-- Uusia 24.11.2025 -->
 		<xs:enumeration value="03916"/> <!-- Keran koulu -->
 		<xs:enumeration value="09065"/> <!-- Keski-Uudenmaan Tanssiopisto -->
+		<!-- Uusia 25.03.2026 -->
+		<xs:enumeration value="03917"/> <!-- Saikkalan koulu -->
+		<xs:enumeration value="03918"/> <!-- Ojapuiston koulu -->		
 	</xs:restriction> 
 </xs:simpleType>
 
@@ -12300,8 +12304,8 @@ ISOT / PITKÄT
         <xs:enumeration value="772202"/> <!-- Hammaslääketieteen lisensiaatti (2025-) -->
 		<!-- Uusi 08.04.2025 -->
 		<xs:enumeration value="826116"/> <!-- Fil. toht., pohjoismaiset kielet -->
-
-
+		<!-- Uusi 25.03.2026 -->
+		<xs:enumeration value="752501"/> <!-- Rakennusarkkitehti (ylempi AMK) -->
 	</xs:restriction>
 </xs:simpleType>
 
@@ -12993,6 +12997,23 @@ ISOT / PITKÄT
 		<xs:enumeration value="va-jotpa-2025-7-1"/> <!-- va-jotpa-2025-7-1 - Turun kaupunki - Työn ohessa joustavasti ammattiin ja urapoluille Varhassa -->
 		<xs:enumeration value="va-jotpa-2025-7-5"/> <!-- va-jotpa-2025-7-5 - Itä-Suomen yliopisto - Itä-Suomen yliopiston varhaiskasvatuksen koulutus -->
 		<xs:enumeration value="va-jotpa-2025-7-6"/> <!-- va-jotpa-2025-7-6 - Jyväskylän yliopisto - Varhaiskasvatuksen opettajien osaajapulaan vastaaminen (JOTPA/Vaka 2) -->		
+		<xs:enumeration value="1/5407/2025"/> <!-- 1/5407/2025 - Aalto University Executive Education Oy - Kaivosteollisuuden sivu- ja jätevirtojen hyödyntäminen -->
+		<!-- uusia 25.03.2026 -->
+		<xs:enumeration value="10/5407/2025"/> <!-- 10/5407/2025 - Aalto University Executive Education Oy - Rakennusalan maa- ja kiviaineksen kiertotalouden perusteet -->
+		<xs:enumeration value="11/5407/2025"/> <!-- 11/5407/2025 - TTS Kehitys Oy - Rakennusalan maa- ja kiviaineksen kiertotalouden perusteet -->
+		<xs:enumeration value="12/5407/2025"/> <!-- 12/5407/2025 - Aava Bang Oy - Rakennusalan maa- ja kiviaineksen kiertotalouden perusteet -->
+		<xs:enumeration value="13/5407/2025"/> <!-- 13/5407/2025 - Motiva Services Oy - Rakennusalan maa- ja kiviaineksen kiertotalouden edistäminen julkisilla hankinnoilla -->
+		<xs:enumeration value="14/5407/2025"/> <!-- 14/5407/2025 - Y4 Works Oy - Rakennusalan maa- ja kiviaineksen kiertotalouden edistäminen julkisilla hankinnoilla -->
+		<xs:enumeration value="15/5407/2025"/> <!-- 15/5407/2025 - Aava Bang Oy - Rakennusalan maa- ja kiviaineksen kiertotalouden edistäminen julkisilla hankinnoilla -->
+		<xs:enumeration value="2/5407/2025"/> <!-- 2/5407/2025 - Kajaanin Ammattikorkeakoulu Oy - Kaivosteollisuuden sivu- ja jätevirtojen hyödyntäminen -->
+		<xs:enumeration value="3/5407/2025"/> <!-- 3/5407/2025 - Y4 Works Oy - Kaivosteollisuuden sivu- ja jätevirtojen hyödyntäminen -->
+		<xs:enumeration value="4/5407/2025"/> <!-- 4/5407/2025 - Aalto University Executive Education Oy - Kaivosalan kiertotalousratkaisujen innovointi ja tuotteistaminen kansallisille ja kansainvälisille markkinoille -->
+		<xs:enumeration value="5/5407/2025"/> <!-- 5/5407/2025 - Kajaanin Ammattikorkeakoulu Oy - Kaivosalan kiertotalousratkaisujen innovointi ja tuotteistaminen kansallisille ja kansainvälisille markkinoille -->
+		<xs:enumeration value="6/5407/2025"/> <!-- 6/5407/2025 - Y4 Works Oy - Kaivosalan kiertotalousratkaisujen innovointi ja tuotteistaminen kansallisille ja kansainvälisille markkinoille -->
+		<xs:enumeration value="7/5407/2025"/> <!-- 7/5407/2025 - REDU Edu Oy - Kaivoksen sulkeminen, ennallistaminen ja maisemointi -->
+		<xs:enumeration value="8/5407/2025"/> <!-- 8/5407/2025 - Double Round Oy - Kaivoksen sulkeminen, ennallistaminen ja maisemointi -->
+		<xs:enumeration value="9/5407/2025"/> <!-- 9/5407/2025 - Ramboll Finland Oy - Kaivoksen sulkeminen, ennallistaminen ja maisemointi -->
+		<xs:enumeration value="va-jotpa-2025-7-7"/> <!-- va-jotpa-2025-7-7 - Kajaanin Ammattikorkeakoulu Oy - Sujuvasti sosionomiksi -->		
 	</xs:restriction>
 </xs:simpleType>
 
