@@ -1,0 +1,23 @@
+<Opintosuoritus avain="ATTAINMENT-otm-ad1d11ba-1f11-1ff1" opiskelijaAvain="hlo-11889" koulutusmoduulitunniste="DEGREE-PROGRAMME-otm-81d3520e-51cb" opiskeluoikeusAvain="opinoik-114000">
+  <SuoritusPvm>2026-03-02</SuoritusPvm>
+  <Laajuus>
+    <Opintopiste>362</Opintopiste>
+  </Laajuus>
+  <Arvosana>
+    <Hyvaksytty>HYV</Hyvaksytty>
+  </Arvosana>
+  <Myontaja>01901</Myontaja>
+  <Laji>1</Laji>
+  <Nimi kieli="fi">Lääketieteen koulutusohjelma</Nimi>
+  <Nimi kieli="en">Degree Programme in Medicine</Nimi>
+  <Nimi kieli="sv">Utbildningsprogrammet i medicin</Nimi>
+  <Kieli>fi</Kieli>
+  <Koulutuskoodi>772101</Koulutuskoodi>
+  <Koulutusala>
+    <Koodi versio="ohjausala">10</Koodi>
+    <Osuus>1</Osuus>
+  </Koulutusala>
+  <Sisaltyvyys sisaltyvaOpintosuoritusAvain="ATTAINMENT-otm-1bfc111d-1cdb-11f351">
+    <Opintopiste>362</Opintopiste>
+  </Sisaltyvyys>
+</Opintosuoritus>

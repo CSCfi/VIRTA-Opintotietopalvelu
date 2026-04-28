@@ -1,0 +1,25 @@
+<Opiskeluoikeus avain="Y63636363" opiskelijaAvain="12456">
+  <AlkuPvm>2020-08-01</AlkuPvm>
+  <LoppuPvm>2029-07-31</LoppuPvm>
+  <Tila>
+    <AlkuPvm>2020-08-01</AlkuPvm>
+    <Koodi>1</Koodi>
+  </Tila>
+  <Tyyppi>4</Tyyppi>
+  <Myontaja>01904</Myontaja>
+  <Jakso koulutusmoduulitunniste="KY2021 Lääketieteen tutkinto-ohjelma">
+    <AlkuPvm>2020-08-01</AlkuPvm>
+    <LoppuPvm>2029-07-31</LoppuPvm>
+    <Koulutuskoodi>772101</Koulutuskoodi>
+    <Koulutuskunta>564</Koulutuskunta>
+    <Koulutuskieli>fi</Koulutuskieli>
+    <Rahoituslahde>1</Rahoituslahde>
+    <Patevyys>ll4</Patevyys>
+    <Nimi kieli="fi">Lääketieteen tutkinto-ohjelma</Nimi>
+    <Nimi kieli="en">Degree Programme in Medicine</Nimi>
+  </Jakso>
+  <Koulutusala versio="ohjausala">10</Koulutusala>
+  <Laajuus>
+    <Opintopiste>360</Opintopiste>
+  </Laajuus>
+</Opiskeluoikeus>
