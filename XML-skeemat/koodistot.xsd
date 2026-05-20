@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?> 
-<xs:schema version="1.06.98"
+<xs:schema version="1.06.99"
   attributeFormDefault="unqualified" 
   elementFormDefault="qualified"
   targetNamespace="urn:mace:funet.fi:virta/2015/09/01"
@@ -9,6 +9,9 @@
     
 <!--  
 
+1.06.99 versio 20.05.2026 lisätty Opiskeluoikeuden tila 7 "päättynyt yhden opiskeluoikeuden säännöksen johdosta", muuutettu selite tila 6 "määräaika päättynyt" sekä tila 5 "luopunut tai pysyvästi päättynyt",
+			Uusia oppilaitosnumeroita 03919 Jääkärinkankaan koulu, 09044 Sydkustens ordkonstskola
+			15 kpl uutta Jotpa asianumeroa
 1.06.98 versio 25.04.2026 lisätty 11 kpl uutta Jotpa-asianumeroa
 1.06.97 versio 25.03.2026 lisätty 16 kpl uutta Jotpa-asianumeroa, 752501 Rakennusarkkitehti (ylempi AMK), oppilaitokset 03917 Saikkalan koulu, 03918 Ojapuiston koulu 
 1.06.96 versio 17.12.2025 lisätty 22 kpl uutta Jotpa-asianumeroa
@@ -807,9 +810,12 @@ OPISKELUOIKEUS
 		<xs:enumeration value="2"/> <!-- optio -->
 		<xs:enumeration value="3"/> <!-- valmistunut -->
 		<xs:enumeration value="4"/> <!-- passivoitu -->
-		<xs:enumeration value="5"/> <!-- luopunut -->
+		<xs:enumeration value="5"/> <!-- 20.5.2026 "päättynyt" : luopunut tai pysyvästi päättynyt -->
 		<!-- 29.5.2023 koodi 6 lisätty, selite päättynyt ja 3 koodilla selite valmistunut -->
-		<xs:enumeration value="6"/> <!-- päättynyt -->
+		<!-- 20.5.2026: "määräaika päättynyt" -->
+		<xs:enumeration value="6"/> <!-- määräaika päättynyt -->
+		<!-- 20.5.2026 koodi 7 lisätty -->
+		<xs:enumeration value="7"/> <!-- päättynyt yhden opiskeluoikeuden säännöksen johdosta -->
 	</xs:restriction>
 </xs:simpleType>
 
@@ -9565,7 +9571,10 @@ ISOT / PITKÄT
 		<!-- Uusia 25.03.2026 -->
 		<xs:enumeration value="03917"/> <!-- Saikkalan koulu -->
 		<xs:enumeration value="03918"/> <!-- Ojapuiston koulu -->		
-	</xs:restriction> 
+		<!-- Uusi 20.05.2026 -->
+		<xs:enumeration value="03919"/> <!-- Jääkärinkankaan koulu -->
+		<xs:enumeration value="09044"/> <!-- Sydkustens ordkonstskola -->		
+	</xs:restriction>
 </xs:simpleType>
 
 
@@ -13027,6 +13036,22 @@ ISOT / PITKÄT
 		<xs:enumeration value="8/7690/2025"/> <!-- 8/7690/2025 - Y4 Works Oy - Turvallisuus teollisuusrobotiikassa -->
 		<xs:enumeration value="9/7690/2025"/> <!-- 9/7690/2025 - Turun ammattikorkeakoulu Oy - Teollisuusrobotiikan hankinta pienissä ja keskisuurissa yrityksissä -->
 		<xs:enumeration value="va-jotpa-2025-7-9"/> <!-- va-jotpa-2025-7-9 - Jyväskylän yliopisto - ERKO - Erilliset erityisopettajaopinnot Kokkolan yliopistokeskus Chydenius -->
+		<!-- uusia 20.05.2026 -->
+		<xs:enumeration value="va-jotpa-2025-7-10"/> <!-- va-jotpa-2025-7-10 - Suomen Diakoniaopisto - SDO Oy - SDO - Opiskele työn ohessa! -->
+		<xs:enumeration value="va-jotpa-2025-7-11"/> <!-- va-jotpa-2025-7-11 - Rovaniemen Koulutuskuntayhtymä - SotePro - Joustavaa oppimista työhön -->
+		<xs:enumeration value="va-jotpa-2025-7-12"/> <!-- va-jotpa-2025-7-12 - Oy Vaasan ammattikorkeakoulu Ab - Osaamista varhaiskasvatukseen! -Vaka-sosionomiksi työn ohessa (OSAVO) -hanke -->
+		<xs:enumeration value="va-jotpa-2025-7-13"/> <!-- va-jotpa-2025-7-13 - Laurea-ammattikorkeakoulu Oy - Työn ohessa opiskelun vahvistaminen/vakasosionomi 3 -->
+		<xs:enumeration value="va-jotpa-2025-7-14"/> <!-- va-jotpa-2025-7-14 - Centria-ammattikorkeakoulu Oy - Joustavuutta opiskeluun - Vodcastit opintojen ja harjoittelun tukena -->
+		<xs:enumeration value="va-jotpa-2026-1-11"/> <!-- va-jotpa-2026-1-11 - Kajaanin Ammattikorkeakoulu Oy - Luovan alan hankeavustus -->
+		<xs:enumeration value="va-jotpa-2026-1-16"/> <!-- va-jotpa-2026-1-16 - Aalto-korkeakoulusäätiö sr - Future Competencies for Architects and Landscape Architects -->
+		<xs:enumeration value="va-jotpa-2026-1-2"/> <!-- va-jotpa-2026-1-2 - Savonia-ammattikorkeakoulu oy - LUMO- Lumovoimaa monialaisesti -->
+		<xs:enumeration value="va-jotpa-2026-1-20"/> <!-- va-jotpa-2026-1-20 - Hämeen ammattikorkeakoulu Oy - Luovan talouden kasvustrategia -->
+		<xs:enumeration value="va-jotpa-2026-1-22"/> <!-- va-jotpa-2026-1-22 - Laurea-ammattikorkeakoulu Oy - LUOVA KASVU – Yrittäjyys, liiketoiminta ja resilienssi luovilla aloilla -->
+		<xs:enumeration value="va-jotpa-2026-1-25"/> <!-- va-jotpa-2026-1-25 - Kaakkois-Suomen Ammattikorkeakoulu - Virtuaalituotantojen ja virtuaalitoteutusten hyödyntäminen luovilla aloilla -->
+		<xs:enumeration value="va-jotpa-2026-1-27"/> <!-- va-jotpa-2026-1-27 - Metropolia Ammattikorkeakoulu Oy - IndiExport - AI-avusteisen vientiosaamisen koulutusmalli -->
+		<xs:enumeration value="va-jotpa-2026-1-29"/> <!-- va-jotpa-2026-1-29 - Hyria koulutus Oy - Luova luova! Jatkuvan oppimisen palvelukokonaisuus -->
+		<xs:enumeration value="va-jotpa-2026-1-33"/> <!-- va-jotpa-2026-1-33 - Taideyliopisto - LUOVAKAS – Jatkuva oppiminen luovan alan kasvun moottorina -->
+		<xs:enumeration value="va-jotpa-2026-1-6"/> <!-- va-jotpa-2026-1-6 - Turun ammattikorkeakoulu Oy - Arkkitehtuurin ja luovan suunnittelun tekoälypohjainen osaamisloikka jatkuvassa oppimisessa -->		
 	</xs:restriction>
 </xs:simpleType>
 
