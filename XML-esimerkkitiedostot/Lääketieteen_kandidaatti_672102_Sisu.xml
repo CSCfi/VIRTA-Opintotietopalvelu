@@ -1,0 +1,27 @@
+<Opiskeluoikeus avain="otm-536f_PHASE1" opiskelijaAvain="otm-4552-xxxe-208d4xc">
+  <AlkuPvm>2025-08-01</AlkuPvm>
+  <LoppuPvm>2033-07-31</LoppuPvm>
+  <Tila>
+    <AlkuPvm>2025-08-01</AlkuPvm>
+    <Koodi>1</Koodi>
+  </Tila>
+  <Tyyppi>2</Tyyppi>
+  <Myontaja>10122</Myontaja>
+  <Jakso koulutusmoduulitunniste="otm-1a1c080c650b/default/otm-827caxc333-20b6c242f96f">
+    <AlkuPvm>2025-08-01</AlkuPvm>
+    <Koulutuskoodi>672102</Koulutuskoodi>
+    <Koulutuskunta>837</Koulutuskunta>
+    <Rahoituslahde>1</Rahoituslahde>
+    <Nimi kieli="fi">Lääketieteen koulutus, Lääketieteen kandidaattiohjelma</Nimi>
+    <Nimi kieli="sv">Lääketieteen koulutus, Lääketieteen kandidaattiohjelma</Nimi>
+    <Nimi kieli="en">Degree Education in Medicine, Bachelor’s Programme in Medicine</Nimi>
+  </Jakso>
+  <Ensisijaisuus>
+    <AlkuPvm>2025-08-01</AlkuPvm>
+  </Ensisijaisuus>
+  <Liittyvyys liittyvaOpiskeluoikeusAvain="otm-536f_PHASE2" />
+  <Laajuus>
+    <Opintopiste>180</Opintopiste>
+  </Laajuus>
+</Opiskeluoikeus>
+

@@ -1,0 +1,26 @@
+<Opiskeluoikeus avain="253545555" opiskelijaAvain="12345">
+  <AlkuPvm>2025-08-01</AlkuPvm>
+  <LoppuPvm>2030-07-31</LoppuPvm>
+  <Tila>
+    <AlkuPvm>2025-08-01</AlkuPvm>
+    <Koodi>1</Koodi>
+  </Tila>
+  <Tyyppi>4</Tyyppi>
+  <Myontaja>10089</Myontaja>
+  <Jakso koulutusmoduulitunniste="KM Kasvatustieteiden tutkinto-ohjelma (KM)">
+    <AlkuPvm>2025-08-01</AlkuPvm>
+    <LoppuPvm>2030-07-31</LoppuPvm>
+    <Koulutuskoodi>712201</Koulutuskoodi>
+    <Koulutuskunta>853</Koulutuskunta>
+    <Koulutuskieli>fi</Koulutuskieli>
+    <Rahoituslahde>1</Rahoituslahde>
+    <Luokittelu>5</Luokittelu>
+    <Nimi kieli="fi">Kasvatustieteiden tutkinto-ohjelma (KM)</Nimi>
+    <Nimi kieli="sv">Degree Programme in Educational Sciences (MA Ed.)</Nimi>
+    <Nimi kieli="en">Degree Programme in Educational Sciences (MA Ed.)</Nimi>
+  </Jakso>
+  <Koulutusala versio="ohjausala">1</Koulutusala>
+  <Laajuus>
+    <Opintopiste>120</Opintopiste>
+  </Laajuus>
+</Opiskeluoikeus>

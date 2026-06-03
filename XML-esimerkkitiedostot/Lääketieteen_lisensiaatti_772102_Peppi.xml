@@ -1,0 +1,20 @@
+<Opiskeluoikeus avain="25666_Y" opiskelijaAvain="272723">
+  <AlkuPvm>2025-08-01</AlkuPvm>
+  <Tila>
+    <AlkuPvm>2025-08-01</AlkuPvm>
+    <Koodi>2</Koodi>
+  </Tila>
+  <Tyyppi>4</Tyyppi>
+  <Myontaja>10089</Myontaja>
+  <Jakso koulutusmoduulitunniste="">
+    <AlkuPvm>2025-08-01</AlkuPvm>
+    <Koulutuskoodi>772102</Koulutuskoodi>
+    <Koulutuskunta>999</Koulutuskunta>
+    <Koulutuskieli>fi</Koulutuskieli>
+  </Jakso>
+  <Koulutusala versio="ohjausala">10</Koulutusala>
+  <Liittyvyys liittyvaOpiskeluoikeusAvain="2506665" />
+  <Laajuus>
+    <Opintopiste>180</Opintopiste>
+  </Laajuus>
+</Opiskeluoikeus>

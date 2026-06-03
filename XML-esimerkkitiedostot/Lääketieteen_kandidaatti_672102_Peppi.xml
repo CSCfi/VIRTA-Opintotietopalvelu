@@ -1,0 +1,26 @@
+<Opiskeluoikeus avain="2506665" opiskelijaAvain="272723">
+  <AlkuPvm>2025-08-01</AlkuPvm>
+  <LoppuPvm>2033-07-31</LoppuPvm>
+  <Tila>
+    <AlkuPvm>2025-08-01</AlkuPvm>
+    <Koodi>1</Koodi>
+  </Tila>
+  <Tyyppi>2</Tyyppi>
+  <Myontaja>10089</Myontaja>
+  <Jakso koulutusmoduulitunniste="LKTO Lääketieteen tutkinto-ohjelma (LK)">
+    <AlkuPvm>2025-08-01</AlkuPvm>
+    <LoppuPvm>2033-07-31</LoppuPvm>
+    <Koulutuskoodi>672102</Koulutuskoodi>
+    <Koulutuskunta>853</Koulutuskunta>
+    <Koulutuskieli>fi</Koulutuskieli>
+    <Rahoituslahde>1</Rahoituslahde>
+    <Nimi kieli="fi">Lääketieteen tutkinto-ohjelma (LK)</Nimi>
+    <Nimi kieli="sv">Degree Programme in Medicine</Nimi>
+    <Nimi kieli="en">Degree Programme in Medicine</Nimi>
+  </Jakso>
+  <Koulutusala versio="ohjausala">10</Koulutusala>
+  <Liittyvyys liittyvaOpiskeluoikeusAvain="25666_Y" />
+  <Laajuus>
+    <Opintopiste>180</Opintopiste>
+  </Laajuus>
+</Opiskeluoikeus>
