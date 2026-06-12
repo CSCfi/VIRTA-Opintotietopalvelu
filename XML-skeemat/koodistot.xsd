@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?> 
-<xs:schema version="1.06.99"
+<xs:schema version="1.06.100"
   attributeFormDefault="unqualified" 
   elementFormDefault="qualified"
   targetNamespace="urn:mace:funet.fi:virta/2015/09/01"
@@ -8,6 +8,8 @@
   xmlns:virta="urn:mace:funet.fi:virta/2015/09/01">  
     
 <!--  
+
+1.06.100 versio 12.06.2026 lisätty koulutuskoodit 750305 Insinööri (ylempi AMK) energiatekniikka, 750306 Insinööri (ylempi AMK) sähkötekniikka, oppilaitosnumero 03920 Petäjäveden yhtenäiskoulu, erikoistumiskoulutuskoodi 085 Mahdollisuuksien musiikkipedagogiikka
 
 1.06.99 versio 20.05.2026 lisätty Opiskeluoikeuden tila 7 "päättynyt yhden opiskeluoikeuden säännöksen johdosta", muuutettu selite tila 6 "määräaika päättynyt" sekä tila 5 "luopunut tai pysyvästi päättynyt",
 			Uusia oppilaitosnumeroita 03919 Jääkärinkankaan koulu, 09044 Sydkustens ordkonstskola
@@ -715,6 +717,8 @@ YLEISET KOODISTOT
 		<xs:enumeration value="083"/> <!-- Kuntajohdon erikoistumiskoulutus, oikeudellisen osaamisen kehittäminen -->
 		<!-- uusi 24.11.2025 -->
 		<xs:enumeration value="084"/> <!-- Pelialan liiketoiminta ja sen kehittäminen -->
+		<!-- uusi 12.06.2026 -->
+		<xs:enumeration value="085"/> <!-- Mahdollisuuksien musiikkipedagogiikka -->
 	</xs:restriction>
 </xs:simpleType>
 
@@ -9573,7 +9577,9 @@ ISOT / PITKÄT
 		<xs:enumeration value="03918"/> <!-- Ojapuiston koulu -->		
 		<!-- Uusi 20.05.2026 -->
 		<xs:enumeration value="03919"/> <!-- Jääkärinkankaan koulu -->
-		<xs:enumeration value="09044"/> <!-- Sydkustens ordkonstskola -->		
+		<xs:enumeration value="09044"/> <!-- Sydkustens ordkonstskola -->
+		<!-- Uusi 12.06.2026 -->
+		<xs:enumeration value="03920"/> <!-- Petäjäveden yhtenäiskoulu -->
 	</xs:restriction>
 </xs:simpleType>
 
@@ -12316,6 +12322,9 @@ ISOT / PITKÄT
 		<xs:enumeration value="826116"/> <!-- Fil. toht., pohjoismaiset kielet -->
 		<!-- Uusi 25.03.2026 -->
 		<xs:enumeration value="752501"/> <!-- Rakennusarkkitehti (ylempi AMK) -->
+		<!-- Uusi 12.06.2026 -->
+		<xs:enumeration value="750305"/> <!-- Insinööri (ylempi AMK) energiatekniikka -->
+		<xs:enumeration value="750306"/> <!-- Insinööri (ylempi AMK) sähkötekniikka -->		
 	</xs:restriction>
 </xs:simpleType>
 
