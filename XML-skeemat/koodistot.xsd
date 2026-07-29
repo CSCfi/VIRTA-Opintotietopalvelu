@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?> 
-<xs:schema version="1.06.100"
+<xs:schema version="1.06.101"
   attributeFormDefault="unqualified" 
   elementFormDefault="qualified"
   targetNamespace="urn:mace:funet.fi:virta/2015/09/01"
@@ -8,6 +8,8 @@
   xmlns:virta="urn:mace:funet.fi:virta/2015/09/01">  
     
 <!--  
+
+1.06.101 versio 29.07.2026 lisätty 23 uutta Jotpa-asianumeroa. Yksi uusi erikoistumikoulutuskoodi 086 Taideasiantuntijan erikoistumiskoulutus (taiteen vapaan kentän asiantuntija ja kehittäjä)	
 
 1.06.100 versio 12.06.2026 lisätty koulutuskoodit 750305 Insinööri (ylempi AMK) energiatekniikka, 750306 Insinööri (ylempi AMK) sähkötekniikka, oppilaitosnumero 03920 Petäjäveden yhtenäiskoulu, erikoistumiskoulutuskoodi 085 Mahdollisuuksien musiikkipedagogiikka
 
@@ -719,6 +721,8 @@ YLEISET KOODISTOT
 		<xs:enumeration value="084"/> <!-- Pelialan liiketoiminta ja sen kehittäminen -->
 		<!-- uusi 12.06.2026 -->
 		<xs:enumeration value="085"/> <!-- Mahdollisuuksien musiikkipedagogiikka -->
+		<!-- uusi 29.07.2026 -->
+		<xs:enumeration value="086"/> <!-- Taideasiantuntijan erikoistumiskoulutus (taiteen vapaan kentän asiantuntija ja kehittäjä) -->
 	</xs:restriction>
 </xs:simpleType>
 
@@ -13061,6 +13065,30 @@ ISOT / PITKÄT
 		<xs:enumeration value="va-jotpa-2026-1-29"/> <!-- va-jotpa-2026-1-29 - Hyria koulutus Oy - Luova luova! Jatkuvan oppimisen palvelukokonaisuus -->
 		<xs:enumeration value="va-jotpa-2026-1-33"/> <!-- va-jotpa-2026-1-33 - Taideyliopisto - LUOVAKAS – Jatkuva oppiminen luovan alan kasvun moottorina -->
 		<xs:enumeration value="va-jotpa-2026-1-6"/> <!-- va-jotpa-2026-1-6 - Turun ammattikorkeakoulu Oy - Arkkitehtuurin ja luovan suunnittelun tekoälypohjainen osaamisloikka jatkuvassa oppimisessa -->		
+		<!-- uusia 29.07.2026 -->
+		<xs:enumeration value="va-jotpa-2025-7-17"/> <!-- va-jotpa-2025-7-17 - Oulun Ammattikorkeakoulu Oy - Sosionomiksi päiväkodissa -->
+		<xs:enumeration value="va-jotpa-2025-7-18"/> <!-- va-jotpa-2025-7-18 - Oulun Ammattikorkeakoulu Oy - OTO III - Opi Työssä Osaajaksi -->
+		<xs:enumeration value="va-jotpa-2025-7-19"/> <!-- va-jotpa-2025-7-19 - Hämeen ammattikorkeakoulu Oy - Ammatillinen erityisopettaja 2 – työnohessa opiskelun vahvistaminen -->
+		<xs:enumeration value="va-jotpa-2025-7-20"/> <!-- va-jotpa-2025-7-20 - Tampereen korkeakoulusäätiö sr - ERKKA/VAKA työn ohessa opiskelun vahvistaminen -->
+		<xs:enumeration value="va-jotpa-2025-7-22"/> <!-- va-jotpa-2025-7-22 - Laurea-ammattikorkeakoulu Oy - Lähihoitajasta sairaanhoitajaksi työssä oppien 3.0 -->
+		<xs:enumeration value="va-jotpa-2025-7-23"/> <!-- va-jotpa-2025-7-23 - Jyväskylän Ammattikorkeakoulu Oy - Työelämälähtöisen opiskelijapolun kehittäminen ammatillisessa erityisopettajankoulutuksessa -->
+		<xs:enumeration value="va-jotpa-2025-7-25"/> <!-- va-jotpa-2025-7-25 - Turun kaupunki - Työn ohessa joustavasti ammattiin ja urapoluille Varhassa II -->
+		<xs:enumeration value="va-jotpa-2026-3-11"/> <!-- va-jotpa-2026-3-11 - Savonia-ammattikorkeakoulu oy - SUMU- Suuret muovitulosteet -->
+		<xs:enumeration value="va-jotpa-2026-3-12"/> <!-- va-jotpa-2026-3-12 - Savonia-ammattikorkeakoulu oy - CTOC - Kestävä digitaalinen suunnittelu ja valmistus -->
+		<xs:enumeration value="va-jotpa-2026-3-13"/> <!-- va-jotpa-2026-3-13 - Länsirannikon Koulutus Oy - WinNova WorkCAM – Käytännön CAD/CAM-osaamista metallialan tekijöille -->
+		<xs:enumeration value="va-jotpa-2026-3-18"/> <!-- va-jotpa-2026-3-18 - AEL-Amiedu Oy - Kestävän tuotannon digitalisaatio ja energiadataan perustuva optimointi -->
+		<xs:enumeration value="va-jotpa-2026-3-2"/> <!-- va-jotpa-2026-3-2 - Suomen Yrittäjäopisto Oy - Digitaalinen tuotanto ja valmistus -->
+		<xs:enumeration value="va-jotpa-2026-3-20"/> <!-- va-jotpa-2026-3-20 - Metropolia Ammattikorkeakoulu Oy - Digitaalinen TuotantoPolku - osaamista teollisuuden digitaalisiin tuotantoprosesseihin -->
+		<xs:enumeration value="va-jotpa-2026-3-21"/> <!-- va-jotpa-2026-3-21 - Tampereen Aikuiskoulutussäätiö sr - Modernien teknologioiden taitaja -->
+		<xs:enumeration value="va-jotpa-2026-3-23"/> <!-- va-jotpa-2026-3-23 - Hyria koulutus Oy - Suunnitelmasta sorville - koulutusmalli tuotannon digitalisaation kehittämiseen -->
+		<xs:enumeration value="va-jotpa-2026-3-26"/> <!-- va-jotpa-2026-3-26 - Lab-ammattikorkeakoulu Oy - Digitaalisen valmistuksen osaamispolku pk-teollisuudelle -->
+		<xs:enumeration value="va-jotpa-2026-3-3"/> <!-- va-jotpa-2026-3-3 - Jyväskylän Ammattikorkeakoulu Oy - Digital Lean – Kun data muuttuu tuottavuudeksi -->
+		<xs:enumeration value="va-jotpa-2026-3-4"/> <!-- va-jotpa-2026-3-4 - Koulutuskuntayhtymä OSAO - Joustavat osaamispolut digitaaliseen valmistukseen -->
+		<xs:enumeration value="va-jotpa-2026-3-5"/> <!-- va-jotpa-2026-3-5 - Koulutuskuntayhtymä Tavastia - Modernit valmistusmenetelmät Kanta-Hämeessä -->
+		<xs:enumeration value="va-jotpa-2026-3-6"/> <!-- va-jotpa-2026-3-6 - Oulun Ammattikorkeakoulu Oy - Digitaalinen ja kestävä valmistus -->
+		<xs:enumeration value="va-jotpa-2026-3-7"/> <!-- va-jotpa-2026-3-7 - Vaasan kaupunki - Vamia Smart Manufacturing – osaamista digitaaliseen valmistukseen -->
+		<xs:enumeration value="va-jotpa-2026-3-8"/> <!-- va-jotpa-2026-3-8 - Seinäjoen koulutuskuntayhtymä Sedu - DITUVA - Digitaalisia valmiuksia tuotantoon ja valmistukseen -->
+		<xs:enumeration value="va-jotpa-2026-3-9"/> <!-- va-jotpa-2026-3-9 - Tampereen ammattikorkeakoulu Oy - 3D4ALL -->
 	</xs:restriction>
 </xs:simpleType>
 
