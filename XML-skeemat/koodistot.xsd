@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?> 
-<xs:schema version="1.06.101"
+<xs:schema version="1.06.102"
   attributeFormDefault="unqualified" 
   elementFormDefault="qualified"
   targetNamespace="urn:mace:funet.fi:virta/2015/09/01"
@@ -8,6 +8,8 @@
   xmlns:virta="urn:mace:funet.fi:virta/2015/09/01">  
     
 <!--  
+
+1.06.102 versio 14.09.2026 lisätty 47 uutta Jotpa-asianumeroa. Yksi uusi erikoistumikoulutuskoodi 087 Rakennetun kulttuuriperinnön restauroinnin ja hoidon erikoistumiskoulutus, 2 oppilaitosnumeroa 03921 Hermannin peruskoulu 03922 Postipuiston peruskoulu
 
 1.06.101 versio 29.07.2026 lisätty 23 uutta Jotpa-asianumeroa. Yksi uusi erikoistumikoulutuskoodi 086 Taideasiantuntijan erikoistumiskoulutus (taiteen vapaan kentän asiantuntija ja kehittäjä)	
 
@@ -723,6 +725,8 @@ YLEISET KOODISTOT
 		<xs:enumeration value="085"/> <!-- Mahdollisuuksien musiikkipedagogiikka -->
 		<!-- uusi 29.07.2026 -->
 		<xs:enumeration value="086"/> <!-- Taideasiantuntijan erikoistumiskoulutus (taiteen vapaan kentän asiantuntija ja kehittäjä) -->
+		<!-- uusi 14.09.2026 -->
+		<xs:enumeration value="087"/> <!-- Rakennetun kulttuuriperinnön restauroinnin ja hoidon erikoistumiskoulutus -->
 	</xs:restriction>
 </xs:simpleType>
 
@@ -9584,6 +9588,9 @@ ISOT / PITKÄT
 		<xs:enumeration value="09044"/> <!-- Sydkustens ordkonstskola -->
 		<!-- Uusi 12.06.2026 -->
 		<xs:enumeration value="03920"/> <!-- Petäjäveden yhtenäiskoulu -->
+		<!-- Uusia 14.09.2026 -->
+		<xs:enumeration value="03921"/> <!-- Hermannin peruskoulu -->
+		<xs:enumeration value="03922"/> <!-- Postipuiston peruskoulu -->		
 	</xs:restriction>
 </xs:simpleType>
 
@@ -13089,6 +13096,54 @@ ISOT / PITKÄT
 		<xs:enumeration value="va-jotpa-2026-3-7"/> <!-- va-jotpa-2026-3-7 - Vaasan kaupunki - Vamia Smart Manufacturing – osaamista digitaaliseen valmistukseen -->
 		<xs:enumeration value="va-jotpa-2026-3-8"/> <!-- va-jotpa-2026-3-8 - Seinäjoen koulutuskuntayhtymä Sedu - DITUVA - Digitaalisia valmiuksia tuotantoon ja valmistukseen -->
 		<xs:enumeration value="va-jotpa-2026-3-9"/> <!-- va-jotpa-2026-3-9 - Tampereen ammattikorkeakoulu Oy - 3D4ALL -->
+		<!-- uusia 14.09.2026 10 + 37 kpl -->		
+		<xs:enumeration value="1/916/2026"/> <!-- 1/916/2026 - Aava Bang Oy - Teollisen mittakaavan aurinkovoima: perusteet, sääntely ja kannattavuus -->
+		<xs:enumeration value="10/916/2026"/> <!-- 10/916/2026 - Aava Bang Oy - Teollisen mittakaavan energiatehokkuuden parantaminen -->
+		<xs:enumeration value="2/916/2026"/> <!-- 2/916/2026 - Turun ammattikorkeakoulu Oy - Teollisen mittakaavan aurinkovoima: perusteet, sääntely ja kannattavuus -->
+		<xs:enumeration value="3/916/2026"/> <!-- 3/916/2026 - Double Round Oy - Aurinkopuistojen suunnittelu ja hybridiprojektit -->
+		<xs:enumeration value="4/916/2026"/> <!-- 4/916/2026 - Turun ammattikorkeakoulu Oy - Aurinkopuistojen suunnittelu ja hybridiprojektit -->
+		<xs:enumeration value="5/916/2026"/> <!-- 5/916/2026 - Double Round Oy - Käyttö- ja ylläpito-osaaminen teollisen mittakaavan aurinkopuistoissa -->
+		<xs:enumeration value="6/916/2026"/> <!-- 6/916/2026 - Turun ammattikorkeakoulu Oy - Käyttö- ja ylläpito-osaaminen teollisen mittakaavan aurinkopuistoissa -->
+		<xs:enumeration value="7/916/2026"/> <!-- 7/916/2026 - Aava Bang Oy - Teollisen mittakaavan energiatehokkuus: sääntely, kannattavuus ja investoinnit -->
+		<xs:enumeration value="8/916/2026"/> <!-- 8/916/2026 - Turun ammattikorkeakoulu Oy - Teollisen mittakaavan energiatehokkuus: sääntely, kannattavuus ja investoinnit -->
+		<xs:enumeration value="9/916/2026"/> <!-- 9/916/2026 - Aalto University Executive Education Oy - Teollisen mittakaavan energiatehokkuuden parantaminen -->
+		<xs:enumeration value="1/711/2026"/> <!-- 1/711/2026 - Aalto University Executive Education Oy - Terveysteknologian tuotekehitys -->
+		<xs:enumeration value="10/711/2026"/> <!-- 10/711/2026 - Savonia-ammattikorkeakoulu oy - Terveysteknologian kaupallistaminen ja vientiosaaminen -->
+		<xs:enumeration value="2/711/2026"/> <!-- 2/711/2026 - Metropolia Ammattikorkeakoulu Oy - Terveysteknologian tuotekehitys -->
+		<xs:enumeration value="3/711/2026"/> <!-- 3/711/2026 - TechClass Oy - Terveysteknologian tuotekehitys -->
+		<xs:enumeration value="4/711/2026"/> <!-- 4/711/2026 - Aalto University Executive Education Oy - Terveysteknologian käyttöönotto ja hyödyntäminen -->
+		<xs:enumeration value="5/711/2026"/> <!-- 5/711/2026 - Lab-ammattikorkeakoulu Oy - Terveysteknologian käyttöönotto ja hyödyntäminen -->
+		<xs:enumeration value="6/711/2026"/> <!-- 6/711/2026 - Aalto University Executive Education Oy - Lainsäädäntö ja standardit -->
+		<xs:enumeration value="7/711/2026"/> <!-- 7/711/2026 - Metropolia Ammattikorkeakoulu Oy - Lainsäädäntö ja standardit -->
+		<xs:enumeration value="8/711/2026"/> <!-- 8/711/2026 - TechClass Oy - Terveysteknologian kaupallistaminen ja vientiosaaminen -->
+		<xs:enumeration value="9/711/2026"/> <!-- 9/711/2026 - Aalto University Executive Education Oy - Terveysteknologian kaupallistaminen ja vientiosaaminen -->
+		<xs:enumeration value="va-jotpa-2026-2-1"/> <!-- va-jotpa-2026-2-1 - Tampereen Aikuiskoulutussäätiö sr - Turvallinen akkukäsittely romu- ja purkamotoiminnassa raaka-ainekierron turvaamiseksi osana varaosakauppaa ja jätehuoltoa -->
+		<xs:enumeration value="va-jotpa-2026-2-11"/> <!-- va-jotpa-2026-2-11 - Länsirannikon Koulutus Oy - WinKierto – Korkeajänniteakkujen diagnosointi ja uudelleenkäyttö -->
+		<xs:enumeration value="va-jotpa-2026-2-12"/> <!-- va-jotpa-2026-2-12 - Vaasan kaupunki - Vamia Automation &amp -->
+		<xs:enumeration value="va-jotpa-2026-2-13"/> <!-- va-jotpa-2026-2-13 - Kaakkois-Suomen Ammattikorkeakoulu - Toimitusketjujen turvallisuus akkuteollisuuden logistiikassa -->
+		<xs:enumeration value="va-jotpa-2026-2-15"/> <!-- va-jotpa-2026-2-15 - Oy Vaasan ammattikorkeakoulu Ab - RELIT -->
+		<xs:enumeration value="va-jotpa-2026-2-17"/> <!-- va-jotpa-2026-2-17 - Seinäjoen Ammattikorkeakoulu Oy - ASOKA Ajoneuvo- ja akkualan sähköisen osaamisen kehittäminen -->
+		<xs:enumeration value="va-jotpa-2026-2-2"/> <!-- va-jotpa-2026-2-2 - Työtehoseura ry, ruotsiksi Arbetseffektivitetsföreningen rf - Reitti-, käyttö- ja kustannusdata kuljetusyrityksissä: sähköisen raskaan kaluston hankintapäätökset -->
+		<xs:enumeration value="va-jotpa-2026-2-3"/> <!-- va-jotpa-2026-2-3 - Savon Koulutuskuntayhtymä - ENERGIAJÄRJESTELMÄT 2030 Osaamista sähköistyvään ja hybridisoituvaan energiantuotantoon -->
+		<xs:enumeration value="va-jotpa-2026-2-6"/> <!-- va-jotpa-2026-2-6 - AEL-Amiedu Oy - AkkuPro- Akkualan turvallisuus- ja prosessiosaaminen -->
+		<xs:enumeration value="va-jotpa-2026-2-7"/> <!-- va-jotpa-2026-2-7 - Äänekosken Ammatillisen Koulutuksen kuntayhtymä - SÄHKÖ+ -Sähköistyvän liikenteen ja sähköverkkojen osaamispalvelu -->
+		<xs:enumeration value="va-jotpa-2026-2-8"/> <!-- va-jotpa-2026-2-8 - Itä-Suomen yliopisto - Akkuteknologian virtuaalinen oppimisympäristö (e-Battery Lab) -->
+		<xs:enumeration value="va-jotpa-2026-4-10"/> <!-- va-jotpa-2026-4-10 - Yrkeshögskolan Novia - Datatalous rakennus- ja kiinteistöalalla -->
+		<xs:enumeration value="va-jotpa-2026-4-12"/> <!-- va-jotpa-2026-4-12 - Työtehoseura ry, ruotsiksi Arbetseffektivitetsföreningen rf - DataStart - helppo alku datan hyödyntämiseen mikro- ja pienyrityksissä (5 osp) -->
+		<xs:enumeration value="va-jotpa-2026-4-14"/> <!-- va-jotpa-2026-4-14 - Luksia, Länsi-Uudenmaan koulutuskuntayhtymä - Hankeavustus datan hyödyntämiseen liittyviin osaamistarpeisiin -->
+		<xs:enumeration value="va-jotpa-2026-4-17"/> <!-- va-jotpa-2026-4-17 - Careeria Oy - Puhtaasti Datalla -->
+		<xs:enumeration value="va-jotpa-2026-4-19"/> <!-- va-jotpa-2026-4-19 - Kajaanin Ammattikorkeakoulu Oy - DRIVE - Development, Regulation, Innovation, Verification &amp -->
+		<xs:enumeration value="va-jotpa-2026-4-20"/> <!-- va-jotpa-2026-4-20 - Savon Koulutuskuntayhtymä - Data käytäntöön – osaamista dataohjautuvaan toimintaan ja päätöksentekoon -->
+		<xs:enumeration value="va-jotpa-2026-4-26"/> <!-- va-jotpa-2026-4-26 - AEL-Amiedu Oy - Älykäs kiinteistöarki – dataa, säästöä ja tuloksia -->
+		<xs:enumeration value="va-jotpa-2026-4-27"/> <!-- va-jotpa-2026-4-27 - Hämeen ammattikorkeakoulu Oy - Datasta tehoa liiketoimintaan -->
+		<xs:enumeration value="va-jotpa-2026-4-28"/> <!-- va-jotpa-2026-4-28 - Tampereen kesäyliopistoyhdistys ry - Datan ja tekoälyn hyödyntäminen mikro- ja pk-yritysten liiketoiminnassa -->
+		<xs:enumeration value="va-jotpa-2026-4-29"/> <!-- va-jotpa-2026-4-29 - Turun Yliopisto - Data ja tekoäly työelämässä – perustaidot pk-yrityksille -->
+		<xs:enumeration value="va-jotpa-2026-4-32"/> <!-- va-jotpa-2026-4-32 - Aalto-korkeakoulusäätiö sr - FITech Dataosaaminen -->
+		<xs:enumeration value="va-jotpa-2026-4-34"/> <!-- va-jotpa-2026-4-34 - Länsirannikon Koulutus Oy - WinNovan Data-Agentti, Omaa yritysdataasi hyödyntävä tekoälykoulutus mikroyrityksille -->
+		<xs:enumeration value="va-jotpa-2026-4-35"/> <!-- va-jotpa-2026-4-35 - Centria-ammattikorkeakoulu Oy - Data-analytiikka mikro ja pk-yritysten myynnin ja markkinoinnin tehostamisessa -->
+		<xs:enumeration value="va-jotpa-2026-4-4"/> <!-- va-jotpa-2026-4-4 - Metropolia Ammattikorkeakoulu Oy - Defence4SME -->
+		<xs:enumeration value="va-jotpa-2026-4-7"/> <!-- va-jotpa-2026-4-7 - Rakennusteollisuus RT ry, Bygnadsindustrin RT rf - Datavetoinen kasvu KIRA-yrityksissä -->
+		<xs:enumeration value="va-jotpa-2026-4-8"/> <!-- va-jotpa-2026-4-8 - Management Institute of Finland MIF Oy - Dataohjaus puhtausalan johtamisen tukena -->		
 	</xs:restriction>
 </xs:simpleType>
 
