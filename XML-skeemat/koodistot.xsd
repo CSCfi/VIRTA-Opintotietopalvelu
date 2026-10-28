@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?> 
-<xs:schema version="1.06.102"
+<xs:schema version="1.06.103"
   attributeFormDefault="unqualified" 
   elementFormDefault="qualified"
   targetNamespace="urn:mace:funet.fi:virta/2015/09/01"
@@ -8,6 +8,8 @@
   xmlns:virta="urn:mace:funet.fi:virta/2015/09/01">  
     
 <!--  
+
+1.06.103 versio 28.10.2026 lisätty Erikoistumiskoulutus koodit 088, 089, 090, 091 ja oppilaitos 00630 Turun kansainvälinen lukio 
 
 1.06.102 versio 14.09.2026 lisätty 47 uutta Jotpa-asianumeroa. Yksi uusi erikoistumikoulutuskoodi 087 Rakennetun kulttuuriperinnön restauroinnin ja hoidon erikoistumiskoulutus, 2 oppilaitosnumeroa 03921 Hermannin peruskoulu 03922 Postipuiston peruskoulu
 
@@ -727,6 +729,11 @@ YLEISET KOODISTOT
 		<xs:enumeration value="086"/> <!-- Taideasiantuntijan erikoistumiskoulutus (taiteen vapaan kentän asiantuntija ja kehittäjä) -->
 		<!-- uusi 14.09.2026 -->
 		<xs:enumeration value="087"/> <!-- Rakennetun kulttuuriperinnön restauroinnin ja hoidon erikoistumiskoulutus -->
+		<!-- uusia 28.10.2026 -->
+		<xs:enumeration value="088"/> <!-- Apteekki- ja sairaalafarmasian erikoistumiskoulutus farmaseuteille -->
+		<xs:enumeration value="089"/> <!-- Apteekki- ja sairaalafarmasian erikoistumiskoulutus proviisoreille -->
+		<xs:enumeration value="090"/> <!-- Teollisuusfarmasian erikoistumiskoulutus farmaseuteille -->
+		<xs:enumeration value="091"/> <!-- Teollisuusfarmasian erikoistumiskoulutus proviisoreille -->		
 	</xs:restriction>
 </xs:simpleType>
 
@@ -9590,7 +9597,9 @@ ISOT / PITKÄT
 		<xs:enumeration value="03920"/> <!-- Petäjäveden yhtenäiskoulu -->
 		<!-- Uusia 14.09.2026 -->
 		<xs:enumeration value="03921"/> <!-- Hermannin peruskoulu -->
-		<xs:enumeration value="03922"/> <!-- Postipuiston peruskoulu -->		
+		<xs:enumeration value="03922"/> <!-- Postipuiston peruskoulu -->	
+		<!-- Uusi 28.10.2026 -->
+		<xs:enumeration value="00630"/> <!-- Turun kansainvälinen lukio -->		
 	</xs:restriction>
 </xs:simpleType>
 
